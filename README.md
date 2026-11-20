@@ -8,22 +8,22 @@ https://raw.githubusercontent.com/tobiafccn/RockTV-Personale/main/playlist-rock-
 
 ## Ordine ispirato al digitale terrestre
 
-La playlist rispetta l'ordine dei canali approvato il 20/11/2026. I canali della sezione iniziale sono numerati secondo l'LCN della fonte OpenIPTVItaly (da 1 a 70, con i numeri mancanti lasciati vuoti); gli altri canali sono numerati senza interruzioni da 101 a 154.
+La playlist rispetta l'ordine dei canali approvato il 20/11/2026. I canali della sezione iniziale sono numerati secondo l'LCN della fonte OpenIPTVItaly (da 1 a 70, con i numeri mancanti lasciati vuoti); gli altri canali sono numerati senza interruzioni da 101 a 167.
 
 | Gruppo | Canali | Numerazione |
 |---|---:|---|
-| DIGITALE TERRESTRE | 57 | LCN 1–70 |
+| DIGITALE TERRESTRE | 57 | 1–70 |
 | TV ITALIANA EXTRA | 18 | 101–118 |
-| FILM E SERIE | 2 | 119–120 |
-| NEWS E INFORMAZIONE | 7 | 121–127 |
-| DOCUMENTARI E SCIENZA | 5 | 128–132 |
-| ANIME | 3 | 133–135 |
-| WRESTLING E MMA | 2 | 136–137 |
-| MOTORSPORT | 4 | 138–141 |
-| ROCK TV | 7 | 142–148 |
-| RADIO ROCK | 6 | 149–154 |
+| FILM E SERIE | 9 | 119–127 |
+| NEWS E INFORMAZIONE | 7 | 128–134 |
+| DOCUMENTARI E SCIENZA | 9 | 135–143 |
+| ANIME | 4 | 144–147 |
+| WRESTLING E MMA | 2 | 148–149 |
+| MOTORSPORT | 4 | 150–153 |
+| ROCK TV | 8 | 154–161 |
+| RADIO ROCK | 6 | 162–167 |
 
-**Totale: 111 canali.** I numeri 71–100 sono lasciati liberi per distinguere i canali dell'antenna da quelli extra.
+**Totale: 124 canali.** I numeri 71–100 sono lasciati liberi per distinguere i canali dell'antenna da quelli extra.
 
 Le posizioni di Rai 1, Rai 2, Rai 3, Rete 4, Canale 5, Italia 1, LA7, TV8, NOVE e degli altri canali italiani principali non sono state modificate. Le reti già eliminate rimangono escluse.
 
@@ -56,4 +56,24 @@ Sono stati aggiunti **6 nuovi flussi video M3U8**, mantenendo tutti i 105 canali
 
 **BSB TV+** non è stato aggiunto: l'emittente pubblica un lettore Web Viloud ma non un URL diretto M3U8 riconosciuto e riutilizzabile in TiViMate. Per guardarlo usa [il sito ufficiale](https://bloodsweatandbeers.tv/tv/).
 
-Il nuovo gruppo **FILM E SERIE** è stato inserito fra TV ITALIANA EXTRA e NEWS E INFORMAZIONE. La sezione DIGITALE TERRESTRE resta nell'ordine LCN; le sezioni extra vengono numerate consecutivamente da 101 a 154. I numeri possono variare se vengono aggiunti altri canali.
+Il nuovo gruppo **FILM E SERIE** è stato inserito fra TV ITALIANA EXTRA e NEWS E INFORMAZIONE. La sezione DIGITALE TERRESTRE resta nell'ordine LCN; le sezioni extra vengono numerate consecutivamente da 101 a 167. I numeri possono variare se vengono aggiunti altri canali.
+
+## Aggiunte del 20 novembre 2026 — Pluto TV Italia e Rakuten TV Italia
+
+Sono state aggiunte altre **13 emittenti sperimentali**, preservando i 111 canali precedenti e tutte le 48 esclusioni. I collegamenti sono stati recuperati dagli elenchi pubblici `iptv-org/iptv` per i cataloghi italiani `streams/it_pluto.m3u` e `streams/it_rakuten.m3u`. I flussi non sono ancora stati collaudati su Amazon Fire TV Stick, possono cambiare o dipendere dal Paese.
+
+- **Pluto TV Sci-Fi (Italia - sperimentale)** — gruppo FILM E SERIE
+- **Pluto TV Serie Sci-Fi (Italia - sperimentale)** — gruppo FILM E SERIE
+- **Pluto TV Film Azione (Italia - sperimentale)** — gruppo FILM E SERIE
+- **Pluto TV Film Thriller (Italia - sperimentale)** — gruppo FILM E SERIE
+- **Pluto TV Horror (Italia - sperimentale)** — gruppo FILM E SERIE
+- **Rakuten TV Sci-Fi (Italia - sperimentale)** — gruppo FILM E SERIE
+- **Rakuten TV Action Movies (Italia - sperimentale)** — gruppo FILM E SERIE
+- **Pluto TV Documentari (Italia - sperimentale)** — gruppo DOCUMENTARI E SCIENZA
+- **Pluto TV Natura (Italia - sperimentale)** — gruppo DOCUMENTARI E SCIENZA
+- **Pluto TV Storia (Italia - sperimentale)** — gruppo DOCUMENTARI E SCIENZA
+- **Space Live (sperimentale)** — gruppo DOCUMENTARI E SCIENZA
+- **Pluto TV Anime Italia (sperimentale)** — gruppo ANIME
+- **That's Rock (Italia - sperimentale)** — gruppo ROCK TV
+
+**Pluto TV Anime Italia** è un'alternativa di prova e non sostituisce ancora la variante americana presente in playlist. La lingua italiana è prevista per i canali italiani di film e documentari, ma andrà verificata su TiViMate.
