@@ -1,45 +1,43 @@
-# RockTV-Personale — la playlist IPTV personalizzata
+# RockTV-Personale — playlist TV personalizzata
 
-**Un unico URL M3U per TiViMate gratuito:**
+**URL M3U invariato per TiViMate**
 
 ```text
 https://raw.githubusercontent.com/tobiafccn/RockTV-Personale/main/playlist-rock-tv.m3u
 ```
 
-## Ordine dei gruppi
+## Ordine ispirato al digitale terrestre
 
-1. TV ITALIANA
-2. FILM E SERIE
-3. DOCUMENTARI E SCIENZA
-4. ANIME
-5. WRESTLING E MMA
-6. MOTORSPORT
-7. ROCK TV
-8. RADIO ROCK
+La playlist rispetta l'ordine dei canali approvato il 20/11/2026. I canali della sezione iniziale sono numerati secondo l'LCN della fonte OpenIPTVItaly (da 1 a 70, con i numeri mancanti lasciati vuoti); gli altri canali sono numerati senza interruzioni da 101 a 148.
 
-L'ordine relativo dei canali italiani all'interno di ogni gruppo viene conservato quanto più possibile; rimangono i numeri TV originali dove disponibili. Per ottenere i gruppi nell'ordine richiesto, alcuni canali già esistenti vengono ricollocati dal gruppo generale a quello tematico.
+| Gruppo | Canali | Numerazione |
+|---|---:|---|
+| DIGITALE TERRESTRE | 57 | LCN 1–70 |
+| TV ITALIANA EXTRA | 18 | 101–118 |
+| NEWS E INFORMAZIONE | 7 | 119–125 |
+| DOCUMENTARI E SCIENZA | 3 | 126–128 |
+| ANIME | 2 | 129–130 |
+| WRESTLING E MMA | 2 | 131–132 |
+| MOTORSPORT | 4 | 133–136 |
+| ROCK TV | 6 | 137–142 |
+| RADIO ROCK | 6 | 143–148 |
 
-## Canali
+**Totale: 105 canali.** I numeri 71–100 sono lasciati liberi per distinguere i canali dell'antenna da quelli extra.
 
-- La fonte TV è la playlist pubblica OpenIPTVItaly; il file `canali_da_escludere.txt` contiene le esclusioni stabilite dal proprietario.
-- Gruppo RADIO ROCK: sei stazioni audio.
-- ROCK TV: Rock TV Romania, XITE Rock x Metal, XITE Rock On (link di prova alternativo), Vevo Rock, Vevo 2K e Metaleitor TV sperimentale.
-- Documentari, notizie in inglese, anime, wrestling/MMA e motorsport: inseriti canali gratuiti pubblicamente elencati.
+Le posizioni di Rai 1, Rai 2, Rai 3, Rete 4, Canale 5, Italia 1, LA7, TV8, NOVE e degli altri canali italiani principali non sono state modificate. Le reti già eliminate rimangono escluse.
 
-**Importante:** i flussi di Pluto TV (`jmp2.uk`) e altri canali FAST possono essere geobloccati, instabili o incompatibili con TiViMate. Il loro funzionamento effettivo su Fire TV Stick in Italia deve essere collaudato. XITE Rock On e Rock x Metal possono mostrare lo stesso programma: sono due indirizzi alternativi per la prova. Metaleitor TV è un'alternativa sperimentale a Metal TV Core: non è la stessa emittente; per Metal TV Core non è stato identificato un URL M3U8 riutilizzabile.
+## Aggiornamenti automatici
 
-## Aggiornamento e personalizzazione
+Il programma `build_playlist.py` ricrea la playlist ogni giorno usando i collegamenti aggiornati dalla fonte OpenIPTVItaly, **importando solo i canali già approvati**. Gli altri canali non vengono aggiunti automaticamente. Continua ad applicare tutte le righe del file `canali_da_escludere.txt`, senza ripristinare canali rimossi.
 
-Il generatore `build_playlist.py` scarica i canali originali, applica i filtri, riordina i gruppi e aggiunge i flussi supplementari. L'automazione `.github/workflows/aggiorna.yml` esegue il programma giornalmente, se GitHub Actions è attivo; puoi anche avviarla manualmente. Le esclusioni sono permanenti e non verranno ripristinate da un aggiornamento ordinario.
+Il workflow `.github/workflows/aggiorna.yml` può essere avviato anche manualmente dalla scheda **Actions**. Se la sorgente non contiene uno dei canali approvati, la generazione fallisce senza sostituire la playlist precedentemente funzionante.
 
-In TiViMate gratuito, se `Aggiorna playlist` è bloccato, elimina e reinserisci l'unica playlist M3U usando l'URL sopra. Attenzione a eventuali preferiti e impostazioni collegati alla playlist precedente.
+**Nota TiViMate Free:** se `Aggiorna playlist` è bloccato, rimuovi e reinserisci la stessa playlist M3U. Eliminare una playlist può cancellare i preferiti locali.
 
-## Fonte, licenza e responsabilità
+## Flussi sperimentali
 
-I canali italiani provengono da [xN1ckuz/OpenIPTVItaly](https://github.com/xN1ckuz/OpenIPTVItaly). La relativa licenza MIT è riportata in `LICENSE_OPENIPTVITALY.txt`. Alcuni flussi aggiuntivi sono indicizzati da [iptv-org/iptv](https://github.com/iptv-org/iptv), altri sono stream pubblici delle emittenti. Il repository non ospita né ritrasmette video e non garantisce la disponibilità futura dei collegamenti.
+Alcuni stream XITE, Vevo, Pluto TV e altri possono dipendere dalla regione o non essere compatibili con TiViMate. Il contenuto non viene ospitato dal repository. Le prove sulla Fire TV Stick rimangono necessarie.
 
-## Canali richiesti nel confronto dei due PDF (20 novembre 2026)
+## Fonte e licenza
 
-Sono stati aggiunti 5 flussi in prova: Rai Scuola, Al Jazeera International, Bloomberg, Class CNBC e CNN International, senza modificare i canali già presenti o le esclusioni precedenti.
-
-Il file [canali_richiesti_stato.md](canali_richiesti_stato.md) elenca tutti i 30 nomi richiesti, con motivi per cui gli altri 25 non sono stati inseriti. I nuovi flussi non sono stati collaudati su Fire TV Stick. Sky e DAZN non sono stati aggiunti.
+La fonte TV italiana è [xN1ckuz/OpenIPTVItaly](https://github.com/xN1ckuz/OpenIPTVItaly), con licenza MIT conservata nel file `LICENSE_OPENIPTVITALY.txt`. Il file `canali_richiesti_stato.md` documenta le richieste precedenti e i limiti dei relativi flussi.
