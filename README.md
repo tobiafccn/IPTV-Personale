@@ -101,3 +101,9 @@ Questi sei canali non venivano riprodotti in TiViMate e sono stati eliminati sen
 - RetroCrush (sperimentale) (posizione precedente 107)
 
 I sei nomi sono stati aggiunti alle esclusioni permanenti. **Boing Plus** (precedente posizione 36) non è stato rimosso in questa operazione. Le integrazioni dei loghi saranno affrontate separatamente.
+
+## Loghi dei canali — 20 novembre 2026
+
+Aggiunti **43 campi `tvg-logo`** ai canali che ne erano privi; tutte le **122 voci** della playlist ora contengono un riferimento a un'immagine. Il generatore automatico è stato aggiornato per mantenere gli stessi loghi. **I collegamenti di streaming, l'ordine e la numerazione non sono cambiati.**
+
+Fonti: immagini dei canali Pluto TV, directory pubbliche di loghi e siti dei broadcaster. Per alcuni marchi si usano i loro favicon. La presenza dell'URL non garantisce che TiViMate Free riesca a caricare ogni immagine: occorre un riscontro sulla Fire TV Stick dopo il nuovo caricamento della playlist.
