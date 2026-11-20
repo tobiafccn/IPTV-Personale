@@ -1,0 +1,29 @@
+name: Aggiorna canali TV e radio rock
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 4 * * *'
+
+permissions:
+  contents: write
+
+jobs:
+  genera-playlist:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Scarica il repository
+        uses: actions/checkout@v4
+      - name: Genera il file M3U
+        run: python3 build_playlist.py
+      - name: Pubblica gli aggiornamenti
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add playlist-rock-tv.m3u LICENSE_OPENIPTVITALY.txt
+          if ! git diff --cached --quiet; then
+            git commit -m "Aggiorna canali TV e radio rock"
+            git push
+          else
+            echo "Nessun aggiornamento necessario"
+          fi
