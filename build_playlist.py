@@ -28,7 +28,13 @@ EXTRA_CHANNELS = (("DOCUMENTARI E SCIENZA", 970, "Documentary+", "https://ef79b1
     ("ROCK TV", 961, "XITE Rock On - stream alternativo (sperimentale)", "https://jmp2.uk/plu-623a1b5188ecdc0007c9ef5a.m3u8"),
     ("ROCK TV", 962, "Vevo Rock (sperimentale)", "https://jmp2.uk/plu-61d4b38226b8a50007fe03a6.m3u8"),
     ("ROCK TV", 963, "Vevo 2K (sperimentale)", "https://jmp2.uk/plu-5fd7bca3e0a4ee0007a38e8c.m3u8"),
-    ("ROCK TV", 964, "Metaleitor TV - alternativa Metal TV Core (sperimentale)", "https://vs20.live.opencaster.com/metaleitortv_423d3342/index.m3u8"),)
+    ("ROCK TV", 964, "Metaleitor TV - alternativa Metal TV Core (sperimentale)", "https://vs20.live.opencaster.com/metaleitortv_423d3342/index.m3u8"),
+    ("TV ITALIANA", 1010, "Al Jazeera International", "https://live-hls-apps-aje-fa.getaj.net/AJE/index.m3u8"),
+    ("TV ITALIANA", 1011, "Bloomberg", "https://bloomberg.com/media-manifest/streams/us.m3u8"),
+    ("TV ITALIANA", 1012, "Class CNBC", "https://amg14891-amg14891c5-amgplt0020.playout.now3.amagi.tv/playlist.m3u8"),
+    ("TV ITALIANA", 1013, "CNN International", "https://d3bp6dwmpbdajl.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-ury0meh5m4nzm/index.m3u8"),
+    ("DOCUMENTARI E SCIENZA", 1014, "Rai Scuola", "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=747011"),
+)
 
 def download(url):
     request = Request(url, headers={"User-Agent": "RockTV-Personale/1.0"})
