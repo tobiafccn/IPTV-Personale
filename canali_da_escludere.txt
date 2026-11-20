@@ -1,0 +1,7 @@
+# Inserisci qui, una per riga, il nome esatto o il numero tvg-chno di un canale da nascondere.
+# Le righe che iniziano con # sono commenti e non escludono nulla.
+# Esempi (attualmente DISATTIVATI):
+# Rai 1
+# 2
+# 903
+# Vale per canali TV, RADIO ROCK e ROCK TV.
