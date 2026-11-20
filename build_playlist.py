@@ -8,11 +8,15 @@ import re
 ROOT = Path(__file__).resolve().parent
 SOURCE = "https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/main/OpenIPTVItaly.m3u"
 LICENSE = "https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/main/LICENSE"
-CATEGORY_ORDER = ("DIGITALE TERRESTRE", "TV ITALIANA EXTRA", "NEWS E INFORMAZIONE", "DOCUMENTARI E SCIENZA", "ANIME", "WRESTLING E MMA", "MOTORSPORT", "ROCK TV", "RADIO ROCK",)
+CATEGORY_ORDER = ("DIGITALE TERRESTRE", "TV ITALIANA EXTRA", "FILM E SERIE", "NEWS E INFORMAZIONE", "DOCUMENTARI E SCIENZA", "ANIME", "WRESTLING E MMA", "MOTORSPORT", "ROCK TV", "RADIO ROCK",)
 # Si mantengono soltanto i canali della fonte già approvati, senza importare
 # automaticamente nuove emittenti o ripristinare canali eliminati.
 APPROVED_SOURCE_NAMES = frozenset(("Rai 1", "Rai 2", "Rai 3", "Rete 4 HD", "Canale 5 HD", "Italia 1 HD", "LA7 HD", "TV8 HD", "NOVE HD", "TG Norba 24", "TV2000", "Real Time HD", "QVC HD", "Food Network HD", "RTL 102.5", "Boing HD", "K2", "Rai Gulp", "Rai Yoyo", "Frisbee", "Boing Plus", "Cartoonito HD", "Super!", "Rai News 24", "Sky TG24", "TGCOM 24 HD", "Italia 53", "HGTV - Home&Garden", "Italiana", "Rai Sport", "Sportitalia HD", "Canale 63", "Alma TV", "Radio 105 TV", "R101 TV", "Deejay TV HD", "RadioItaliaTV", "Rai 4K", "FIFA+", "Radio Kiss Kiss TV", "Rai Radio 2 Visual", "Radio 24 - IlSole24OreTV", "Gambero Rosso", "RadioFreccia", "Virgin Radio", "RDS Social TV", "Radio Zeta", "Euronews IT", "Hell's Kitchen Italy", "RaiPlay Sport 1", "Radio Carina TV", "Trace Urban", "Trace Latina", "Radio Capital TV", "M2O TV", "20Mediaset HD", "Rai 4", "Iris HD", "Rai Movie", "Rai Premium", "Cielo HD", "27Twentyseven HD", "LA7 Cinema", "La5 HD", "Cine34 HD", "Giallo", "Top Crime HD", "Italia 2 HD", "Mediaset Extra HD", "Rai 5", "FOCUS HD", "Discovery", "DMAX", "Rai Storia HD", "Discovery Turbo", "BBC Top Gear Italy", "MAN-GA", "ACI Sport TV HD", "Rally.TV FAST+",))
 SPECIAL_GROUPS = {
+    "Pluto TV Serie Crime (Italia - sperimentale)": "FILM E SERIE",
+    "Pluto TV Film Commedia (Italia - sperimentale)": "FILM E SERIE",
+    "Pluto TV Paranormal (Italia - sperimentale)": "DOCUMENTARI E SCIENZA",
+    "Pluto TV True Crime (Italia - sperimentale)": "DOCUMENTARI E SCIENZA",
     "Pluto TV Sci-Fi (Italia - sperimentale)": "FILM E SERIE",
     "Pluto TV Serie Sci-Fi (Italia - sperimentale)": "FILM E SERIE",
     "Pluto TV Film Azione (Italia - sperimentale)": "FILM E SERIE",
@@ -67,9 +71,9 @@ SPECIAL_GROUPS = {
 ORDER_WITHIN_GROUP = {
     "DIGITALE TERRESTRE": (),
     "TV ITALIANA EXTRA": (),
-    "FILM E SERIE": ("FilmRise Sci-Fi (sperimentale)", "Alien Nation by DUST (sperimentale)", "Pluto TV Sci-Fi (Italia - sperimentale)", "Pluto TV Serie Sci-Fi (Italia - sperimentale)", "Pluto TV Film Azione (Italia - sperimentale)", "Pluto TV Film Thriller (Italia - sperimentale)", "Pluto TV Horror (Italia - sperimentale)", "Rakuten TV Sci-Fi (Italia - sperimentale)", "Rakuten TV Action Movies (Italia - sperimentale)",),
+    "FILM E SERIE": ("FilmRise Sci-Fi (sperimentale)", "Alien Nation by DUST (sperimentale)", "Pluto TV Sci-Fi (Italia - sperimentale)", "Pluto TV Serie Sci-Fi (Italia - sperimentale)", "Pluto TV Film Azione (Italia - sperimentale)", "Pluto TV Film Thriller (Italia - sperimentale)", "Pluto TV Horror (Italia - sperimentale)", "Rakuten TV Sci-Fi (Italia - sperimentale)", "Rakuten TV Action Movies (Italia - sperimentale)", "Pluto TV Serie Crime (Italia - sperimentale)", "Pluto TV Film Commedia (Italia - sperimentale)",),
     "NEWS E INFORMAZIONE": ("Euronews IT", "DW English", "France 24 English", "Al Jazeera International", "CNN International", "Bloomberg", "Class CNBC",),
-    "DOCUMENTARI E SCIENZA": ("BBC Top Gear Italy", "Documentary+", "NHK World-Japan (English)", "NASA TV Media (sperimentale)", "WildEarth (sperimentale)", "Pluto TV Documentari (Italia - sperimentale)", "Pluto TV Natura (Italia - sperimentale)", "Pluto TV Storia (Italia - sperimentale)", "Space Live (sperimentale)",),
+    "DOCUMENTARI E SCIENZA": ("BBC Top Gear Italy", "Documentary+", "NHK World-Japan (English)", "NASA TV Media (sperimentale)", "WildEarth (sperimentale)", "Pluto TV Documentari (Italia - sperimentale)", "Pluto TV Natura (Italia - sperimentale)", "Pluto TV Storia (Italia - sperimentale)", "Space Live (sperimentale)", "Pluto TV Paranormal (Italia - sperimentale)", "Pluto TV True Crime (Italia - sperimentale)",),
     "ANIME": ("MAN-GA", "Pluto TV Anime (sperimentale)", "RetroCrush (sperimentale)", "Pluto TV Anime Italia (sperimentale)",),
     "WRESTLING E MMA": ("PFL MMA (sperimentale)", "TNA Wrestling (sperimentale)",),
     "MOTORSPORT": ("ACI Sport TV HD", "Rally.TV FAST+", "Red Bull TV", "Motorvision+ (English)",),
@@ -116,6 +120,10 @@ EXTRA_CHANNELS = (("DOCUMENTARI E SCIENZA", 970, "Documentary+", "https://ef79b1
     ("DOCUMENTARI E SCIENZA", 1061, "Space Live (sperimentale)", "https://jmp2.uk/plu-69b1489b5828e7c242d83064.m3u8"),
     ("ANIME", 1062, "Pluto TV Anime Italia (sperimentale)", "https://jmp2.uk/plu-65b90daed77d450008a43345.m3u8"),
     ("ROCK TV", 1063, "That's Rock (Italia - sperimentale)", "https://jmp2.uk/plu-69ef5682980899a9edf1a884.m3u8"),
+    ("FILM E SERIE", 1100, "Pluto TV Serie Crime (Italia - sperimentale)", "https://jmp2.uk/plu-608aa777b907770007e5d05d.m3u8"),
+    ("FILM E SERIE", 1101, "Pluto TV Film Commedia (Italia - sperimentale)", "https://jmp2.uk/plu-608aa512d67fd900072323db.m3u8"),
+    ("DOCUMENTARI E SCIENZA", 1102, "Pluto TV Paranormal (Italia - sperimentale)", "https://jmp2.uk/plu-66c70033b1a34600087bb09a.m3u8"),
+    ("DOCUMENTARI E SCIENZA", 1103, "Pluto TV True Crime (Italia - sperimentale)", "https://jmp2.uk/plu-66d9ab4bf0f17500084e9b7e.m3u8"),
 )
 
 def download(url):
