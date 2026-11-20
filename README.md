@@ -8,22 +8,22 @@ https://raw.githubusercontent.com/tobiafccn/RockTV-Personale/main/playlist-rock-
 
 ## Ordine ispirato al digitale terrestre
 
-La playlist rispetta l'ordine dei canali approvato il 20/11/2026. I canali della sezione iniziale sono numerati secondo l'LCN della fonte OpenIPTVItaly (da 1 a 70, con i numeri mancanti lasciati vuoti); gli altri canali sono numerati senza interruzioni da 101 a 171.
+La playlist rispetta l'ordine dei canali approvato il 20/11/2026. I canali della sezione iniziale sono numerati secondo l'LCN della fonte OpenIPTVItaly (da 1 a 70, con i numeri mancanti lasciati vuoti); gli altri canali sono numerati senza interruzioni da 101 a 165.
 
 | Gruppo | Canali | Numerazione |
 |---|---:|---|
 | DIGITALE TERRESTRE | 57 | LCN 1–70 |
-| TV ITALIANA EXTRA | 18 | 101–118 |
-| FILM E SERIE | 11 | 119–129 |
-| NEWS E INFORMAZIONE | 7 | 130–136 |
-| DOCUMENTARI E SCIENZA | 11 | 137–147 |
-| ANIME | 4 | 148–151 |
-| WRESTLING E MMA | 2 | 152–153 |
-| MOTORSPORT | 4 | 154–157 |
-| ROCK TV | 8 | 158–165 |
-| RADIO ROCK | 6 | 166–171 |
+| TV ITALIANA EXTRA | 17 | 101–117 |
+| FILM E SERIE | 8 | 118–125 |
+| NEWS E INFORMAZIONE | 7 | 126–132 |
+| DOCUMENTARI E SCIENZA | 10 | 133–142 |
+| ANIME | 3 | 143–145 |
+| WRESTLING E MMA | 2 | 146–147 |
+| MOTORSPORT | 4 | 148–151 |
+| ROCK TV | 8 | 152–159 |
+| RADIO ROCK | 6 | 160–165 |
 
-**Totale: 128 canali.** I numeri 71–100 sono lasciati liberi per distinguere i canali dell'antenna da quelli extra.
+**Totale: 122 canali.** I numeri 71–100 sono lasciati liberi per distinguere i canali dell'antenna da quelli extra.
 
 Le posizioni di Rai 1, Rai 2, Rai 3, Rete 4, Canale 5, Italia 1, LA7, TV8, NOVE e degli altri canali italiani principali non sono state modificate. Le reti già eliminate rimangono escluse.
 
@@ -88,3 +88,16 @@ Aggiunte finali della selezione, senza nuovi canali anime:
 - **Pluto TV True Crime (Italia - sperimentale)** — gruppo `DOCUMENTARI E SCIENZA`
 
 I quattro nuovi flussi provengono dalla raccolta pubblica `iptv-org/iptv` (`streams/it_pluto.m3u`) e saranno collaudati insieme agli altri flussi sperimentali su TiViMate Free dopo la conclusione della selezione. Le esclusioni precedenti rimangono attive. Per il momento non sono previste ulteriori aggiunte.
+
+## Rimozioni dopo il test su Fire TV — 20 novembre 2026
+
+Questi sei canali non venivano riprodotti in TiViMate e sono stati eliminati senza cercare collegamenti alternativi:
+
+- Rai Scuola (posizione precedente 75)
+- Alien Nation by DUST (sperimentale) (posizione precedente 77)
+- Rakuten TV Sci-Fi (Italia - sperimentale) (posizione precedente 83)
+- Rakuten TV Action Movies (Italia - sperimentale) (posizione precedente 84)
+- NASA TV Media (sperimentale) (posizione precedente 97)
+- RetroCrush (sperimentale) (posizione precedente 107)
+
+I sei nomi sono stati aggiunti alle esclusioni permanenti. **Boing Plus** (precedente posizione 36) non è stato rimosso in questa operazione. Le integrazioni dei loghi saranno affrontate separatamente.
