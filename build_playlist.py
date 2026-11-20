@@ -13,6 +13,19 @@ CATEGORY_ORDER = ("DIGITALE TERRESTRE", "TV ITALIANA EXTRA", "NEWS E INFORMAZION
 # automaticamente nuove emittenti o ripristinare canali eliminati.
 APPROVED_SOURCE_NAMES = frozenset(("Rai 1", "Rai 2", "Rai 3", "Rete 4 HD", "Canale 5 HD", "Italia 1 HD", "LA7 HD", "TV8 HD", "NOVE HD", "TG Norba 24", "TV2000", "Real Time HD", "QVC HD", "Food Network HD", "RTL 102.5", "Boing HD", "K2", "Rai Gulp", "Rai Yoyo", "Frisbee", "Boing Plus", "Cartoonito HD", "Super!", "Rai News 24", "Sky TG24", "TGCOM 24 HD", "Italia 53", "HGTV - Home&Garden", "Italiana", "Rai Sport", "Sportitalia HD", "Canale 63", "Alma TV", "Radio 105 TV", "R101 TV", "Deejay TV HD", "RadioItaliaTV", "Rai 4K", "FIFA+", "Radio Kiss Kiss TV", "Rai Radio 2 Visual", "Radio 24 - IlSole24OreTV", "Gambero Rosso", "RadioFreccia", "Virgin Radio", "RDS Social TV", "Radio Zeta", "Euronews IT", "Hell's Kitchen Italy", "RaiPlay Sport 1", "Radio Carina TV", "Trace Urban", "Trace Latina", "Radio Capital TV", "M2O TV", "20Mediaset HD", "Rai 4", "Iris HD", "Rai Movie", "Rai Premium", "Cielo HD", "27Twentyseven HD", "LA7 Cinema", "La5 HD", "Cine34 HD", "Giallo", "Top Crime HD", "Italia 2 HD", "Mediaset Extra HD", "Rai 5", "FOCUS HD", "Discovery", "DMAX", "Rai Storia HD", "Discovery Turbo", "BBC Top Gear Italy", "MAN-GA", "ACI Sport TV HD", "Rally.TV FAST+",))
 SPECIAL_GROUPS = {
+    "Pluto TV Sci-Fi (Italia - sperimentale)": "FILM E SERIE",
+    "Pluto TV Serie Sci-Fi (Italia - sperimentale)": "FILM E SERIE",
+    "Pluto TV Film Azione (Italia - sperimentale)": "FILM E SERIE",
+    "Pluto TV Film Thriller (Italia - sperimentale)": "FILM E SERIE",
+    "Pluto TV Horror (Italia - sperimentale)": "FILM E SERIE",
+    "Rakuten TV Sci-Fi (Italia - sperimentale)": "FILM E SERIE",
+    "Rakuten TV Action Movies (Italia - sperimentale)": "FILM E SERIE",
+    "Pluto TV Documentari (Italia - sperimentale)": "DOCUMENTARI E SCIENZA",
+    "Pluto TV Natura (Italia - sperimentale)": "DOCUMENTARI E SCIENZA",
+    "Pluto TV Storia (Italia - sperimentale)": "DOCUMENTARI E SCIENZA",
+    "Space Live (sperimentale)": "DOCUMENTARI E SCIENZA",
+    "Pluto TV Anime Italia (sperimentale)": "ANIME",
+    "That's Rock (Italia - sperimentale)": "ROCK TV",
     "FilmRise Sci-Fi (sperimentale)": "FILM E SERIE",
     "Alien Nation by DUST (sperimentale)": "FILM E SERIE",
     "NASA TV Media (sperimentale)": "DOCUMENTARI E SCIENZA",
@@ -54,13 +67,13 @@ SPECIAL_GROUPS = {
 ORDER_WITHIN_GROUP = {
     "DIGITALE TERRESTRE": (),
     "TV ITALIANA EXTRA": (),
-    "FILM E SERIE": ("FilmRise Sci-Fi (sperimentale)", "Alien Nation by DUST (sperimentale)",),
+    "FILM E SERIE": ("FilmRise Sci-Fi (sperimentale)", "Alien Nation by DUST (sperimentale)", "Pluto TV Sci-Fi (Italia - sperimentale)", "Pluto TV Serie Sci-Fi (Italia - sperimentale)", "Pluto TV Film Azione (Italia - sperimentale)", "Pluto TV Film Thriller (Italia - sperimentale)", "Pluto TV Horror (Italia - sperimentale)", "Rakuten TV Sci-Fi (Italia - sperimentale)", "Rakuten TV Action Movies (Italia - sperimentale)",),
     "NEWS E INFORMAZIONE": ("Euronews IT", "DW English", "France 24 English", "Al Jazeera International", "CNN International", "Bloomberg", "Class CNBC",),
-    "DOCUMENTARI E SCIENZA": ("BBC Top Gear Italy", "Documentary+", "NHK World-Japan (English)", "NASA TV Media (sperimentale)", "WildEarth (sperimentale)",),
-    "ANIME": ("MAN-GA", "Pluto TV Anime (sperimentale)", "RetroCrush (sperimentale)",),
+    "DOCUMENTARI E SCIENZA": ("BBC Top Gear Italy", "Documentary+", "NHK World-Japan (English)", "NASA TV Media (sperimentale)", "WildEarth (sperimentale)", "Pluto TV Documentari (Italia - sperimentale)", "Pluto TV Natura (Italia - sperimentale)", "Pluto TV Storia (Italia - sperimentale)", "Space Live (sperimentale)",),
+    "ANIME": ("MAN-GA", "Pluto TV Anime (sperimentale)", "RetroCrush (sperimentale)", "Pluto TV Anime Italia (sperimentale)",),
     "WRESTLING E MMA": ("PFL MMA (sperimentale)", "TNA Wrestling (sperimentale)",),
     "MOTORSPORT": ("ACI Sport TV HD", "Rally.TV FAST+", "Red Bull TV", "Motorvision+ (English)",),
-    "ROCK TV": ("Rock TV (Romania)", "XITE Rock x Metal", "XITE Rock On - stream alternativo (sperimentale)", "Vevo Rock (sperimentale)", "Vevo 2K (sperimentale)", "Metaleitor TV - alternativa Metal TV Core (sperimentale)", "Metal.Rocks (sperimentale)",),
+    "ROCK TV": ("Rock TV (Romania)", "XITE Rock x Metal", "XITE Rock On - stream alternativo (sperimentale)", "Vevo Rock (sperimentale)", "Vevo 2K (sperimentale)", "Metaleitor TV - alternativa Metal TV Core (sperimentale)", "Metal.Rocks (sperimentale)", "That's Rock (Italia - sperimentale)",),
     "RADIO ROCK": ("181.FM - Rock 181", "ROCK ANTENNE - Modern Rock", "ROCK ANTENNE - Modern Metal", "ROCK ANTENNE - Hard Rock", "ROCK ANTENNE - Alternative", "TheBlast.FM - Christian Rock (verificare)",),
 }
 RADIOS = (("181.FM - Rock 181", "https://listen.181fm.com/181-rock_128k.mp3"), ("ROCK ANTENNE - Modern Rock", "https://stream.rockantenne.de/modern-rock/stream/mp3"), ("ROCK ANTENNE - Modern Metal", "https://stream.rockantenne.de/modern-metal/stream/mp3"), ("ROCK ANTENNE - Hard Rock", "https://stream.rockantenne.de/rock-antenne-hard-rock/stream/mp3"), ("ROCK ANTENNE - Alternative", "https://stream.rockantenne.de/alternative/stream/mp3"), ("TheBlast.FM - Christian Rock (verificare)", "https://mediacp.theblast.fm/stream/theblast"),)
@@ -90,6 +103,19 @@ EXTRA_CHANNELS = (("DOCUMENTARI E SCIENZA", 970, "Documentary+", "https://ef79b1
     ("DOCUMENTARI E SCIENZA", 1023, "WildEarth (sperimentale)", "https://dqga3jatxofgx.cloudfront.net/WildEarth.m3u8"),
     ("ANIME", 1024, "RetroCrush (sperimentale)", "https://d2nqmwm1ndpgi2.cloudfront.net/playlist.m3u8"),
     ("ROCK TV", 1025, "Metal.Rocks (sperimentale)", "https://amg00771-amg00771c5-rakuten-gb-9713.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg00771-kochfilmsfast-metalrocks-rakutengb/playlist.m3u8"),
+    ("FILM E SERIE", 1051, "Pluto TV Sci-Fi (Italia - sperimentale)", "https://jmp2.uk/plu-61728bb9ee3773000840c1fa.m3u8"),
+    ("FILM E SERIE", 1052, "Pluto TV Serie Sci-Fi (Italia - sperimentale)", "https://jmp2.uk/plu-67ed14aaf7c5d70b9089c3bf.m3u8"),
+    ("FILM E SERIE", 1053, "Pluto TV Film Azione (Italia - sperimentale)", "https://jmp2.uk/plu-608aa20a2e7f270007c4878d.m3u8"),
+    ("FILM E SERIE", 1054, "Pluto TV Film Thriller (Italia - sperimentale)", "https://jmp2.uk/plu-608aa5e995132a00075f7005.m3u8"),
+    ("FILM E SERIE", 1055, "Pluto TV Horror (Italia - sperimentale)", "https://jmp2.uk/plu-61c09e3ac210ed0007606620.m3u8"),
+    ("FILM E SERIE", 1056, "Rakuten TV Sci-Fi (Italia - sperimentale)", "https://sci-fi-rakuten-tv-it.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6430/master.m3u8"),
+    ("FILM E SERIE", 1057, "Rakuten TV Action Movies (Italia - sperimentale)", "https://87f2e2e5e7624e3bad85da1ca2ed31a7.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6067/master.m3u8"),
+    ("DOCUMENTARI E SCIENZA", 1058, "Pluto TV Documentari (Italia - sperimentale)", "https://jmp2.uk/plu-608aa8a5709d6b0007b132fe.m3u8"),
+    ("DOCUMENTARI E SCIENZA", 1059, "Pluto TV Natura (Italia - sperimentale)", "https://jmp2.uk/plu-60802b37709d6b0007b0c549.m3u8"),
+    ("DOCUMENTARI E SCIENZA", 1060, "Pluto TV Storia (Italia - sperimentale)", "https://jmp2.uk/plu-65253fdf3fd33c00080214a3.m3u8"),
+    ("DOCUMENTARI E SCIENZA", 1061, "Space Live (sperimentale)", "https://jmp2.uk/plu-69b1489b5828e7c242d83064.m3u8"),
+    ("ANIME", 1062, "Pluto TV Anime Italia (sperimentale)", "https://jmp2.uk/plu-65b90daed77d450008a43345.m3u8"),
+    ("ROCK TV", 1063, "That's Rock (Italia - sperimentale)", "https://jmp2.uk/plu-69ef5682980899a9edf1a884.m3u8"),
 )
 
 def download(url):
