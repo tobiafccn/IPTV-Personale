@@ -58,3 +58,11 @@ Rai 3 TGR Sicilia
 # Video ROCK TV non funzionanti sulla Fire TV Stick
 RadioU TV (USA)
 Muzzik Rock&Roll (Serbia - da provare)
+
+# Rimossi dopo test TiViMate: errore di riproduzione (20-11-2026)
+Rai Scuola
+Alien Nation by DUST (sperimentale)
+Rakuten TV Sci-Fi (Italia - sperimentale)
+Rakuten TV Action Movies (Italia - sperimentale)
+NASA TV Media (sperimentale)
+RetroCrush (sperimentale)
