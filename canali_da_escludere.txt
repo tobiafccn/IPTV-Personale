@@ -36,3 +36,21 @@ TRM H24
 Telenorba
 Teledue
 Radionorba TV HD
+
+# Ulteriori edizioni Rai 3 TGR dalle due foto successive
+Rai 3 TGR Südtirol HD
+Rai 3 TGR Friuli Venezia Giulia
+Rai 3 TGR Furlanija Krajina
+Rai 3 TGR Emilia-Romagna
+Rai 3 TGR Toscana
+Rai 3 TGR Marche
+Rai 3 TGR Umbria
+Rai 3 TGR Lazio
+Rai 3 TGR Abruzzo
+Rai 3 TGR Molise
+Rai 3 TGR Campania
+Rai 3 TGR Puglia
+Rai 3 TGR Basilicata
+Rai 3 TGR Calabria
+Rai 3 TGR Sardegna
+Rai 3 TGR Sicilia
