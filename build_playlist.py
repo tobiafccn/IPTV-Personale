@@ -13,6 +13,12 @@ CATEGORY_ORDER = ("DIGITALE TERRESTRE", "TV ITALIANA EXTRA", "NEWS E INFORMAZION
 # automaticamente nuove emittenti o ripristinare canali eliminati.
 APPROVED_SOURCE_NAMES = frozenset(("Rai 1", "Rai 2", "Rai 3", "Rete 4 HD", "Canale 5 HD", "Italia 1 HD", "LA7 HD", "TV8 HD", "NOVE HD", "TG Norba 24", "TV2000", "Real Time HD", "QVC HD", "Food Network HD", "RTL 102.5", "Boing HD", "K2", "Rai Gulp", "Rai Yoyo", "Frisbee", "Boing Plus", "Cartoonito HD", "Super!", "Rai News 24", "Sky TG24", "TGCOM 24 HD", "Italia 53", "HGTV - Home&Garden", "Italiana", "Rai Sport", "Sportitalia HD", "Canale 63", "Alma TV", "Radio 105 TV", "R101 TV", "Deejay TV HD", "RadioItaliaTV", "Rai 4K", "FIFA+", "Radio Kiss Kiss TV", "Rai Radio 2 Visual", "Radio 24 - IlSole24OreTV", "Gambero Rosso", "RadioFreccia", "Virgin Radio", "RDS Social TV", "Radio Zeta", "Euronews IT", "Hell's Kitchen Italy", "RaiPlay Sport 1", "Radio Carina TV", "Trace Urban", "Trace Latina", "Radio Capital TV", "M2O TV", "20Mediaset HD", "Rai 4", "Iris HD", "Rai Movie", "Rai Premium", "Cielo HD", "27Twentyseven HD", "LA7 Cinema", "La5 HD", "Cine34 HD", "Giallo", "Top Crime HD", "Italia 2 HD", "Mediaset Extra HD", "Rai 5", "FOCUS HD", "Discovery", "DMAX", "Rai Storia HD", "Discovery Turbo", "BBC Top Gear Italy", "MAN-GA", "ACI Sport TV HD", "Rally.TV FAST+",))
 SPECIAL_GROUPS = {
+    "FilmRise Sci-Fi (sperimentale)": "FILM E SERIE",
+    "Alien Nation by DUST (sperimentale)": "FILM E SERIE",
+    "NASA TV Media (sperimentale)": "DOCUMENTARI E SCIENZA",
+    "WildEarth (sperimentale)": "DOCUMENTARI E SCIENZA",
+    "RetroCrush (sperimentale)": "ANIME",
+    "Metal.Rocks (sperimentale)": "ROCK TV",
     "Euronews IT": "NEWS E INFORMAZIONE",
     "DW English": "NEWS E INFORMAZIONE",
     "France 24 English": "NEWS E INFORMAZIONE",
@@ -46,14 +52,15 @@ SPECIAL_GROUPS = {
     "TheBlast.FM - Christian Rock (verificare)": "RADIO ROCK",
 }
 ORDER_WITHIN_GROUP = {
-    "DIGITALE TERRESTRE": (,),
-    "TV ITALIANA EXTRA": (,),
+    "DIGITALE TERRESTRE": (),
+    "TV ITALIANA EXTRA": (),
+    "FILM E SERIE": ("FilmRise Sci-Fi (sperimentale)", "Alien Nation by DUST (sperimentale)",),
     "NEWS E INFORMAZIONE": ("Euronews IT", "DW English", "France 24 English", "Al Jazeera International", "CNN International", "Bloomberg", "Class CNBC",),
-    "DOCUMENTARI E SCIENZA": ("BBC Top Gear Italy", "Documentary+", "NHK World-Japan (English)",),
-    "ANIME": ("MAN-GA", "Pluto TV Anime (sperimentale)",),
+    "DOCUMENTARI E SCIENZA": ("BBC Top Gear Italy", "Documentary+", "NHK World-Japan (English)", "NASA TV Media (sperimentale)", "WildEarth (sperimentale)",),
+    "ANIME": ("MAN-GA", "Pluto TV Anime (sperimentale)", "RetroCrush (sperimentale)",),
     "WRESTLING E MMA": ("PFL MMA (sperimentale)", "TNA Wrestling (sperimentale)",),
     "MOTORSPORT": ("ACI Sport TV HD", "Rally.TV FAST+", "Red Bull TV", "Motorvision+ (English)",),
-    "ROCK TV": ("Rock TV (Romania)", "XITE Rock x Metal", "XITE Rock On - stream alternativo (sperimentale)", "Vevo Rock (sperimentale)", "Vevo 2K (sperimentale)", "Metaleitor TV - alternativa Metal TV Core (sperimentale)",),
+    "ROCK TV": ("Rock TV (Romania)", "XITE Rock x Metal", "XITE Rock On - stream alternativo (sperimentale)", "Vevo Rock (sperimentale)", "Vevo 2K (sperimentale)", "Metaleitor TV - alternativa Metal TV Core (sperimentale)", "Metal.Rocks (sperimentale)",),
     "RADIO ROCK": ("181.FM - Rock 181", "ROCK ANTENNE - Modern Rock", "ROCK ANTENNE - Modern Metal", "ROCK ANTENNE - Hard Rock", "ROCK ANTENNE - Alternative", "TheBlast.FM - Christian Rock (verificare)",),
 }
 RADIOS = (("181.FM - Rock 181", "https://listen.181fm.com/181-rock_128k.mp3"), ("ROCK ANTENNE - Modern Rock", "https://stream.rockantenne.de/modern-rock/stream/mp3"), ("ROCK ANTENNE - Modern Metal", "https://stream.rockantenne.de/modern-metal/stream/mp3"), ("ROCK ANTENNE - Hard Rock", "https://stream.rockantenne.de/rock-antenne-hard-rock/stream/mp3"), ("ROCK ANTENNE - Alternative", "https://stream.rockantenne.de/alternative/stream/mp3"), ("TheBlast.FM - Christian Rock (verificare)", "https://mediacp.theblast.fm/stream/theblast"),)
@@ -77,6 +84,12 @@ EXTRA_CHANNELS = (("DOCUMENTARI E SCIENZA", 970, "Documentary+", "https://ef79b1
     ("TV ITALIANA", 1012, "Class CNBC", "https://amg14891-amg14891c5-amgplt0020.playout.now3.amagi.tv/playlist.m3u8"),
     ("TV ITALIANA", 1013, "CNN International", "https://d3bp6dwmpbdajl.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-ury0meh5m4nzm/index.m3u8"),
     ("DOCUMENTARI E SCIENZA", 1014, "Rai Scuola", "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=747011"),
+    ("FILM E SERIE", 1020, "FilmRise Sci-Fi (sperimentale)", "https://d3is52sgpnlx4c.cloudfront.net/10901/88885513/hls/master.m3u8?ads.xumo_channelId=88885513"),
+    ("FILM E SERIE", 1021, "Alien Nation by DUST (sperimentale)", "https://dqi7ayt2o24fn.cloudfront.net/playlist.m3u8"),
+    ("DOCUMENTARI E SCIENZA", 1022, "NASA TV Media (sperimentale)", "https://ntv2.akamaized.net/hls/live/2013923/NASA-NTV2-HLS/master.m3u8"),
+    ("DOCUMENTARI E SCIENZA", 1023, "WildEarth (sperimentale)", "https://dqga3jatxofgx.cloudfront.net/WildEarth.m3u8"),
+    ("ANIME", 1024, "RetroCrush (sperimentale)", "https://d2nqmwm1ndpgi2.cloudfront.net/playlist.m3u8"),
+    ("ROCK TV", 1025, "Metal.Rocks (sperimentale)", "https://amg00771-amg00771c5-rakuten-gb-9713.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg00771-kochfilmsfast-metalrocks-rakutengb/playlist.m3u8"),
 )
 
 def download(url):
