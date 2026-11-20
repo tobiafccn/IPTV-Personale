@@ -37,3 +37,9 @@ In TiViMate gratuito, se `Aggiorna playlist` è bloccato, elimina e reinserisci 
 ## Fonte, licenza e responsabilità
 
 I canali italiani provengono da [xN1ckuz/OpenIPTVItaly](https://github.com/xN1ckuz/OpenIPTVItaly). La relativa licenza MIT è riportata in `LICENSE_OPENIPTVITALY.txt`. Alcuni flussi aggiuntivi sono indicizzati da [iptv-org/iptv](https://github.com/iptv-org/iptv), altri sono stream pubblici delle emittenti. Il repository non ospita né ritrasmette video e non garantisce la disponibilità futura dei collegamenti.
+
+## Canali richiesti nel confronto dei due PDF (20 novembre 2026)
+
+Sono stati aggiunti 5 flussi in prova: Rai Scuola, Al Jazeera International, Bloomberg, Class CNBC e CNN International, senza modificare i canali già presenti o le esclusioni precedenti.
+
+Il file [canali_richiesti_stato.md](canali_richiesti_stato.md) elenca tutti i 30 nomi richiesti, con motivi per cui gli altri 25 non sono stati inseriti. I nuovi flussi non sono stati collaudati su Fire TV Stick. Sky e DAZN non sono stati aggiunti.
