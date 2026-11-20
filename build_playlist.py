@@ -114,6 +114,53 @@ EXTRA_CHANNELS = (("DOCUMENTARI E SCIENZA", 970, "Documentary+", "https://ef79b1
     ("DOCUMENTARI E SCIENZA", 1103, "Pluto TV True Crime (Italia - sperimentale)", "https://jmp2.uk/plu-66d9ab4bf0f17500084e9b7e.m3u8"),
 )
 
+# Immagini ufficiali o dei relativi marchi per i canali integrati.
+LOGO_OVERRIDES = {
+    "181.FM - Rock 181": "https://www.google.com/s2/favicons?domain=181.fm&sz=256",
+    "Al Jazeera International": "https://i.imgur.com/BB93NQP.png",
+    "Bloomberg": "https://i.imgur.com/VnCcH73.png",
+    "Class CNBC": "https://i.imgur.com/oAiSU8O.png",
+    "CNN International": "https://www.google.com/s2/favicons?domain=cnn.com&sz=256",
+    "Documentary+": "https://www.google.com/s2/favicons?domain=documentaryplus.com&sz=256",
+    "DW English": "https://i.imgur.com/A1xzjOI.png",
+    "FilmRise Sci-Fi (sperimentale)": "https://i.imgur.com/FcN1OKo.png",
+    "France 24 English": "https://i.imgur.com/61MSiq9.png",
+    "Metal.Rocks (sperimentale)": "https://www.google.com/s2/favicons?domain=metal.rocks&sz=256",
+    "Metaleitor TV - alternativa Metal TV Core (sperimentale)": "https://new.opencaster.com/uploads/logos/logo_14_1752798826.png",
+    "Motorvision+ (English)": "https://www.google.com/s2/favicons?domain=motorvision.tv&sz=256",
+    "NHK World-Japan (English)": "https://i.imgur.com/Mhw1Ihk.png",
+    "PFL MMA (sperimentale)": "https://provider-static.plex.tv/epg/cms/production/96dd0531-b500-4bd4-93ca-763cbf46defe/1500x1000_PFL_SHIELD_DARK_BG_-_Allie_Dinsmore.png",
+    "Pluto TV Anime (sperimentale)": "https://images.pluto.tv/channels/5812b7d3249444e05d09cc49/colorLogoPNG.png",
+    "Pluto TV Anime Italia (sperimentale)": "https://images.pluto.tv/channels/65b90daed77d450008a43345/colorLogoPNG.png",
+    "Pluto TV Documentari (Italia - sperimentale)": "https://images.pluto.tv/channels/608aa8a5709d6b0007b132fe/colorLogoPNG.png",
+    "Pluto TV Film Azione (Italia - sperimentale)": "https://images.pluto.tv/channels/608aa20a2e7f270007c4878d/colorLogoPNG.png",
+    "Pluto TV Film Commedia (Italia - sperimentale)": "https://images.pluto.tv/channels/608aa512d67fd900072323db/colorLogoPNG.png",
+    "Pluto TV Film Thriller (Italia - sperimentale)": "https://images.pluto.tv/channels/608aa5e995132a00075f7005/colorLogoPNG.png",
+    "Pluto TV Horror (Italia - sperimentale)": "https://images.pluto.tv/channels/61c09e3ac210ed0007606620/colorLogoPNG.png",
+    "Pluto TV Natura (Italia - sperimentale)": "https://images.pluto.tv/channels/60802b37709d6b0007b0c549/colorLogoPNG.png",
+    "Pluto TV Paranormal (Italia - sperimentale)": "https://images.pluto.tv/channels/66c70033b1a34600087bb09a/colorLogoPNG.png",
+    "Pluto TV Sci-Fi (Italia - sperimentale)": "https://images.pluto.tv/channels/61728bb9ee3773000840c1fa/colorLogoPNG.png",
+    "Pluto TV Serie Crime (Italia - sperimentale)": "https://images.pluto.tv/channels/608aa777b907770007e5d05d/colorLogoPNG.png",
+    "Pluto TV Serie Sci-Fi (Italia - sperimentale)": "https://images.pluto.tv/channels/67ed14aaf7c5d70b9089c3bf/colorLogoPNG.png",
+    "Pluto TV Storia (Italia - sperimentale)": "https://images.pluto.tv/channels/65253fdf3fd33c00080214a3/colorLogoPNG.png",
+    "Pluto TV True Crime (Italia - sperimentale)": "https://images.pluto.tv/channels/66d9ab4bf0f17500084e9b7e/colorLogoPNG.png",
+    "Red Bull TV": "https://www.google.com/s2/favicons?domain=redbull.com&sz=256",
+    "ROCK ANTENNE - Alternative": "https://www.rockantenne.de/media/cache/3/version/14/ra-v1.jpg/03af5f7d2e5346c0.jpg",
+    "ROCK ANTENNE - Hard Rock": "https://www.rockantenne.de/media/cache/3/version/14/ra-v1.jpg/03af5f7d2e5346c0.jpg",
+    "ROCK ANTENNE - Modern Metal": "https://www.rockantenne.de/media/cache/3/version/14/ra-v1.jpg/03af5f7d2e5346c0.jpg",
+    "ROCK ANTENNE - Modern Rock": "https://www.rockantenne.de/media/cache/3/version/14/ra-v1.jpg/03af5f7d2e5346c0.jpg",
+    "Rock TV (Romania)": "https://i.imgur.com/Y9miDQo.png",
+    "Space Live (sperimentale)": "https://images.pluto.tv/channels/69b1489b5828e7c242d83064/colorLogoPNG.png",
+    "That's Rock (Italia - sperimentale)": "https://images.pluto.tv/channels/69ef5682980899a9edf1a884/colorLogoPNG.png",
+    "TheBlast.FM - Christian Rock (verificare)": "https://www.google.com/s2/favicons?domain=theblast.fm&sz=256",
+    "TNA Wrestling (sperimentale)": "https://provider-static.plex.tv/epg/cms/production/5d4f68c3-82af-45e7-b2c4-39aff69f3ce0/TNAWrestling_Plex_LogoforDarkBG_1500x1000_-_Alex_TushinghamRDX.png",
+    "Vevo 2K (sperimentale)": "https://images.pluto.tv/channels/5fd7bca3e0a4ee0007a38e8c/colorLogoPNG.png",
+    "Vevo Rock (sperimentale)": "https://images.pluto.tv/channels/61d4b38226b8a50007fe03a6/colorLogoPNG.png",
+    "WildEarth (sperimentale)": "https://pbs.twimg.com/profile_images/2031232776247103488/1b3m83Hp.jpg",
+    "XITE Rock On - stream alternativo (sperimentale)": "https://images.pluto.tv/channels/623a1b5188ecdc0007c9ef5a/colorLogoPNG.png",
+    "XITE Rock x Metal": "https://images.pluto.tv/channels/623a1b5188ecdc0007c9ef5a/colorLogoPNG.png",
+}
+
 def download(url):
     request = Request(url, headers={"User-Agent": "RockTV-Personale/1.0"})
     with urlopen(request, timeout=45) as response:
@@ -145,6 +192,10 @@ def number_from(block):
 def with_group_number(block, group, number):
     first, separator, name = block[0].partition(",")
     first = re.sub(r'\s+group-title="[^"]*"', "", first)
+    logo_url = LOGO_OVERRIDES.get(name.strip())
+    if logo_url:
+        first = re.sub(r'\s+tvg-logo="[^"]*"', "", first)
+        first += f' tvg-logo="{logo_url}"'
     if re.search(r'tvg-chno="[^"]*"', first):
         first = re.sub(r'tvg-chno="[^"]*"', f'tvg-chno="{number}"', first)
     else:
