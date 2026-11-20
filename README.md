@@ -8,22 +8,22 @@ https://raw.githubusercontent.com/tobiafccn/RockTV-Personale/main/playlist-rock-
 
 ## Ordine ispirato al digitale terrestre
 
-La playlist rispetta l'ordine dei canali approvato il 20/11/2026. I canali della sezione iniziale sono numerati secondo l'LCN della fonte OpenIPTVItaly (da 1 a 70, con i numeri mancanti lasciati vuoti); gli altri canali sono numerati senza interruzioni da 101 a 167.
+La playlist rispetta l'ordine dei canali approvato il 20/11/2026. I canali della sezione iniziale sono numerati secondo l'LCN della fonte OpenIPTVItaly (da 1 a 70, con i numeri mancanti lasciati vuoti); gli altri canali sono numerati senza interruzioni da 101 a 171.
 
 | Gruppo | Canali | Numerazione |
 |---|---:|---|
-| DIGITALE TERRESTRE | 57 | 1–70 |
+| DIGITALE TERRESTRE | 57 | LCN 1–70 |
 | TV ITALIANA EXTRA | 18 | 101–118 |
-| FILM E SERIE | 9 | 119–127 |
-| NEWS E INFORMAZIONE | 7 | 128–134 |
-| DOCUMENTARI E SCIENZA | 9 | 135–143 |
-| ANIME | 4 | 144–147 |
-| WRESTLING E MMA | 2 | 148–149 |
-| MOTORSPORT | 4 | 150–153 |
-| ROCK TV | 8 | 154–161 |
-| RADIO ROCK | 6 | 162–167 |
+| FILM E SERIE | 11 | 119–129 |
+| NEWS E INFORMAZIONE | 7 | 130–136 |
+| DOCUMENTARI E SCIENZA | 11 | 137–147 |
+| ANIME | 4 | 148–151 |
+| WRESTLING E MMA | 2 | 152–153 |
+| MOTORSPORT | 4 | 154–157 |
+| ROCK TV | 8 | 158–165 |
+| RADIO ROCK | 6 | 166–171 |
 
-**Totale: 124 canali.** I numeri 71–100 sono lasciati liberi per distinguere i canali dell'antenna da quelli extra.
+**Totale: 128 canali.** I numeri 71–100 sono lasciati liberi per distinguere i canali dell'antenna da quelli extra.
 
 Le posizioni di Rai 1, Rai 2, Rai 3, Rete 4, Canale 5, Italia 1, LA7, TV8, NOVE e degli altri canali italiani principali non sono state modificate. Le reti già eliminate rimangono escluse.
 
@@ -77,3 +77,14 @@ Sono state aggiunte altre **13 emittenti sperimentali**, preservando i 111 canal
 - **That's Rock (Italia - sperimentale)** — gruppo ROCK TV
 
 **Pluto TV Anime Italia** è un'alternativa di prova e non sostituisce ancora la variante americana presente in playlist. La lingua italiana è prevista per i canali italiani di film e documentari, ma andrà verificata su TiViMate.
+
+## Ultime quattro aggiunte approvate — 20 novembre 2026
+
+Aggiunte finali della selezione, senza nuovi canali anime:
+
+- **Pluto TV Serie Crime (Italia - sperimentale)** — gruppo `FILM E SERIE`
+- **Pluto TV Film Commedia (Italia - sperimentale)** — gruppo `FILM E SERIE`
+- **Pluto TV Paranormal (Italia - sperimentale)** — gruppo `DOCUMENTARI E SCIENZA`
+- **Pluto TV True Crime (Italia - sperimentale)** — gruppo `DOCUMENTARI E SCIENZA`
+
+I quattro nuovi flussi provengono dalla raccolta pubblica `iptv-org/iptv` (`streams/it_pluto.m3u`) e saranno collaudati insieme agli altri flussi sperimentali su TiViMate Free dopo la conclusione della selezione. Le esclusioni precedenti rimangono attive. Per il momento non sono previste ulteriori aggiunte.
