@@ -54,3 +54,7 @@ Rai 3 TGR Basilicata
 Rai 3 TGR Calabria
 Rai 3 TGR Sardegna
 Rai 3 TGR Sicilia
+
+# Video ROCK TV non funzionanti sulla Fire TV Stick
+RadioU TV (USA)
+Muzzik Rock&Roll (Serbia - da provare)
