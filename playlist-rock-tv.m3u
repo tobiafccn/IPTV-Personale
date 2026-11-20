@@ -275,6 +275,18 @@ https://4c4b867c89244861ac216426883d1ad0.msvdn.net/live/S35394734/Z6U2wGoDYANk/p
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
 https://4c4b867c89244861ac216426883d1ad0.msvdn.net/live/S62628868/uhdWBlkC1AoO/playlist.m3u8
 
+#EXTINF:-1 tvg-chno="1010" tvg-name="Al Jazeera International" group-title="TV ITALIANA",Al Jazeera International
+https://live-hls-apps-aje-fa.getaj.net/AJE/index.m3u8
+
+#EXTINF:-1 tvg-chno="1011" tvg-name="Bloomberg" group-title="TV ITALIANA",Bloomberg
+https://bloomberg.com/media-manifest/streams/us.m3u8
+
+#EXTINF:-1 tvg-chno="1012" tvg-name="Class CNBC" group-title="TV ITALIANA",Class CNBC
+https://amg14891-amg14891c5-amgplt0020.playout.now3.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-chno="1013" tvg-name="CNN International" group-title="TV ITALIANA",CNN International
+https://d3bp6dwmpbdajl.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-ury0meh5m4nzm/index.m3u8
+
 #EXTINF:-1 tvg-chno="20" tvg-id="20.it" tvg-name="20Mediaset HD" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/20-20hd.png" group-title="FILM E SERIE", 20Mediaset HD
 #EXTSIZE: Medium
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
@@ -391,6 +403,9 @@ https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/master.m3u8
 
 #EXTINF:-1 tvg-chno="973" tvg-name="France 24 English" group-title="DOCUMENTARI E SCIENZA",France 24 English
 https://live.france24.com/hls/live/2037218/F24_EN_HI_HLS/master_2300.m3u8
+
+#EXTINF:-1 tvg-chno="1014" tvg-name="Rai Scuola" group-title="DOCUMENTARI E SCIENZA",Rai Scuola
+https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=747011
 
 #EXTINF:-1 tvg-chno="236" tvg-name="MAN-GA" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/236-manga.png" group-title="ANIME", MAN-GA
 #EXTSIZE: Medium
