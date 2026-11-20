@@ -1,7 +1,38 @@
-# Inserisci qui, una per riga, il nome esatto o il numero tvg-chno di un canale da nascondere.
-# Le righe che iniziano con # sono commenti e non escludono nulla.
-# Esempi (attualmente DISATTIVATI):
-# Rai 1
-# 2
-# 903
-# Vale per canali TV, RADIO ROCK e ROCK TV.
+# Canali esclusi dalla tua playlist RockTV-Personale.
+# Ogni riga senza # corrisponde al nome esatto di un canale da rimuovere.
+# Il filtro viene applicato anche durante gli aggiornamenti GitHub Actions.
+# Per ripristinare un canale, cancella la sua riga e rilancia il workflow.
+
+# Canali della foto (Radio Montecarlo TV e 7 edizioni Rai 3 TGR)
+Radio Montecarlo TV
+Rai 3 TGR Valle d'Aosta
+Rai 3 TGR Piemonte
+Rai 3 TGR Liguria
+Rai 3 TGR Lombardia
+Rai 3 TGR Veneto
+Rai 3 TGR Bolzano
+Rai 3 TGR Trento
+
+# Altri canali richiesti
+MotoRetrò
+AutoMoto
+Horse TV
+Italian Fishing TV
+Sportitalia Solocalcio HD
+Radio TV Serie A
+La Nuova TV
+RSI La 1
+RSI La 2
+Bom Channel
+SuperTennis
+Donna TV
+il61
+Tele Dehon
+Telesveva
+Telebari
+Antenna Sud
+Telerama
+TRM H24
+Telenorba
+Teledue
+Radionorba TV HD
