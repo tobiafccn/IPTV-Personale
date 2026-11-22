@@ -219,7 +219,7 @@ def with_group_number(block, group, number):
         first += f' tvg-logo="{logo_url}"'
     manual_epg_id = EPG_CHANNEL_OVERRIDES.get(name.strip())
     if manual_epg_id:
-        first = re.sub(r'\\s+tvg-id="[^"]*"', "", first)
+        first = re.sub(r'\s+tvg-id="[^"]*"', "", first)
         first += f' tvg-id="{manual_epg_id}"'
     # Usa l'identificativo reale Pluto (per la relativa EPG), altrimenti
     # un identificativo stabile per posizione, usato nella guida aggregata.
