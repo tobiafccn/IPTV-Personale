@@ -8,7 +8,7 @@ https://raw.githubusercontent.com/tobiafccn/RockTV-Personale/main/playlist-rock-
 
 ## Ordine ispirato al digitale terrestre
 
-La playlist rispetta l'ordine dei canali approvato il 20/11/2026. I canali della sezione iniziale sono numerati secondo l'LCN della fonte OpenIPTVItaly (da 1 a 70, con i numeri mancanti lasciati vuoti); gli altri canali sono numerati senza interruzioni da 101 a 180.
+La playlist rispetta l'ordine dei canali approvato il 20/11/2026. I canali della sezione iniziale sono numerati secondo l'LCN della fonte OpenIPTVItaly (da 1 a 70, con i numeri mancanti lasciati vuoti); gli altri canali sono numerati senza interruzioni da 101 a 169.
 
 | Gruppo | Canali | Numerazione |
 |---|---:|---|
@@ -16,14 +16,14 @@ La playlist rispetta l'ordine dei canali approvato il 20/11/2026. I canali della
 | TV ITALIANA EXTRA | 17 | 101–117 |
 | FILM E SERIE | 8 | 118–125 |
 | NEWS E INFORMAZIONE | 7 | 126–132 |
-| DOCUMENTARI E SCIENZA | 25 | 133–157 |
-| ANIME | 3 | 158–160 |
-| WRESTLING E MMA | 2 | 161–162 |
-| MOTORSPORT | 4 | 163–166 |
-| ROCK TV | 8 | 167–174 |
-| RADIO ROCK | 6 | 175–180 |
+| DOCUMENTARI E SCIENZA | 14 | 133–146 |
+| ANIME | 3 | 147–149 |
+| WRESTLING E MMA | 2 | 150–151 |
+| MOTORSPORT | 4 | 152–155 |
+| ROCK TV | 8 | 156–163 |
+| RADIO ROCK | 6 | 164–169 |
 
-**Totale: 137 canali.** I numeri 71–100 sono lasciati liberi per distinguere i canali dell'antenna da quelli extra.
+**Totale: 126 canali.** I numeri 71–100 sono lasciati liberi per distinguere i canali dell'antenna da quelli extra.
 
 Le posizioni di Rai 1, Rai 2, Rai 3, Rete 4, Canale 5, Italia 1, LA7, TV8, NOVE e degli altri canali italiani principali non sono state modificate. Le reti già eliminate rimangono escluse.
 
@@ -142,3 +142,21 @@ Aggiunti **8 nuovi flussi HLS sperimentali**: sei osservazioni marine (barriera 
 - **Explore - Colibri al mangiatoia (sperimentale)** — https://outbound-production.explore.org/stream-production-189/.m3u8
 
 Ogni nuovo canale usa il logo del marchio Explore.org e possiede un identificativo tecnico. **Non è stata verificata la riproduzione sulla Fire TV**: i link provengono da playlist webcam pubbliche e possono essere offline o cambiati. Essendo webcam 24 ore su 24, non possiedono una normale scaletta oraria EPG; «Nessuna informazione» può essere normale. Restano invariati tutti i precedenti 129 indirizzi di streaming, i 54 canali esclusi e i loghi esistenti. Gli ID EPG tecnici sono stati rinumerati per evitare collisioni dopo gli inserimenti.
+
+## Rimozione webcam non funzionanti — 22 novembre 2026
+
+In base alla prova pratica su TiViMate, sono stati eliminati **11 canali** senza tentare collegamenti alternativi. Le quattro Africam alle precedenti posizioni **94–97** non si riproducevano e non mostravano il logo. Le sette Explore alle posizioni **99–105** mostravano il logo ma rimanevano in caricamento senza mostrare immagini né segnalare errori.
+
+- 94: Africam - Elephant Park (sperimentale)
+- 95: Africam - Tau Waterhole (sperimentale)
+- 96: Africam - Rosies Pan (sperimentale)
+- 97: Africam - Safari Cam 4 (sperimentale)
+- 99: Explore - Squali in acquario (sperimentale)
+- 100: Explore - Foresta di alghe (sperimentale)
+- 101: Explore - Pinguini sulla spiaggia (sperimentale)
+- 102: Explore - Orche OrcaLab (sperimentale)
+- 103: Explore - Lamantini sott'acqua (sperimentale)
+- 104: Explore - Aquile di Decorah (sperimentale)
+- 105: Explore - Colibri al mangiatoia (sperimentale)
+
+**Explore - Barriera corallina**, precedente posizione **98**, non è stato eliminato perché non era incluso nella segnalazione. Le posizioni TiViMate si aggiornano dopo le rimozioni: non usare più i vecchi numeri. Le 11 voci sono state inserite in `canali_da_escludere.txt` e rimosse dal generatore. Rimangono i 126 canali approvati e tutti i loghi preesistenti; in assenza di EPG delle webcam può comparire «Nessuna informazione».
