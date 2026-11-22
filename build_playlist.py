@@ -8,11 +8,18 @@ import re
 ROOT = Path(__file__).resolve().parent
 SOURCE = "https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/main/OpenIPTVItaly.m3u"
 LICENSE = "https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/main/LICENSE"
-CATEGORY_ORDER = ("DIGITALE TERRESTRE", "TV ITALIANA EXTRA", "FILM E SERIE", "NEWS E INFORMAZIONE", "DOCUMENTARI E SCIENZA", "ANIME", "WRESTLING E MMA", "MOTORSPORT", "ROCK TV", "RADIO ROCK",)
+CATEGORY_ORDER = ("DIGITALE TERRESTRE", "TV ITALIANA EXTRA", "FILM E SERIE", "NEWS E INFORMAZIONE", "DOCUMENTARI E SCIENZA", "WEBCAM ANIMALI", "ANIME", "WRESTLING E MMA", "MOTORSPORT", "ROCK TV", "RADIO ROCK",)
 # Si mantengono soltanto i canali della fonte già approvati, senza importare
 # automaticamente nuove emittenti o ripristinare canali eliminati.
 APPROVED_SOURCE_NAMES = frozenset(("Rai 1", "Rai 2", "Rai 3", "Rete 4 HD", "Canale 5 HD", "Italia 1 HD", "LA7 HD", "TV8 HD", "NOVE HD", "TG Norba 24", "TV2000", "Real Time HD", "QVC HD", "Food Network HD", "RTL 102.5", "Boing HD", "K2", "Rai Gulp", "Rai Yoyo", "Frisbee", "Boing Plus", "Cartoonito HD", "Super!", "Rai News 24", "Sky TG24", "TGCOM 24 HD", "Italia 53", "HGTV - Home&Garden", "Italiana", "Rai Sport", "Sportitalia HD", "Canale 63", "Alma TV", "Radio 105 TV", "R101 TV", "Deejay TV HD", "RadioItaliaTV", "Rai 4K", "FIFA+", "Radio Kiss Kiss TV", "Rai Radio 2 Visual", "Radio 24 - IlSole24OreTV", "Gambero Rosso", "RadioFreccia", "Virgin Radio", "RDS Social TV", "Radio Zeta", "Euronews IT", "Hell's Kitchen Italy", "RaiPlay Sport 1", "Radio Carina TV", "Trace Urban", "Trace Latina", "Radio Capital TV", "M2O TV", "20Mediaset HD", "Rai 4", "Iris HD", "Rai Movie", "Rai Premium", "Cielo HD", "27Twentyseven HD", "LA7 Cinema", "La5 HD", "Cine34 HD", "Giallo", "Top Crime HD", "Italia 2 HD", "Mediaset Extra HD", "Rai 5", "FOCUS HD", "Discovery", "DMAX", "Rai Storia HD", "Discovery Turbo", "BBC Top Gear Italy", "MAN-GA", "ACI Sport TV HD", "Rally.TV FAST+",))
 SPECIAL_GROUPS = {
+    "BBC Earth Italia (sperimentale)": "DOCUMENTARI E SCIENZA",
+    "Love the Planet Italia (sperimentale)": "DOCUMENTARI E SCIENZA",
+    "Ocean Vibes Italia (sperimentale)": "DOCUMENTARI E SCIENZA",
+    "Webcam - Orsi polari San Diego Zoo (sperimentale)": "WEBCAM ANIMALI",
+    "Webcam - Pinguini San Diego Zoo (sperimentale)": "WEBCAM ANIMALI",
+    "Webcam - Panda gigante San Diego Zoo (sperimentale)": "WEBCAM ANIMALI",
+    "Webcam - Elefanti marini California (sperimentale)": "WEBCAM ANIMALI",
     "NatureTime Italia (sperimentale)": "DOCUMENTARI E SCIENZA",
     "Wild Planet (English - sperimentale)": "DOCUMENTARI E SCIENZA",
     "Sen SpaceTV-1 - viste ISS (sperimentale)": "DOCUMENTARI E SCIENZA",
@@ -71,7 +78,8 @@ ORDER_WITHIN_GROUP = {
     "TV ITALIANA EXTRA": (),
     "FILM E SERIE": ("FilmRise Sci-Fi (sperimentale)", "Pluto TV Sci-Fi (Italia - sperimentale)", "Pluto TV Serie Sci-Fi (Italia - sperimentale)", "Pluto TV Film Azione (Italia - sperimentale)", "Pluto TV Film Thriller (Italia - sperimentale)", "Pluto TV Horror (Italia - sperimentale)", "Pluto TV Serie Crime (Italia - sperimentale)", "Pluto TV Film Commedia (Italia - sperimentale)",),
     "NEWS E INFORMAZIONE": ("Euronews IT", "DW English", "France 24 English", "Al Jazeera International", "CNN International", "Bloomberg", "Class CNBC",),
-    "DOCUMENTARI E SCIENZA": ("BBC Top Gear Italy", "Documentary+", "NHK World-Japan (English)", "WildEarth (sperimentale)", "NatureTime Italia (sperimentale)", "Wild Planet (English - sperimentale)", "Pluto TV Documentari (Italia - sperimentale)", "Pluto TV Natura (Italia - sperimentale)", "Pluto TV Storia (Italia - sperimentale)", "Space Live (sperimentale)", "Sen SpaceTV-1 - viste ISS (sperimentale)", "Space Live by Sen - stream alternativo (sperimentale)", "Pluto TV Paranormal (Italia - sperimentale)", "Pluto TV True Crime (Italia - sperimentale)",),
+    "DOCUMENTARI E SCIENZA": ("BBC Top Gear Italy", "Documentary+", "NHK World-Japan (English)", "WildEarth (sperimentale)", "NatureTime Italia (sperimentale)", "Wild Planet (English - sperimentale)", "BBC Earth Italia (sperimentale)", "Love the Planet Italia (sperimentale)", "Ocean Vibes Italia (sperimentale)", "Pluto TV Documentari (Italia - sperimentale)", "Pluto TV Natura (Italia - sperimentale)", "Pluto TV Storia (Italia - sperimentale)", "Space Live (sperimentale)", "Sen SpaceTV-1 - viste ISS (sperimentale)", "Space Live by Sen - stream alternativo (sperimentale)", "Pluto TV Paranormal (Italia - sperimentale)", "Pluto TV True Crime (Italia - sperimentale)",),
+    "WEBCAM ANIMALI": ("Webcam - Orsi polari San Diego Zoo (sperimentale)", "Webcam - Pinguini San Diego Zoo (sperimentale)", "Webcam - Panda gigante San Diego Zoo (sperimentale)", "Webcam - Elefanti marini California (sperimentale)",),
     "ANIME": ("MAN-GA", "Pluto TV Anime (sperimentale)", "Pluto TV Anime Italia (sperimentale)",),
     "WRESTLING E MMA": ("PFL MMA (sperimentale)", "TNA Wrestling (sperimentale)",),
     "MOTORSPORT": ("ACI Sport TV HD", "Rally.TV FAST+", "Red Bull TV", "Motorvision+ (English)",),
@@ -120,15 +128,32 @@ EXTRA_CHANNELS = (("DOCUMENTARI E SCIENZA", 970, "Documentary+", "https://ef79b1
     ("DOCUMENTARI E SCIENZA", 1126, "Space Live by Sen - stream alternativo (sperimentale)", "https://d111bsx9oooqoh.cloudfront.net/playlist.m3u8"),
     ("DOCUMENTARI E SCIENZA", 1301, "NatureTime Italia (sperimentale)", "https://amg01515-amg01515c47-samsung-it-9436.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg01515-blueskyeentertainment-naturetimeemeaita-samsungit/playlist.m3u8"),
     ("DOCUMENTARI E SCIENZA", 1303, "Wild Planet (English - sperimentale)", "https://d1h8whhtg5u7om.cloudfront.net/WildPlanet_GB.m3u8"),
+    ("DOCUMENTARI E SCIENZA", 1401, "BBC Earth Italia (sperimentale)", "https://amg00793-amg00793c23-samsung-it-4780.playouts.now.amagi.tv/playlist/amg00793-bbcstudios-bbcearthitaly-samsungit/playlist.m3u8"),
+    ("DOCUMENTARI E SCIENZA", 1402, "Love the Planet Italia (sperimentale)", "https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01821-lovetvchannels-lovetheplanetitsamsung-samsungit/playlist.m3u8"),
+    ("DOCUMENTARI E SCIENZA", 1403, "Ocean Vibes Italia (sperimentale)", "https://jmp2.uk/stvp-IT18000076Y"),
+    ("WEBCAM ANIMALI", 1501, "Webcam - Orsi polari San Diego Zoo (sperimentale)", "https://polarplunge.hls.camzonecdn.com/CamzoneStreams/polarplunge/Playlist.m3u8"),
+    ("WEBCAM ANIMALI", 1502, "Webcam - Pinguini San Diego Zoo (sperimentale)", "https://zssd-penguin.hls.camzonecdn.com/CamzoneStreams/zssd-penguin/Playlist.m3u8"),
+    ("WEBCAM ANIMALI", 1503, "Webcam - Panda gigante San Diego Zoo (sperimentale)", "https://zssd-panda2024.hls.camzonecdn.com/CamzoneStreams/zssd-panda2024/Playlist.m3u8"),
+    ("WEBCAM ANIMALI", 1504, "Webcam - Elefanti marini California (sperimentale)", "https://video.parks.ca.gov/Hearst/Piedras.stream/playlist.m3u8"),
 )
 
 EPG_CHANNEL_OVERRIDES = {
+    "BBC Earth Italia (sperimentale)": "IT3200002L5",
+    "Love the Planet Italia (sperimentale)": "ITBC4700003GR",
+    "Ocean Vibes Italia (sperimentale)": "IT18000076Y",
     "NatureTime Italia (sperimentale)": "IT2100001EZ",
     "Wild Planet (English - sperimentale)": "GBBB5000002PL",
 }
 
 # Immagini ufficiali o dei relativi marchi per i canali integrati.
 LOGO_OVERRIDES = {
+    "BBC Earth Italia (sperimentale)": "https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IT3200002L5_20261110T044219SQUARE.png",
+    "Love the Planet Italia (sperimentale)": "https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ITBC4700003GR_20250811T173008SQUARE.png",
+    "Ocean Vibes Italia (sperimentale)": "https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IT18000076Y_20260528T053611SQUARE.png",
+    "Webcam - Orsi polari San Diego Zoo (sperimentale)": "https://www.google.com/s2/favicons?domain=sandiegozoo.org&sz=256",
+    "Webcam - Pinguini San Diego Zoo (sperimentale)": "https://www.google.com/s2/favicons?domain=sandiegozoo.org&sz=256",
+    "Webcam - Panda gigante San Diego Zoo (sperimentale)": "https://www.google.com/s2/favicons?domain=sandiegozoo.org&sz=256",
+    "Webcam - Elefanti marini California (sperimentale)": "https://www.google.com/s2/favicons?domain=parks.ca.gov&sz=256",
     "NatureTime Italia (sperimentale)": "https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IT2100001EZ_20251111T012436SQUARE.png",
     "Wild Planet (English - sperimentale)": "https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GBBB5000002PL_20261026T042440SQUARE.png",
     "Sen SpaceTV-1 - viste ISS (sperimentale)": "https://www.google.com/s2/favicons?domain=sen.com&sz=256",
