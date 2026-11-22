@@ -13,6 +13,14 @@ CATEGORY_ORDER = ("DIGITALE TERRESTRE", "TV ITALIANA EXTRA", "FILM E SERIE", "NE
 # automaticamente nuove emittenti o ripristinare canali eliminati.
 APPROVED_SOURCE_NAMES = frozenset(("Rai 1", "Rai 2", "Rai 3", "Rete 4 HD", "Canale 5 HD", "Italia 1 HD", "LA7 HD", "TV8 HD", "NOVE HD", "TG Norba 24", "TV2000", "Real Time HD", "QVC HD", "Food Network HD", "RTL 102.5", "Boing HD", "K2", "Rai Gulp", "Rai Yoyo", "Frisbee", "Boing Plus", "Cartoonito HD", "Super!", "Rai News 24", "Sky TG24", "TGCOM 24 HD", "Italia 53", "HGTV - Home&Garden", "Italiana", "Rai Sport", "Sportitalia HD", "Canale 63", "Alma TV", "Radio 105 TV", "R101 TV", "Deejay TV HD", "RadioItaliaTV", "Rai 4K", "FIFA+", "Radio Kiss Kiss TV", "Rai Radio 2 Visual", "Radio 24 - IlSole24OreTV", "Gambero Rosso", "RadioFreccia", "Virgin Radio", "RDS Social TV", "Radio Zeta", "Euronews IT", "Hell's Kitchen Italy", "RaiPlay Sport 1", "Radio Carina TV", "Trace Urban", "Trace Latina", "Radio Capital TV", "M2O TV", "20Mediaset HD", "Rai 4", "Iris HD", "Rai Movie", "Rai Premium", "Cielo HD", "27Twentyseven HD", "LA7 Cinema", "La5 HD", "Cine34 HD", "Giallo", "Top Crime HD", "Italia 2 HD", "Mediaset Extra HD", "Rai 5", "FOCUS HD", "Discovery", "DMAX", "Rai Storia HD", "Discovery Turbo", "BBC Top Gear Italy", "MAN-GA", "ACI Sport TV HD", "Rally.TV FAST+",))
 SPECIAL_GROUPS = {
+    "Explore - Barriera corallina (sperimentale)": "DOCUMENTARI E SCIENZA",
+    "Explore - Squali in acquario (sperimentale)": "DOCUMENTARI E SCIENZA",
+    "Explore - Foresta di alghe (sperimentale)": "DOCUMENTARI E SCIENZA",
+    "Explore - Pinguini sulla spiaggia (sperimentale)": "DOCUMENTARI E SCIENZA",
+    "Explore - Orche OrcaLab (sperimentale)": "DOCUMENTARI E SCIENZA",
+    "Explore - Lamantini sott'acqua (sperimentale)": "DOCUMENTARI E SCIENZA",
+    "Explore - Aquile di Decorah (sperimentale)": "DOCUMENTARI E SCIENZA",
+    "Explore - Colibri al mangiatoia (sperimentale)": "DOCUMENTARI E SCIENZA",
     "Africam - Elephant Park (sperimentale)": "DOCUMENTARI E SCIENZA",
     "Africam - Tau Waterhole (sperimentale)": "DOCUMENTARI E SCIENZA",
     "Africam - Rosies Pan (sperimentale)": "DOCUMENTARI E SCIENZA",
@@ -74,7 +82,7 @@ ORDER_WITHIN_GROUP = {
     "TV ITALIANA EXTRA": (),
     "FILM E SERIE": ("FilmRise Sci-Fi (sperimentale)", "Pluto TV Sci-Fi (Italia - sperimentale)", "Pluto TV Serie Sci-Fi (Italia - sperimentale)", "Pluto TV Film Azione (Italia - sperimentale)", "Pluto TV Film Thriller (Italia - sperimentale)", "Pluto TV Horror (Italia - sperimentale)", "Pluto TV Serie Crime (Italia - sperimentale)", "Pluto TV Film Commedia (Italia - sperimentale)",),
     "NEWS E INFORMAZIONE": ("Euronews IT", "DW English", "France 24 English", "Al Jazeera International", "CNN International", "Bloomberg", "Class CNBC",),
-    "DOCUMENTARI E SCIENZA": ("BBC Top Gear Italy", "Documentary+", "NHK World-Japan (English)", "WildEarth (sperimentale)", "Africam - Elephant Park (sperimentale)", "Africam - Tau Waterhole (sperimentale)", "Africam - Rosies Pan (sperimentale)", "Africam - Safari Cam 4 (sperimentale)", "Pluto TV Documentari (Italia - sperimentale)", "Pluto TV Natura (Italia - sperimentale)", "Pluto TV Storia (Italia - sperimentale)", "Space Live (sperimentale)", "Sen SpaceTV-1 - viste ISS (sperimentale)", "NASA ISS - Terra in diretta (relay sperimentale)", "Space Live by Sen - stream alternativo (sperimentale)", "Pluto TV Paranormal (Italia - sperimentale)", "Pluto TV True Crime (Italia - sperimentale)",),
+    "DOCUMENTARI E SCIENZA": ("BBC Top Gear Italy", "Documentary+", "NHK World-Japan (English)", "WildEarth (sperimentale)", "Africam - Elephant Park (sperimentale)", "Africam - Tau Waterhole (sperimentale)", "Africam - Rosies Pan (sperimentale)", "Africam - Safari Cam 4 (sperimentale)", "Explore - Barriera corallina (sperimentale)", "Explore - Squali in acquario (sperimentale)", "Explore - Foresta di alghe (sperimentale)", "Explore - Pinguini sulla spiaggia (sperimentale)", "Explore - Orche OrcaLab (sperimentale)", "Explore - Lamantini sott'acqua (sperimentale)", "Explore - Aquile di Decorah (sperimentale)", "Explore - Colibri al mangiatoia (sperimentale)", "Pluto TV Documentari (Italia - sperimentale)", "Pluto TV Natura (Italia - sperimentale)", "Pluto TV Storia (Italia - sperimentale)", "Space Live (sperimentale)", "Sen SpaceTV-1 - viste ISS (sperimentale)", "NASA ISS - Terra in diretta (relay sperimentale)", "Space Live by Sen - stream alternativo (sperimentale)", "Pluto TV Paranormal (Italia - sperimentale)", "Pluto TV True Crime (Italia - sperimentale)",),
     "ANIME": ("MAN-GA", "Pluto TV Anime (sperimentale)", "Pluto TV Anime Italia (sperimentale)",),
     "WRESTLING E MMA": ("PFL MMA (sperimentale)", "TNA Wrestling (sperimentale)",),
     "MOTORSPORT": ("ACI Sport TV HD", "Rally.TV FAST+", "Red Bull TV", "Motorvision+ (English)",),
@@ -126,10 +134,26 @@ EXTRA_CHANNELS = (("DOCUMENTARI E SCIENZA", 970, "Documentary+", "https://ef79b1
     ("DOCUMENTARI E SCIENZA", 1124, "Sen SpaceTV-1 - viste ISS (sperimentale)", "https://linear-1224.frequency.stream/dist/lg-uk/1224/hls/master/playlist.m3u8"),
     ("DOCUMENTARI E SCIENZA", 1125, "NASA ISS - Terra in diretta (relay sperimentale)", "https://hls.youtb.workers.dev/video/0P41gTF-Nl4.m3u8"),
     ("DOCUMENTARI E SCIENZA", 1126, "Space Live by Sen - stream alternativo (sperimentale)", "https://d111bsx9oooqoh.cloudfront.net/playlist.m3u8"),
+    ("DOCUMENTARI E SCIENZA", 1200, "Explore - Barriera corallina (sperimentale)", "https://outbound-production.explore.org/stream-production-10/.m3u8"),
+    ("DOCUMENTARI E SCIENZA", 1201, "Explore - Squali in acquario (sperimentale)", "https://outbound-production.explore.org/stream-production-12/.m3u8"),
+    ("DOCUMENTARI E SCIENZA", 1202, "Explore - Foresta di alghe (sperimentale)", "https://outbound-production.explore.org/stream-production-70/.m3u8"),
+    ("DOCUMENTARI E SCIENZA", 1203, "Explore - Pinguini sulla spiaggia (sperimentale)", "https://outbound-production.explore.org/stream-production-14/.m3u8"),
+    ("DOCUMENTARI E SCIENZA", 1204, "Explore - Orche OrcaLab (sperimentale)", "https://outbound-production.explore.org/stream-production-95/.m3u8"),
+    ("DOCUMENTARI E SCIENZA", 1205, "Explore - Lamantini sott'acqua (sperimentale)", "https://outbound-production.explore.org/stream-production-162/.m3u8"),
+    ("DOCUMENTARI E SCIENZA", 1206, "Explore - Aquile di Decorah (sperimentale)", "https://outbound-production.explore.org/stream-production-216/.m3u8"),
+    ("DOCUMENTARI E SCIENZA", 1207, "Explore - Colibri al mangiatoia (sperimentale)", "https://outbound-production.explore.org/stream-production-189/.m3u8"),
 )
 
 # Immagini ufficiali o dei relativi marchi per i canali integrati.
 LOGO_OVERRIDES = {
+    "Explore - Barriera corallina (sperimentale)": "https://www.google.com/s2/favicons?domain=explore.org&sz=256",
+    "Explore - Squali in acquario (sperimentale)": "https://www.google.com/s2/favicons?domain=explore.org&sz=256",
+    "Explore - Foresta di alghe (sperimentale)": "https://www.google.com/s2/favicons?domain=explore.org&sz=256",
+    "Explore - Pinguini sulla spiaggia (sperimentale)": "https://www.google.com/s2/favicons?domain=explore.org&sz=256",
+    "Explore - Orche OrcaLab (sperimentale)": "https://www.google.com/s2/favicons?domain=explore.org&sz=256",
+    "Explore - Lamantini sott'acqua (sperimentale)": "https://www.google.com/s2/favicons?domain=explore.org&sz=256",
+    "Explore - Aquile di Decorah (sperimentale)": "https://www.google.com/s2/favicons?domain=explore.org&sz=256",
+    "Explore - Colibri al mangiatoia (sperimentale)": "https://www.google.com/s2/favicons?domain=explore.org&sz=256",
     "Africam - Elephant Park (sperimentale)": "https://www.google.com/s2/favicons?domain=africam.com&sz=256",
     "Africam - Tau Waterhole (sperimentale)": "https://www.google.com/s2/favicons?domain=africam.com&sz=256",
     "Africam - Rosies Pan (sperimentale)": "https://www.google.com/s2/favicons?domain=africam.com&sz=256",
