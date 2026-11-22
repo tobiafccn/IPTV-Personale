@@ -437,101 +437,122 @@ https://amg01515-amg01515c47-samsung-it-9436.playouts.now.amagi.tv/ts-eu-w1-n2/p
 #EXTINF:-1 tvg-chno="138" tvg-id="GBBB5000002PL" tvg-name="Wild Planet (English - sperimentale)" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GBBB5000002PL_20261026T042440SQUARE.png" group-title="DOCUMENTARI E SCIENZA",Wild Planet (English - sperimentale)
 https://d1h8whhtg5u7om.cloudfront.net/WildPlanet_GB.m3u8
 
-#EXTINF:-1 tvg-chno="139" tvg-name="Pluto TV Documentari (Italia - sperimentale)" tvg-logo="https://images.pluto.tv/channels/608aa8a5709d6b0007b132fe/colorLogoPNG.png" tvg-id="608aa8a5709d6b0007b132fe" group-title="DOCUMENTARI E SCIENZA",Pluto TV Documentari (Italia - sperimentale)
+#EXTINF:-1 tvg-chno="139" tvg-id="IT3200002L5" tvg-name="BBC Earth Italia (sperimentale)" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IT3200002L5_20261110T044219SQUARE.png" group-title="DOCUMENTARI E SCIENZA",BBC Earth Italia (sperimentale)
+https://amg00793-amg00793c23-samsung-it-4780.playouts.now.amagi.tv/playlist/amg00793-bbcstudios-bbcearthitaly-samsungit/playlist.m3u8
+
+#EXTINF:-1 tvg-chno="140" tvg-id="ITBC4700003GR" tvg-name="Love the Planet Italia (sperimentale)" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ITBC4700003GR_20250811T173008SQUARE.png" group-title="DOCUMENTARI E SCIENZA",Love the Planet Italia (sperimentale)
+https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01821-lovetvchannels-lovetheplanetitsamsung-samsungit/playlist.m3u8
+
+#EXTINF:-1 tvg-chno="141" tvg-id="IT18000076Y" tvg-name="Ocean Vibes Italia (sperimentale)" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IT18000076Y_20260528T053611SQUARE.png" group-title="DOCUMENTARI E SCIENZA",Ocean Vibes Italia (sperimentale)
+https://jmp2.uk/stvp-IT18000076Y
+
+#EXTINF:-1 tvg-chno="142" tvg-name="Pluto TV Documentari (Italia - sperimentale)" tvg-logo="https://images.pluto.tv/channels/608aa8a5709d6b0007b132fe/colorLogoPNG.png" tvg-id="608aa8a5709d6b0007b132fe" group-title="DOCUMENTARI E SCIENZA",Pluto TV Documentari (Italia - sperimentale)
 https://jmp2.uk/plu-608aa8a5709d6b0007b132fe.m3u8
 
-#EXTINF:-1 tvg-chno="140" tvg-name="Pluto TV Natura (Italia - sperimentale)" tvg-logo="https://images.pluto.tv/channels/60802b37709d6b0007b0c549/colorLogoPNG.png" tvg-id="60802b37709d6b0007b0c549" group-title="DOCUMENTARI E SCIENZA",Pluto TV Natura (Italia - sperimentale)
+#EXTINF:-1 tvg-chno="143" tvg-name="Pluto TV Natura (Italia - sperimentale)" tvg-logo="https://images.pluto.tv/channels/60802b37709d6b0007b0c549/colorLogoPNG.png" tvg-id="60802b37709d6b0007b0c549" group-title="DOCUMENTARI E SCIENZA",Pluto TV Natura (Italia - sperimentale)
 https://jmp2.uk/plu-60802b37709d6b0007b0c549.m3u8
 
-#EXTINF:-1 tvg-chno="141" tvg-name="Pluto TV Storia (Italia - sperimentale)" tvg-logo="https://images.pluto.tv/channels/65253fdf3fd33c00080214a3/colorLogoPNG.png" tvg-id="65253fdf3fd33c00080214a3" group-title="DOCUMENTARI E SCIENZA",Pluto TV Storia (Italia - sperimentale)
+#EXTINF:-1 tvg-chno="144" tvg-name="Pluto TV Storia (Italia - sperimentale)" tvg-logo="https://images.pluto.tv/channels/65253fdf3fd33c00080214a3/colorLogoPNG.png" tvg-id="65253fdf3fd33c00080214a3" group-title="DOCUMENTARI E SCIENZA",Pluto TV Storia (Italia - sperimentale)
 https://jmp2.uk/plu-65253fdf3fd33c00080214a3.m3u8
 
-#EXTINF:-1 tvg-chno="142" tvg-name="Space Live (sperimentale)" tvg-logo="https://images.pluto.tv/channels/69b1489b5828e7c242d83064/colorLogoPNG.png" tvg-id="69b1489b5828e7c242d83064" group-title="DOCUMENTARI E SCIENZA",Space Live (sperimentale)
+#EXTINF:-1 tvg-chno="145" tvg-name="Space Live (sperimentale)" tvg-logo="https://images.pluto.tv/channels/69b1489b5828e7c242d83064/colorLogoPNG.png" tvg-id="69b1489b5828e7c242d83064" group-title="DOCUMENTARI E SCIENZA",Space Live (sperimentale)
 https://jmp2.uk/plu-69b1489b5828e7c242d83064.m3u8
 
-#EXTINF:-1 tvg-chno="143" tvg-name="Sen SpaceTV-1 - viste ISS (sperimentale)" tvg-logo="https://www.google.com/s2/favicons?domain=sen.com&sz=256" tvg-id="rocktv.ch143" group-title="DOCUMENTARI E SCIENZA",Sen SpaceTV-1 - viste ISS (sperimentale)
+#EXTINF:-1 tvg-chno="146" tvg-name="Sen SpaceTV-1 - viste ISS (sperimentale)" tvg-logo="https://www.google.com/s2/favicons?domain=sen.com&sz=256" tvg-id="rocktv.ch146" group-title="DOCUMENTARI E SCIENZA",Sen SpaceTV-1 - viste ISS (sperimentale)
 https://linear-1224.frequency.stream/dist/lg-uk/1224/hls/master/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="144" tvg-name="Space Live by Sen - stream alternativo (sperimentale)" tvg-logo="https://www.google.com/s2/favicons?domain=sen.com&sz=256" tvg-id="rocktv.ch144" group-title="DOCUMENTARI E SCIENZA",Space Live by Sen - stream alternativo (sperimentale)
+#EXTINF:-1 tvg-chno="147" tvg-name="Space Live by Sen - stream alternativo (sperimentale)" tvg-logo="https://www.google.com/s2/favicons?domain=sen.com&sz=256" tvg-id="rocktv.ch147" group-title="DOCUMENTARI E SCIENZA",Space Live by Sen - stream alternativo (sperimentale)
 https://d111bsx9oooqoh.cloudfront.net/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="145" tvg-name="Pluto TV Paranormal (Italia - sperimentale)" tvg-logo="https://images.pluto.tv/channels/66c70033b1a34600087bb09a/colorLogoPNG.png" tvg-id="66c70033b1a34600087bb09a" group-title="DOCUMENTARI E SCIENZA",Pluto TV Paranormal (Italia - sperimentale)
+#EXTINF:-1 tvg-chno="148" tvg-name="Pluto TV Paranormal (Italia - sperimentale)" tvg-logo="https://images.pluto.tv/channels/66c70033b1a34600087bb09a/colorLogoPNG.png" tvg-id="66c70033b1a34600087bb09a" group-title="DOCUMENTARI E SCIENZA",Pluto TV Paranormal (Italia - sperimentale)
 https://jmp2.uk/plu-66c70033b1a34600087bb09a.m3u8
 
-#EXTINF:-1 tvg-chno="146" tvg-name="Pluto TV True Crime (Italia - sperimentale)" tvg-logo="https://images.pluto.tv/channels/66d9ab4bf0f17500084e9b7e/colorLogoPNG.png" tvg-id="66d9ab4bf0f17500084e9b7e" group-title="DOCUMENTARI E SCIENZA",Pluto TV True Crime (Italia - sperimentale)
+#EXTINF:-1 tvg-chno="149" tvg-name="Pluto TV True Crime (Italia - sperimentale)" tvg-logo="https://images.pluto.tv/channels/66d9ab4bf0f17500084e9b7e/colorLogoPNG.png" tvg-id="66d9ab4bf0f17500084e9b7e" group-title="DOCUMENTARI E SCIENZA",Pluto TV True Crime (Italia - sperimentale)
 https://jmp2.uk/plu-66d9ab4bf0f17500084e9b7e.m3u8
 
-#EXTINF:-1 tvg-chno="147" tvg-name="MAN-GA" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/236-manga.png" tvg-id="rocktv.ch147" group-title="ANIME", MAN-GA
+#EXTINF:-1 tvg-chno="150" tvg-name="Webcam - Orsi polari San Diego Zoo (sperimentale)" tvg-logo="https://www.google.com/s2/favicons?domain=sandiegozoo.org&sz=256" tvg-id="rocktv.ch150" group-title="WEBCAM ANIMALI",Webcam - Orsi polari San Diego Zoo (sperimentale)
+https://polarplunge.hls.camzonecdn.com/CamzoneStreams/polarplunge/Playlist.m3u8
+
+#EXTINF:-1 tvg-chno="151" tvg-name="Webcam - Pinguini San Diego Zoo (sperimentale)" tvg-logo="https://www.google.com/s2/favicons?domain=sandiegozoo.org&sz=256" tvg-id="rocktv.ch151" group-title="WEBCAM ANIMALI",Webcam - Pinguini San Diego Zoo (sperimentale)
+https://zssd-penguin.hls.camzonecdn.com/CamzoneStreams/zssd-penguin/Playlist.m3u8
+
+#EXTINF:-1 tvg-chno="152" tvg-name="Webcam - Panda gigante San Diego Zoo (sperimentale)" tvg-logo="https://www.google.com/s2/favicons?domain=sandiegozoo.org&sz=256" tvg-id="rocktv.ch152" group-title="WEBCAM ANIMALI",Webcam - Panda gigante San Diego Zoo (sperimentale)
+https://zssd-panda2024.hls.camzonecdn.com/CamzoneStreams/zssd-panda2024/Playlist.m3u8
+
+#EXTINF:-1 tvg-chno="153" tvg-name="Webcam - Elefanti marini California (sperimentale)" tvg-logo="https://www.google.com/s2/favicons?domain=parks.ca.gov&sz=256" tvg-id="rocktv.ch153" group-title="WEBCAM ANIMALI",Webcam - Elefanti marini California (sperimentale)
+https://video.parks.ca.gov/Hearst/Piedras.stream/playlist.m3u8
+
+#EXTINF:-1 tvg-chno="154" tvg-name="MAN-GA" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/236-manga.png" tvg-id="rocktv.ch154" group-title="ANIME", MAN-GA
 #EXTSIZE: Medium
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
 https://streamcdnr9-c65b9e710bde44819015af98e72cd7ab.msvdn.net/live/S93572876/aILSQPYFY3pF/manifest.mpd
 
-#EXTINF:-1 tvg-chno="148" tvg-name="Pluto TV Anime (sperimentale)" tvg-logo="https://images.pluto.tv/channels/5812b7d3249444e05d09cc49/colorLogoPNG.png" tvg-id="5812b7d3249444e05d09cc49" group-title="ANIME",Pluto TV Anime (sperimentale)
+#EXTINF:-1 tvg-chno="155" tvg-name="Pluto TV Anime (sperimentale)" tvg-logo="https://images.pluto.tv/channels/5812b7d3249444e05d09cc49/colorLogoPNG.png" tvg-id="5812b7d3249444e05d09cc49" group-title="ANIME",Pluto TV Anime (sperimentale)
 https://jmp2.uk/plu-5812b7d3249444e05d09cc49.m3u8
 
-#EXTINF:-1 tvg-chno="149" tvg-name="Pluto TV Anime Italia (sperimentale)" tvg-logo="https://images.pluto.tv/channels/65b90daed77d450008a43345/colorLogoPNG.png" tvg-id="65b90daed77d450008a43345" group-title="ANIME",Pluto TV Anime Italia (sperimentale)
+#EXTINF:-1 tvg-chno="156" tvg-name="Pluto TV Anime Italia (sperimentale)" tvg-logo="https://images.pluto.tv/channels/65b90daed77d450008a43345/colorLogoPNG.png" tvg-id="65b90daed77d450008a43345" group-title="ANIME",Pluto TV Anime Italia (sperimentale)
 https://jmp2.uk/plu-65b90daed77d450008a43345.m3u8
 
-#EXTINF:-1 tvg-chno="150" tvg-name="PFL MMA (sperimentale)" tvg-logo="https://provider-static.plex.tv/epg/cms/production/96dd0531-b500-4bd4-93ca-763cbf46defe/1500x1000_PFL_SHIELD_DARK_BG_-_Allie_Dinsmore.png" tvg-id="6334a574605f140007e233c4" group-title="WRESTLING E MMA",PFL MMA (sperimentale)
+#EXTINF:-1 tvg-chno="157" tvg-name="PFL MMA (sperimentale)" tvg-logo="https://provider-static.plex.tv/epg/cms/production/96dd0531-b500-4bd4-93ca-763cbf46defe/1500x1000_PFL_SHIELD_DARK_BG_-_Allie_Dinsmore.png" tvg-id="6334a574605f140007e233c4" group-title="WRESTLING E MMA",PFL MMA (sperimentale)
 https://jmp2.uk/plu-6334a574605f140007e233c4.m3u8
 
-#EXTINF:-1 tvg-chno="151" tvg-name="TNA Wrestling (sperimentale)" tvg-logo="https://provider-static.plex.tv/epg/cms/production/5d4f68c3-82af-45e7-b2c4-39aff69f3ce0/TNAWrestling_Plex_LogoforDarkBG_1500x1000_-_Alex_TushinghamRDX.png" tvg-id="59b722526996084038c01e1b" group-title="WRESTLING E MMA",TNA Wrestling (sperimentale)
+#EXTINF:-1 tvg-chno="158" tvg-name="TNA Wrestling (sperimentale)" tvg-logo="https://provider-static.plex.tv/epg/cms/production/5d4f68c3-82af-45e7-b2c4-39aff69f3ce0/TNAWrestling_Plex_LogoforDarkBG_1500x1000_-_Alex_TushinghamRDX.png" tvg-id="59b722526996084038c01e1b" group-title="WRESTLING E MMA",TNA Wrestling (sperimentale)
 https://jmp2.uk/plu-59b722526996084038c01e1b.m3u8
 
-#EXTINF:-1 tvg-chno="152" tvg-id="ACI.Sport.TV.HD.it" tvg-name="ACI Sport TV HD" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/402-acisporttvhd.png" group-title="MOTORSPORT", ACI Sport TV HD
+#EXTINF:-1 tvg-chno="159" tvg-id="ACI.Sport.TV.HD.it" tvg-name="ACI Sport TV HD" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/402-acisporttvhd.png" group-title="MOTORSPORT", ACI Sport TV HD
 #EXTSIZE: Medium
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
 https://webstream.multistream.it/memfs/e2cb3629-c1a2-495b-b43a-9eb386f04ed8_output_0.m3u8
 
-#EXTINF:-1 tvg-chno="153" tvg-name="Rally.TV FAST+" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/412-rallytv.png" tvg-id="rocktv.ch153" group-title="MOTORSPORT", Rally.TV FAST+
+#EXTINF:-1 tvg-chno="160" tvg-name="Rally.TV FAST+" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/412-rallytv.png" tvg-id="rocktv.ch160" group-title="MOTORSPORT", Rally.TV FAST+
 #EXTSIZE: Medium
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
 https://dv1e2nq0r4g7p.cloudfront.net/v1/manifest/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-n8rallqdrsy49/cd1d84f8-1ec7-4b5b-9573-1179500ce4fa/0.m3u8
 
-#EXTINF:-1 tvg-chno="154" tvg-name="Red Bull TV" tvg-logo="https://www.google.com/s2/favicons?domain=redbull.com&sz=256" tvg-id="rocktv.ch154" group-title="MOTORSPORT",Red Bull TV
+#EXTINF:-1 tvg-chno="161" tvg-name="Red Bull TV" tvg-logo="https://www.google.com/s2/favicons?domain=redbull.com&sz=256" tvg-id="rocktv.ch161" group-title="MOTORSPORT",Red Bull TV
 https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_3360.m3u8
 
-#EXTINF:-1 tvg-chno="155" tvg-name="Motorvision+ (English)" tvg-logo="https://www.google.com/s2/favicons?domain=motorvision.tv&sz=256" tvg-id="rocktv.ch155" group-title="MOTORSPORT",Motorvision+ (English)
+#EXTINF:-1 tvg-chno="162" tvg-name="Motorvision+ (English)" tvg-logo="https://www.google.com/s2/favicons?domain=motorvision.tv&sz=256" tvg-id="rocktv.ch162" group-title="MOTORSPORT",Motorvision+ (English)
 https://r.eu.cdn-redge.media/livehls/oeu/mt/live/motorvision_en/live.livx/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="156" tvg-name="Rock TV (Romania)" tvg-logo="https://i.imgur.com/Y9miDQo.png" tvg-id="rocktv.ch156" group-title="ROCK TV",Rock TV (Romania)
+#EXTINF:-1 tvg-chno="163" tvg-name="Rock TV (Romania)" tvg-logo="https://i.imgur.com/Y9miDQo.png" tvg-id="rocktv.ch163" group-title="ROCK TV",Rock TV (Romania)
 https://tv.broadcasting.ro/rocktv/85c83a80-4f71-4f2d-a8d6-43f676896bcb.m3u8
 
-#EXTINF:-1 tvg-chno="157" tvg-name="XITE Rock x Metal" tvg-logo="https://images.pluto.tv/channels/623a1b5188ecdc0007c9ef5a/colorLogoPNG.png" tvg-id="rocktv.ch157" group-title="ROCK TV",XITE Rock x Metal
+#EXTINF:-1 tvg-chno="164" tvg-name="XITE Rock x Metal" tvg-logo="https://images.pluto.tv/channels/623a1b5188ecdc0007c9ef5a/colorLogoPNG.png" tvg-id="rocktv.ch164" group-title="ROCK TV",XITE Rock x Metal
 https://d198ro05q94rc4.cloudfront.net/XITE_Rock_On.m3u8
 
-#EXTINF:-1 tvg-chno="158" tvg-name="XITE Rock On - stream alternativo (sperimentale)" tvg-logo="https://images.pluto.tv/channels/623a1b5188ecdc0007c9ef5a/colorLogoPNG.png" tvg-id="623a1b5188ecdc0007c9ef5a" group-title="ROCK TV",XITE Rock On - stream alternativo (sperimentale)
+#EXTINF:-1 tvg-chno="165" tvg-name="XITE Rock On - stream alternativo (sperimentale)" tvg-logo="https://images.pluto.tv/channels/623a1b5188ecdc0007c9ef5a/colorLogoPNG.png" tvg-id="623a1b5188ecdc0007c9ef5a" group-title="ROCK TV",XITE Rock On - stream alternativo (sperimentale)
 https://jmp2.uk/plu-623a1b5188ecdc0007c9ef5a.m3u8
 
-#EXTINF:-1 tvg-chno="159" tvg-name="Vevo Rock (sperimentale)" tvg-logo="https://images.pluto.tv/channels/61d4b38226b8a50007fe03a6/colorLogoPNG.png" tvg-id="61d4b38226b8a50007fe03a6" group-title="ROCK TV",Vevo Rock (sperimentale)
+#EXTINF:-1 tvg-chno="166" tvg-name="Vevo Rock (sperimentale)" tvg-logo="https://images.pluto.tv/channels/61d4b38226b8a50007fe03a6/colorLogoPNG.png" tvg-id="61d4b38226b8a50007fe03a6" group-title="ROCK TV",Vevo Rock (sperimentale)
 https://jmp2.uk/plu-61d4b38226b8a50007fe03a6.m3u8
 
-#EXTINF:-1 tvg-chno="160" tvg-name="Vevo 2K (sperimentale)" tvg-logo="https://images.pluto.tv/channels/5fd7bca3e0a4ee0007a38e8c/colorLogoPNG.png" tvg-id="5fd7bca3e0a4ee0007a38e8c" group-title="ROCK TV",Vevo 2K (sperimentale)
+#EXTINF:-1 tvg-chno="167" tvg-name="Vevo 2K (sperimentale)" tvg-logo="https://images.pluto.tv/channels/5fd7bca3e0a4ee0007a38e8c/colorLogoPNG.png" tvg-id="5fd7bca3e0a4ee0007a38e8c" group-title="ROCK TV",Vevo 2K (sperimentale)
 https://jmp2.uk/plu-5fd7bca3e0a4ee0007a38e8c.m3u8
 
-#EXTINF:-1 tvg-chno="161" tvg-name="Metaleitor TV - alternativa Metal TV Core (sperimentale)" tvg-logo="https://new.opencaster.com/uploads/logos/logo_14_1752798826.png" tvg-id="rocktv.ch161" group-title="ROCK TV",Metaleitor TV - alternativa Metal TV Core (sperimentale)
+#EXTINF:-1 tvg-chno="168" tvg-name="Metaleitor TV - alternativa Metal TV Core (sperimentale)" tvg-logo="https://new.opencaster.com/uploads/logos/logo_14_1752798826.png" tvg-id="rocktv.ch168" group-title="ROCK TV",Metaleitor TV - alternativa Metal TV Core (sperimentale)
 https://vs20.live.opencaster.com/metaleitortv_423d3342/index.m3u8
 
-#EXTINF:-1 tvg-chno="162" tvg-name="Metal.Rocks (sperimentale)" tvg-logo="https://www.google.com/s2/favicons?domain=metal.rocks&sz=256" tvg-id="rocktv.ch162" group-title="ROCK TV",Metal.Rocks (sperimentale)
+#EXTINF:-1 tvg-chno="169" tvg-name="Metal.Rocks (sperimentale)" tvg-logo="https://www.google.com/s2/favicons?domain=metal.rocks&sz=256" tvg-id="rocktv.ch169" group-title="ROCK TV",Metal.Rocks (sperimentale)
 https://amg00771-amg00771c5-rakuten-gb-9713.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg00771-kochfilmsfast-metalrocks-rakutengb/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="163" tvg-name="That's Rock (Italia - sperimentale)" tvg-logo="https://images.pluto.tv/channels/69ef5682980899a9edf1a884/colorLogoPNG.png" tvg-id="69ef5682980899a9edf1a884" group-title="ROCK TV",That's Rock (Italia - sperimentale)
+#EXTINF:-1 tvg-chno="170" tvg-name="That's Rock (Italia - sperimentale)" tvg-logo="https://images.pluto.tv/channels/69ef5682980899a9edf1a884/colorLogoPNG.png" tvg-id="69ef5682980899a9edf1a884" group-title="ROCK TV",That's Rock (Italia - sperimentale)
 https://jmp2.uk/plu-69ef5682980899a9edf1a884.m3u8
 
-#EXTINF:-1 tvg-chno="164" tvg-name="181.FM - Rock 181" tvg-logo="https://www.google.com/s2/favicons?domain=181.fm&sz=256" tvg-id="rocktv.ch164" group-title="RADIO ROCK",181.FM - Rock 181
+#EXTINF:-1 tvg-chno="171" tvg-name="181.FM - Rock 181" tvg-logo="https://www.google.com/s2/favicons?domain=181.fm&sz=256" tvg-id="rocktv.ch171" group-title="RADIO ROCK",181.FM - Rock 181
 https://listen.181fm.com/181-rock_128k.mp3
 
-#EXTINF:-1 tvg-chno="165" tvg-name="ROCK ANTENNE - Modern Rock" tvg-logo="https://www.rockantenne.de/media/cache/3/version/14/ra-v1.jpg/03af5f7d2e5346c0.jpg" tvg-id="rocktv.ch165" group-title="RADIO ROCK",ROCK ANTENNE - Modern Rock
+#EXTINF:-1 tvg-chno="172" tvg-name="ROCK ANTENNE - Modern Rock" tvg-logo="https://www.rockantenne.de/media/cache/3/version/14/ra-v1.jpg/03af5f7d2e5346c0.jpg" tvg-id="rocktv.ch172" group-title="RADIO ROCK",ROCK ANTENNE - Modern Rock
 https://stream.rockantenne.de/modern-rock/stream/mp3
 
-#EXTINF:-1 tvg-chno="166" tvg-name="ROCK ANTENNE - Modern Metal" tvg-logo="https://www.rockantenne.de/media/cache/3/version/14/ra-v1.jpg/03af5f7d2e5346c0.jpg" tvg-id="rocktv.ch166" group-title="RADIO ROCK",ROCK ANTENNE - Modern Metal
+#EXTINF:-1 tvg-chno="173" tvg-name="ROCK ANTENNE - Modern Metal" tvg-logo="https://www.rockantenne.de/media/cache/3/version/14/ra-v1.jpg/03af5f7d2e5346c0.jpg" tvg-id="rocktv.ch173" group-title="RADIO ROCK",ROCK ANTENNE - Modern Metal
 https://stream.rockantenne.de/modern-metal/stream/mp3
 
-#EXTINF:-1 tvg-chno="167" tvg-name="ROCK ANTENNE - Hard Rock" tvg-logo="https://www.rockantenne.de/media/cache/3/version/14/ra-v1.jpg/03af5f7d2e5346c0.jpg" tvg-id="rocktv.ch167" group-title="RADIO ROCK",ROCK ANTENNE - Hard Rock
+#EXTINF:-1 tvg-chno="174" tvg-name="ROCK ANTENNE - Hard Rock" tvg-logo="https://www.rockantenne.de/media/cache/3/version/14/ra-v1.jpg/03af5f7d2e5346c0.jpg" tvg-id="rocktv.ch174" group-title="RADIO ROCK",ROCK ANTENNE - Hard Rock
 https://stream.rockantenne.de/rock-antenne-hard-rock/stream/mp3
 
-#EXTINF:-1 tvg-chno="168" tvg-name="ROCK ANTENNE - Alternative" tvg-logo="https://www.rockantenne.de/media/cache/3/version/14/ra-v1.jpg/03af5f7d2e5346c0.jpg" tvg-id="rocktv.ch168" group-title="RADIO ROCK",ROCK ANTENNE - Alternative
+#EXTINF:-1 tvg-chno="175" tvg-name="ROCK ANTENNE - Alternative" tvg-logo="https://www.rockantenne.de/media/cache/3/version/14/ra-v1.jpg/03af5f7d2e5346c0.jpg" tvg-id="rocktv.ch175" group-title="RADIO ROCK",ROCK ANTENNE - Alternative
 https://stream.rockantenne.de/alternative/stream/mp3
 
-#EXTINF:-1 tvg-chno="169" tvg-name="TheBlast.FM - Christian Rock (verificare)" tvg-logo="https://www.google.com/s2/favicons?domain=theblast.fm&sz=256" tvg-id="rocktv.ch169" group-title="RADIO ROCK",TheBlast.FM - Christian Rock (verificare)
+#EXTINF:-1 tvg-chno="176" tvg-name="TheBlast.FM - Christian Rock (verificare)" tvg-logo="https://www.google.com/s2/favicons?domain=theblast.fm&sz=256" tvg-id="rocktv.ch176" group-title="RADIO ROCK",TheBlast.FM - Christian Rock (verificare)
 https://mediacp.theblast.fm/stream/theblast
