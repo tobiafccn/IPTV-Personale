@@ -8,7 +8,7 @@ https://raw.githubusercontent.com/tobiafccn/RockTV-Personale/main/playlist-rock-
 
 ## Ordine ispirato al digitale terrestre
 
-La playlist rispetta l'ordine dei canali approvato il 20/11/2026. I canali della sezione iniziale sono numerati secondo l'LCN della fonte OpenIPTVItaly (da 1 a 70, con i numeri mancanti lasciati vuoti); gli altri canali sono numerati senza interruzioni da 101 a 177.
+La playlist rispetta l'ordine dei canali approvato il 20/11/2026. I canali della sezione iniziale sono numerati secondo l'LCN della fonte OpenIPTVItaly (da 1 a 70, con i numeri mancanti lasciati vuoti); gli altri canali sono numerati senza interruzioni da 101 a 178.
 
 | Gruppo | Canali | Numerazione |
 |---|---:|---|
@@ -17,14 +17,14 @@ La playlist rispetta l'ordine dei canali approvato il 20/11/2026. I canali della
 | FILM E SERIE | 8 | 118–125 |
 | NEWS E INFORMAZIONE | 7 | 126–132 |
 | DOCUMENTARI E SCIENZA | 17 | 133–149 |
-| WEBCAM ANIMALI | 5 | 150–154 |
-| ANIME | 3 | 155–157 |
-| WRESTLING E MMA | 2 | 158–159 |
-| MOTORSPORT | 4 | 160–163 |
-| ROCK TV | 8 | 164–171 |
-| RADIO ROCK | 6 | 172–177 |
+| WEBCAM ANIMALI | 6 | 150–155 |
+| ANIME | 3 | 156–158 |
+| WRESTLING E MMA | 2 | 159–160 |
+| MOTORSPORT | 4 | 161–164 |
+| ROCK TV | 8 | 165–172 |
+| RADIO ROCK | 6 | 173–178 |
 
-**Totale: 134 canali.** I numeri 71–100 sono lasciati liberi per distinguere i canali dell'antenna da quelli extra.
+**Totale: 135 canali.** I numeri 71–100 sono lasciati liberi per distinguere i canali dell'antenna da quelli extra.
 
 Le posizioni di Rai 1, Rai 2, Rai 3, Rete 4, Canale 5, Italia 1, LA7, TV8, NOVE e degli altri canali italiani principali non sono state modificate. Le reti già eliminate rimangono escluse.
 
@@ -208,3 +208,9 @@ La webcam **Newport Sea Lion Docks** osserva leoni marini selvatici nella baia d
 ## Esito test webcam Oregon e WildlifeKate — 22 novembre 2026
 
 La webcam **leoni marini selvatici Oregon** (precedente posizione 111) non riproduceva immagini, restando in caricamento, quindi è stata eliminata dal generatore e aggiunta alle esclusioni permanenti (69 in totale). La webcam **uccelli selvatici WildlifeKate UK** (precedente posizione 112) è invece confermata funzionante, ma il logo favicon non veniva visualizzato. Lo streaming non è stato modificato; il logo è stato sostituito con un file PNG ufficiale del sito WildlifeKate (`WLKTransparentWHITE.png`, static.wixstatic.com). La nuova posizione dell'unica webcam WildlifeKate è **111**. La visualizzazione del nuovo logo sul dispositivo è da verificare. La playlist comprende **134 canali**.
+
+## Webcam delfini — 22 novembre 2026
+
+Aggiunta in **WEBCAM ANIMALI** una webcam sperimentale denominata **Webcam - Delfini Clearwater Marine Aquarium (sperimentale)**, basata su un collegamento HLS di Ozolio pubblicato in una playlist di terzi: https://use01-smr04-relay.ozolio.com/hls-live/_definst_/relay01.zemocxr.fd0.sm1.av2.mt0.at0.as0.dv0.sh2.rt20687.rc0.edge.basic.stream/playlist.m3u8
+
+La struttura gestisce delfini recuperati e assistiti nelle Florida Keys/Florida; questa webcam è attribuita alla struttura da un elenco pubblico, ma **l'esatta corrispondenza tra il feed e la telecamera è da confermare con la prova in TiViMate**. Non va confusa con una webcam di delfini liberi in mare. Il collegamento non è stato collaudato sulla Fire TV e potrebbe essere offline o mostrare un contenuto diverso. Le webcam di orche selvatiche disponibili su Orca Conservancy e OrcaLab utilizzano prevalentemente YouTube o Explore.org; non è stato trovato un flusso M3U8 diretto verificato da aggiungere. La webcam delle **foche elefante selvatiche** a Piedras Blancas è già nella playlist come *Elefanti marini California*, e le webcam degli orsi polari e pinguini di San Diego erano già funzionanti. I 134 vecchi stream sono rimasti invariati, insieme alle 69 esclusioni.
