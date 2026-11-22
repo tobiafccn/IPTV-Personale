@@ -8,7 +8,7 @@ https://raw.githubusercontent.com/tobiafccn/RockTV-Personale/main/playlist-rock-
 
 ## Ordine ispirato al digitale terrestre
 
-La playlist rispetta l'ordine dei canali approvato il 20/11/2026. I canali della sezione iniziale sono numerati secondo l'LCN della fonte OpenIPTVItaly (da 1 a 70, con i numeri mancanti lasciati vuoti); gli altri canali sono numerati senza interruzioni da 101 a 165.
+La playlist rispetta l'ordine dei canali approvato il 20/11/2026. I canali della sezione iniziale sono numerati secondo l'LCN della fonte OpenIPTVItaly (da 1 a 70, con i numeri mancanti lasciati vuoti); gli altri canali sono numerati senza interruzioni da 101 a 172.
 
 | Gruppo | Canali | Numerazione |
 |---|---:|---|
@@ -16,14 +16,14 @@ La playlist rispetta l'ordine dei canali approvato il 20/11/2026. I canali della
 | TV ITALIANA EXTRA | 17 | 101–117 |
 | FILM E SERIE | 8 | 118–125 |
 | NEWS E INFORMAZIONE | 7 | 126–132 |
-| DOCUMENTARI E SCIENZA | 10 | 133–142 |
-| ANIME | 3 | 143–145 |
-| WRESTLING E MMA | 2 | 146–147 |
-| MOTORSPORT | 4 | 148–151 |
-| ROCK TV | 8 | 152–159 |
-| RADIO ROCK | 6 | 160–165 |
+| DOCUMENTARI E SCIENZA | 17 | 133–149 |
+| ANIME | 3 | 150–152 |
+| WRESTLING E MMA | 2 | 153–154 |
+| MOTORSPORT | 4 | 155–158 |
+| ROCK TV | 8 | 159–166 |
+| RADIO ROCK | 6 | 167–172 |
 
-**Totale: 122 canali.** I numeri 71–100 sono lasciati liberi per distinguere i canali dell'antenna da quelli extra.
+**Totale: 129 canali.** I numeri 71–100 sono lasciati liberi per distinguere i canali dell'antenna da quelli extra.
 
 Le posizioni di Rai 1, Rai 2, Rai 3, Rete 4, Canale 5, Italia 1, LA7, TV8, NOVE e degli altri canali italiani principali non sono state modificate. Le reti già eliminate rimangono escluse.
 
@@ -113,3 +113,17 @@ Fonti: immagini dei canali Pluto TV, directory pubbliche di loghi e siti dei bro
 Per risolvere la dicitura **«Nessuna informazione»** sui canali FAST, è stato preparato \`build_epg.py\` per creare una guida XMLTV compressa \`epg-rock-tv.xml.gz\` dai dati EPGShare Italia e Pluto TV Italia, con Pluto TV USA come fonte aggiuntiva facoltativa. La guida conserva gli ID esistenti delle reti nazionali, usa gli ID originali dei canali Pluto e cerca abbinamenti esatti per alcune reti aggiuntive. Quando la generazione termina correttamente, l'intestazione della M3U punta automaticamente a un'unica guida: \`https://raw.githubusercontent.com/tobiafccn/RockTV-Personale/main/epg-rock-tv.xml.gz\`.
 
 **Limiti:** per emittenti che non forniscono una programmazione pubblica compatibile potrà ancora comparire «Nessuna informazione». Il processo non crea titoli di trasmissioni immaginari. Se una fonte obbligatoria manca o il risultato è anomalo, la pubblicazione viene bloccata per non sovrascrivere la guida precedente. Non sono stati modificati gli stream, i loghi o la numerazione. La prima generazione GitHub Actions deve essere completata e verificata prima di considerare la guida operativa.
+
+## Nuove dirette Terra e safari — 22 novembre 2026
+
+Aggiunte 3 sorgenti HLS sperimentali per l'osservazione della Terra dalla ISS e 4 webcam Africam della fauna africana:
+
+- **Africam - Elephant Park (sperimentale)**: https://outbound-production.explore.org/stream-production-110/.m3u8
+- **Africam - Tau Waterhole (sperimentale)**: https://outbound-production.explore.org/stream-production-317/.m3u8
+- **Africam - Rosies Pan (sperimentale)**: https://outbound-production.explore.org/stream-production-108/.m3u8
+- **Africam - Safari Cam 4 (sperimentale)**: https://outbound-production.explore.org/stream-production-49/.m3u8
+- **Sen SpaceTV-1 - viste ISS (sperimentale)**: https://linear-1224.frequency.stream/dist/lg-uk/1224/hls/master/playlist.m3u8
+- **NASA ISS - Terra in diretta (relay sperimentale)**: https://hls.youtb.workers.dev/video/0P41gTF-Nl4.m3u8
+- **Space Live by Sen - stream alternativo (sperimentale)**: https://d111bsx9oooqoh.cloudfront.net/playlist.m3u8
+
+Le due sorgenti **Sen / Space Live** possono trasmettere gli stessi contenuti; la vista verso il basso (*nadir*) non è garantita in ogni momento. Il canale NASA usa un **relay HLS di terzi per un video YouTube NASA** e può smettere di funzionare. I quattro flussi Africam/Explore.org provengono da playlist pubbliche e devono essere verificati su TiViMate; una webcam live può non mostrare sempre animali. Tutti e sette i flussi sono **sperimentali e non collaudati sulla Fire TV**. La playlist continua a conservare tutti i 122 stream precedenti, 54 esclusioni, i loghi e i numeri LCN originali; il generatore automatico manterrà le aggiunte.
