@@ -8,7 +8,7 @@ https://raw.githubusercontent.com/tobiafccn/RockTV-Personale/main/playlist-rock-
 
 ## Ordine ispirato al digitale terrestre
 
-La playlist rispetta l'ordine dei canali approvato il 20/11/2026. I canali della sezione iniziale sono numerati secondo l'LCN della fonte OpenIPTVItaly (da 1 a 70, con i numeri mancanti lasciati vuoti); gli altri canali sono numerati senza interruzioni da 101 a 167.
+La playlist rispetta l'ordine dei canali approvato il 20/11/2026. I canali della sezione iniziale sono numerati secondo l'LCN della fonte OpenIPTVItaly (da 1 a 70, con i numeri mancanti lasciati vuoti); gli altri canali sono numerati senza interruzioni da 101 a 170.
 
 | Gruppo | Canali | Numerazione |
 |---|---:|---|
@@ -16,14 +16,14 @@ La playlist rispetta l'ordine dei canali approvato il 20/11/2026. I canali della
 | TV ITALIANA EXTRA | 17 | 101–117 |
 | FILM E SERIE | 8 | 118–125 |
 | NEWS E INFORMAZIONE | 7 | 126–132 |
-| DOCUMENTARI E SCIENZA | 12 | 133–144 |
-| ANIME | 3 | 145–147 |
-| WRESTLING E MMA | 2 | 148–149 |
-| MOTORSPORT | 4 | 150–153 |
-| ROCK TV | 8 | 154–161 |
-| RADIO ROCK | 6 | 162–167 |
+| DOCUMENTARI E SCIENZA | 15 | 133–147 |
+| ANIME | 3 | 148–150 |
+| WRESTLING E MMA | 2 | 151–152 |
+| MOTORSPORT | 4 | 153–156 |
+| ROCK TV | 8 | 157–164 |
+| RADIO ROCK | 6 | 165–170 |
 
-**Totale: 124 canali.** I numeri 71–100 sono lasciati liberi per distinguere i canali dell'antenna da quelli extra.
+**Totale: 127 canali.** I numeri 71–100 sono lasciati liberi per distinguere i canali dell'antenna da quelli extra.
 
 Le posizioni di Rai 1, Rai 2, Rai 3, Rete 4, Canale 5, Italia 1, LA7, TV8, NOVE e degli altri canali italiani principali non sono state modificate. Le reti già eliminate rimangono escluse.
 
@@ -166,3 +166,13 @@ In base alla prova pratica su TiViMate, sono stati eliminati **11 canali** senza
 Rimosse **Explore - Barriera corallina (sperimentale)** (vecchia posizione 98 nella lista di 137 canali) e **NASA ISS - Terra in diretta (relay sperimentale)** (vecchia posizione 111 nella lista di 137 canali). Entrambi davano errore di riproduzione sulla Fire TV. Sono stati esclusi permanentemente senza tentativi di riparazione.
 
 **Attenzione:** nella playlist a 126 voci la posizione 111 corrispondeva a Red Bull TV, che **non è stata rimossa**. Non sono stati alterati gli altri stream. Esclusioni attive: 67.
+
+## Documentari naturalistici aggiunti — 22 novembre 2026
+
+Aggiunti tre canali naturalistici FAST con i loghi Samsung TV Plus, identificativi EPG dei cataloghi ufficiali e flussi HLS raccolti pubblicamente:
+
+- **NatureTime Italia (sperimentale)** — `IT2100001EZ` — https://amg01515-amg01515c47-samsung-it-9436.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg01515-blueskyeentertainment-naturetimeemeaita-samsungit/playlist.m3u8
+- **Earth Touch TV (English - sperimentale)** — `GBBD3200001E2` — https://amg01823-earthtouch-amg01823c1-samsung-gb-862.playouts.now.amagi.tv/playlist/amg01823-earthtouch-earthtouch-samsunggb/playlist.m3u8
+- **Wild Planet (English - sperimentale)** — `GBBB5000002PL` — https://d1h8whhtg5u7om.cloudfront.net/WildPlanet_GB.m3u8
+
+**NatureTime**: sorgente Samsung TV Plus Italia. **Earth Touch TV** e **Wild Planet**: sorgenti per Samsung TV Plus Regno Unito, in inglese, che potrebbero essere soggette a blocchi territoriali. Tutti e tre i flussi devono ancora essere verificati su TiViMate Fire TV. L'avere un tvg-id e un logo non garantisce che il player carichi la guida TV. Tutti i precedenti 124 stream e le 67 esclusioni restano invariati; il generatore applica gli ID dei broadcaster anche negli aggiornamenti futuri.
