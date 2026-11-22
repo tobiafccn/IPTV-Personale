@@ -1,28 +1,45 @@
-name: Aggiorna canali TV e radio rock
+name: Aggiorna playlist e guida TV RockTV
 
 on:
   workflow_dispatch:
   schedule:
     - cron: '17 4 * * *'
+  # Rigenera la guida quando cambiano script o workflow.
+  # I commit dei dati generati NON riavviano il workflow.
+  push:
+    branches:
+      - main
+    paths:
+      - build_playlist.py
+      - build_epg.py
+      - .github/workflows/aggiorna.yml
 
 permissions:
   contents: write
 
+concurrency:
+  group: rocktv-epg
+  cancel-in-progress: false
+
 jobs:
   genera-playlist:
     runs-on: ubuntu-latest
+    timeout-minutes: 12
     steps:
       - name: Scarica il repository
         uses: actions/checkout@v4
-      - name: Genera il file M3U
+      - name: Genera playlist TV e radio
         run: python3 build_playlist.py
-      - name: Pubblica gli aggiornamenti
+      - name: Genera EPG Italia + Pluto TV
+        run: python3 build_epg.py
+      - name: Pubblica playlist e guida EPG
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add playlist-rock-tv.m3u LICENSE_OPENIPTVITALY.txt
+          git add playlist-rock-tv.m3u epg-rock-tv.xml.gz LICENSE_OPENIPTVITALY.txt
           if ! git diff --cached --quiet; then
-            git commit -m "Aggiorna canali TV e radio rock"
+            git commit -m "Aggiorna playlist e guida EPG RockTV"
+            git pull --rebase origin main
             git push
           else
             echo "Nessun aggiornamento necessario"
