@@ -196,6 +196,16 @@ def with_group_number(block, group, number):
     if logo_url:
         first = re.sub(r'\s+tvg-logo="[^"]*"', "", first)
         first += f' tvg-logo="{logo_url}"'
+    # Usa l'identificativo reale Pluto (per la relativa EPG), altrimenti
+    # un identificativo stabile per posizione, usato nella guida aggregata.
+    if not re.search(r'tvg-id="[^"]+"', first):
+        first = re.sub(r'\s+tvg-id="[^"]*"', "", first)
+        url = next((line.strip() for line in block[1:]
+                    if line.strip().startswith(("https://", "http://"))), "")
+        pluto_match = re.search(r'/plu-([0-9a-f]{24})\.m3u8', url)
+        epg_identifier = (pluto_match.group(1) if pluto_match
+                          else f"rocktv.ch{number}")
+        first += f' tvg-id="{epg_identifier}"'
     if re.search(r'tvg-chno="[^"]*"', first):
         first = re.sub(r'tvg-chno="[^"]*"', f'tvg-chno="{number}"', first)
     else:
