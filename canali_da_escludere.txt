@@ -86,3 +86,6 @@ NASA ISS - Terra in diretta (relay sperimentale)
 
 # Canale naturalistico non funzionante su TiViMate (22-11-2026)
 Earth Touch TV (English - sperimentale)
+
+# Stream leoni marini Oregon non funzionante su TiViMate (22-11-2026)
+Webcam - Leoni marini selvatici Oregon (sperimentale)
