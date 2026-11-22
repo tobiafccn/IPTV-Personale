@@ -90,7 +90,7 @@ https://hlslive-web-gcdn-skycdn-it.akamaized.net/TACT/11219/cieloweb/master.m3u8
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
 https://live03-col.msf.cdn.mediaset.net/live/ch-ts/ts-clr.isml/manifest.mpd
 
-#EXTINF:-1 tvg-chno="28" tvg-name="TV 2000" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/28-tv2000.png" group-title="DIGITALE TERRESTRE" tvg-id="rocktv.ch28", TV2000
+#EXTINF:-1 tvg-chno="28" tvg-name="TV 2000" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/28-tv2000.png" tvg-id="rocktv.ch28" group-title="DIGITALE TERRESTRE", TV2000
 #EXTSIZE: Medium
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
 https://hls-live-tv2000.akamaized.net/hls/live/2028510/tv2000/master.m3u8
@@ -215,7 +215,7 @@ https://live03-col.msf.cdn.mediaset.net/live/ch-kf/kf-clr.isml/manifest.mpd
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
 https://streaming.aurora.enhanced.live/live/mpc/enl0eG1mLmVncmVzcy5mZDJ2eHI=/out/v1/IT_SIMULCAST/DMAX/CMAF/index.m3u8
 
-#EXTINF:-1 tvg-chno="53" tvg-name="Italia 53" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/53-italia53.png" group-title="DIGITALE TERRESTRE" tvg-id="rocktv.ch53", Italia 53
+#EXTINF:-1 tvg-chno="53" tvg-name="Italia 53" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/53-italia53.png" tvg-id="rocktv.ch53" group-title="DIGITALE TERRESTRE", Italia 53
 #EXTSIZE: Medium
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
 https://liveac115b.b-cdn.net/canale3.smil/chunklist_b1100000.m3u8
@@ -255,12 +255,12 @@ https://streaming.aurora.enhanced.live/live/mpc/enl0eG1mLmVncmVzcy5mZDJ2eHI=/out
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
 https://sportsitalia-samsungitaly.amagi.tv/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="63" tvg-name="Canale 63" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/63-cs24.png" group-title="DIGITALE TERRESTRE" tvg-id="rocktv.ch63", Canale 63
+#EXTINF:-1 tvg-chno="63" tvg-name="Canale 63" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/63-cs24.png" tvg-id="rocktv.ch63" group-title="DIGITALE TERRESTRE", Canale 63
 #EXTSIZE: Medium
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
 https://ilsole24ore-radiovisual.akamaized.net/hls/live/2035302/persidera/master-3500.m3u8
 
-#EXTINF:-1 tvg-chno="65" tvg-name="Alma TV" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/65-almatv.png" group-title="DIGITALE TERRESTRE" tvg-id="rocktv.ch65", Alma TV
+#EXTINF:-1 tvg-chno="65" tvg-name="Alma TV" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/65-almatv.png" tvg-id="rocktv.ch65" group-title="DIGITALE TERRESTRE", Alma TV
 #EXTSIZE: Medium
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
 https://streaming.softwarecreation.it/AlmaTv/AlmaTv/playlist.m3u8
@@ -285,27 +285,27 @@ https://4c4b867c89244861ac216426883d1ad0.msvdn.net/live/S85984808/sMO0tz9Sr2Rk/p
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
 https://radioitaliatv.akamaized.net/hls/live/2093117/RadioitaliaTV/master.m3u8
 
-#EXTINF:-1 tvg-chno="101" tvg-name="Rai 4K" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/101-rai4K.png" group-title="TV ITALIANA EXTRA" tvg-id="rocktv.ch101", Rai 4K
+#EXTINF:-1 tvg-chno="101" tvg-name="Rai 4K" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/101-rai4K.png" tvg-id="rocktv.ch101" group-title="TV ITALIANA EXTRA", Rai 4K
 #EXTSIZE: Medium
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
 https://raievent10-elem-live.akamaized.net/hls/live/619189/raievent10/raievent10/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="102" tvg-name="FIFA+" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/102-fifa.png" group-title="TV ITALIANA EXTRA" tvg-id="rocktv.ch102", FIFA+
+#EXTINF:-1 tvg-chno="102" tvg-name="FIFA+" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/102-fifa.png" tvg-id="rocktv.ch102" group-title="TV ITALIANA EXTRA", FIFA+
 #EXTSIZE: Medium
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
 https://5d95f7d7.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWl0X0ZJRkFQbHVzSXRhbGlhbl9ITFM/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="103" tvg-name="Radio Kiss Kiss TV" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/158-kisskiss.png" group-title="TV ITALIANA EXTRA" tvg-id="rocktv.ch103", Radio Kiss Kiss TV
+#EXTINF:-1 tvg-chno="103" tvg-name="Radio Kiss Kiss TV" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/158-kisskiss.png" tvg-id="rocktv.ch103" group-title="TV ITALIANA EXTRA", Radio Kiss Kiss TV
 #EXTSIZE: Medium
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
 https://kk.fluid.stream/KKMulti/smil:KissKissTV.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="104" tvg-name="Rai Radio 2 Visual" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/202-rairadio2.png" group-title="TV ITALIANA EXTRA" tvg-id="rocktv.ch104", Rai Radio 2 Visual
+#EXTINF:-1 tvg-chno="104" tvg-name="Rai Radio 2 Visual" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/202-rairadio2.png" tvg-id="rocktv.ch104" group-title="TV ITALIANA EXTRA", Rai Radio 2 Visual
 #EXTSIZE: Medium
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
 https://visualradiodue3-live.akamaized.net/hls/live/2034078/visualradiodue3/visualradiodue3/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="105" tvg-name="Radio 24 - IlSole24OreTV" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/246-radio24.png" group-title="TV ITALIANA EXTRA" tvg-id="rocktv.ch105", Radio 24 - IlSole24OreTV
+#EXTINF:-1 tvg-chno="105" tvg-name="Radio 24 - IlSole24OreTV" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/246-radio24.png" tvg-id="rocktv.ch105" group-title="TV ITALIANA EXTRA", Radio 24 - IlSole24OreTV
 #EXTSIZE: Medium
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
 https://ilsole24ore-radiovisual.akamaized.net/hls/live/2035302/persidera/master.m3u8
@@ -320,78 +320,78 @@ https://smplu.link/xN1ckuz-GamberoRosso.m3u8
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
 https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S3160845/0tuSetc8UFkF/playlist_video.m3u8
 
-#EXTINF:-1 tvg-chno="108" tvg-name="Virgin Radio" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/263-virginradio.png" group-title="TV ITALIANA EXTRA" tvg-id="rocktv.ch108", Virgin Radio
+#EXTINF:-1 tvg-chno="108" tvg-name="Virgin Radio" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/263-virginradio.png" tvg-id="rocktv.ch108" group-title="TV ITALIANA EXTRA", Virgin Radio
 #EXTSIZE: Medium
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
 https://live03-seg.msr.cdn.mediaset.net/live/ch-ew/ew-clr.isml/manifest_hr.mpd
 
-#EXTINF:-1 tvg-chno="109" tvg-name="RDS Social TV" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/265-rdssocialtv.png" group-title="TV ITALIANA EXTRA" tvg-id="rocktv.ch109", RDS Social TV
+#EXTINF:-1 tvg-chno="109" tvg-name="RDS Social TV" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/265-rdssocialtv.png" tvg-id="rocktv.ch109" group-title="TV ITALIANA EXTRA", RDS Social TV
 #EXTSIZE: Medium
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
 https://stream.rdstv.radio/index.m3u8
 
-#EXTINF:-1 tvg-chno="110" tvg-name="Radio Zeta" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/266-radiozeta.png" group-title="TV ITALIANA EXTRA" tvg-id="rocktv.ch110", Radio Zeta
+#EXTINF:-1 tvg-chno="110" tvg-name="Radio Zeta" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/266-radiozeta.png" tvg-id="rocktv.ch110" group-title="TV ITALIANA EXTRA", Radio Zeta
 #EXTSIZE: Medium
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
 https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S9346184/XEx1LqlYbNic/playlist_video.m3u8
 
-#EXTINF:-1 tvg-chno="111" tvg-name="Hell's Kitchen Italy" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/404-hellskitchen.png" group-title="TV ITALIANA EXTRA" tvg-id="rocktv.ch111", Hell's Kitchen Italy
+#EXTINF:-1 tvg-chno="111" tvg-name="Hell's Kitchen Italy" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/404-hellskitchen.png" tvg-id="rocktv.ch111" group-title="TV ITALIANA EXTRA", Hell's Kitchen Italy
 #EXTSIZE: Medium
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
 https://amg00654-itv-amg00654c20-rakuten-it-3615.playouts.now.amagi.tv/1080p-cc/index.m3u8
 
-#EXTINF:-1 tvg-chno="112" tvg-name="RaiPlay Sport 1" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/406-raiplaysport1.png" group-title="TV ITALIANA EXTRA" tvg-id="rocktv.ch112", RaiPlay Sport 1
+#EXTINF:-1 tvg-chno="112" tvg-name="RaiPlay Sport 1" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/406-raiplaysport1.png" tvg-id="rocktv.ch112" group-title="TV ITALIANA EXTRA", RaiPlay Sport 1
 #EXTSIZE: Medium
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
 https://streamcdnr7-8e7439fdb1694c8da3a0fd63e4dda518.msvdn.net/raiplay4/hls/raiplay4_2400/chunklist.m3u8
 
-#EXTINF:-1 tvg-chno="113" tvg-name="Radio Carina TV" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/408-radiocarinatv.png" group-title="TV ITALIANA EXTRA" tvg-id="rocktv.ch113", Radio Carina TV
+#EXTINF:-1 tvg-chno="113" tvg-name="Radio Carina TV" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/408-radiocarinatv.png" tvg-id="rocktv.ch113" group-title="TV ITALIANA EXTRA", Radio Carina TV
 #EXTSIZE: Medium
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
 https://57068da1deb21.streamlock.net/radiocarina/radiocarina/chunklist_w1834980759.m3u8
 
-#EXTINF:-1 tvg-chno="114" tvg-name="Trace Urban" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/413-traceurban.png" group-title="TV ITALIANA EXTRA" tvg-id="rocktv.ch114", Trace Urban
+#EXTINF:-1 tvg-chno="114" tvg-name="Trace Urban" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/413-traceurban.png" tvg-id="rocktv.ch114" group-title="TV ITALIANA EXTRA", Trace Urban
 #EXTSIZE: Medium
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
 https://smplu.link/traceurban
 
-#EXTINF:-1 tvg-chno="115" tvg-name="Trace Latina" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/414-tracelatina.png" group-title="TV ITALIANA EXTRA" tvg-id="rocktv.ch115", Trace Latina
+#EXTINF:-1 tvg-chno="115" tvg-name="Trace Latina" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/414-tracelatina.png" tvg-id="rocktv.ch115" group-title="TV ITALIANA EXTRA", Trace Latina
 #EXTSIZE: Medium
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
 https://smplu.link/tracelatina
 
-#EXTINF:-1 tvg-chno="116" tvg-name="Radio Capital TV" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/713-radiocapital.png" group-title="TV ITALIANA EXTRA" tvg-id="rocktv.ch116", Radio Capital TV
+#EXTINF:-1 tvg-chno="116" tvg-name="Radio Capital TV" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/713-radiocapital.png" tvg-id="rocktv.ch116" group-title="TV ITALIANA EXTRA", Radio Capital TV
 #EXTSIZE: Medium
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
 https://4c4b867c89244861ac216426883d1ad0.msvdn.net/live/S35394734/Z6U2wGoDYANk/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="117" tvg-name="M2O TV" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/715-m2o.png" group-title="TV ITALIANA EXTRA" tvg-id="rocktv.ch117", M2O TV
+#EXTINF:-1 tvg-chno="117" tvg-name="M2O TV" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/715-m2o.png" tvg-id="rocktv.ch117" group-title="TV ITALIANA EXTRA", M2O TV
 #EXTSIZE: Medium
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
 https://4c4b867c89244861ac216426883d1ad0.msvdn.net/live/S62628868/uhdWBlkC1AoO/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="118" tvg-name="FilmRise Sci-Fi (sperimentale)" tvg-logo="https://i.imgur.com/FcN1OKo.png" group-title="FILM E SERIE" tvg-id="rocktv.ch118",FilmRise Sci-Fi (sperimentale)
+#EXTINF:-1 tvg-chno="118" tvg-name="FilmRise Sci-Fi (sperimentale)" tvg-logo="https://i.imgur.com/FcN1OKo.png" tvg-id="rocktv.ch118" group-title="FILM E SERIE",FilmRise Sci-Fi (sperimentale)
 https://d3is52sgpnlx4c.cloudfront.net/10901/88885513/hls/master.m3u8?ads.xumo_channelId=88885513
 
-#EXTINF:-1 tvg-chno="119" tvg-name="Pluto TV Sci-Fi (Italia - sperimentale)" tvg-logo="https://images.pluto.tv/channels/61728bb9ee3773000840c1fa/colorLogoPNG.png" group-title="FILM E SERIE" tvg-id="61728bb9ee3773000840c1fa",Pluto TV Sci-Fi (Italia - sperimentale)
+#EXTINF:-1 tvg-chno="119" tvg-name="Pluto TV Sci-Fi (Italia - sperimentale)" tvg-logo="https://images.pluto.tv/channels/61728bb9ee3773000840c1fa/colorLogoPNG.png" tvg-id="61728bb9ee3773000840c1fa" group-title="FILM E SERIE",Pluto TV Sci-Fi (Italia - sperimentale)
 https://jmp2.uk/plu-61728bb9ee3773000840c1fa.m3u8
 
-#EXTINF:-1 tvg-chno="120" tvg-name="Pluto TV Serie Sci-Fi (Italia - sperimentale)" tvg-logo="https://images.pluto.tv/channels/67ed14aaf7c5d70b9089c3bf/colorLogoPNG.png" group-title="FILM E SERIE" tvg-id="67ed14aaf7c5d70b9089c3bf",Pluto TV Serie Sci-Fi (Italia - sperimentale)
+#EXTINF:-1 tvg-chno="120" tvg-name="Pluto TV Serie Sci-Fi (Italia - sperimentale)" tvg-logo="https://images.pluto.tv/channels/67ed14aaf7c5d70b9089c3bf/colorLogoPNG.png" tvg-id="67ed14aaf7c5d70b9089c3bf" group-title="FILM E SERIE",Pluto TV Serie Sci-Fi (Italia - sperimentale)
 https://jmp2.uk/plu-67ed14aaf7c5d70b9089c3bf.m3u8
 
-#EXTINF:-1 tvg-chno="121" tvg-name="Pluto TV Film Azione (Italia - sperimentale)" tvg-logo="https://images.pluto.tv/channels/608aa20a2e7f270007c4878d/colorLogoPNG.png" group-title="FILM E SERIE" tvg-id="608aa20a2e7f270007c4878d",Pluto TV Film Azione (Italia - sperimentale)
+#EXTINF:-1 tvg-chno="121" tvg-name="Pluto TV Film Azione (Italia - sperimentale)" tvg-logo="https://images.pluto.tv/channels/608aa20a2e7f270007c4878d/colorLogoPNG.png" tvg-id="608aa20a2e7f270007c4878d" group-title="FILM E SERIE",Pluto TV Film Azione (Italia - sperimentale)
 https://jmp2.uk/plu-608aa20a2e7f270007c4878d.m3u8
 
-#EXTINF:-1 tvg-chno="122" tvg-name="Pluto TV Film Thriller (Italia - sperimentale)" tvg-logo="https://images.pluto.tv/channels/608aa5e995132a00075f7005/colorLogoPNG.png" group-title="FILM E SERIE" tvg-id="608aa5e995132a00075f7005",Pluto TV Film Thriller (Italia - sperimentale)
+#EXTINF:-1 tvg-chno="122" tvg-name="Pluto TV Film Thriller (Italia - sperimentale)" tvg-logo="https://images.pluto.tv/channels/608aa5e995132a00075f7005/colorLogoPNG.png" tvg-id="608aa5e995132a00075f7005" group-title="FILM E SERIE",Pluto TV Film Thriller (Italia - sperimentale)
 https://jmp2.uk/plu-608aa5e995132a00075f7005.m3u8
 
-#EXTINF:-1 tvg-chno="123" tvg-name="Pluto TV Horror (Italia - sperimentale)" tvg-logo="https://images.pluto.tv/channels/61c09e3ac210ed0007606620/colorLogoPNG.png" group-title="FILM E SERIE" tvg-id="61c09e3ac210ed0007606620",Pluto TV Horror (Italia - sperimentale)
+#EXTINF:-1 tvg-chno="123" tvg-name="Pluto TV Horror (Italia - sperimentale)" tvg-logo="https://images.pluto.tv/channels/61c09e3ac210ed0007606620/colorLogoPNG.png" tvg-id="61c09e3ac210ed0007606620" group-title="FILM E SERIE",Pluto TV Horror (Italia - sperimentale)
 https://jmp2.uk/plu-61c09e3ac210ed0007606620.m3u8
 
-#EXTINF:-1 tvg-chno="124" tvg-name="Pluto TV Serie Crime (Italia - sperimentale)" tvg-logo="https://images.pluto.tv/channels/608aa777b907770007e5d05d/colorLogoPNG.png" group-title="FILM E SERIE" tvg-id="608aa777b907770007e5d05d",Pluto TV Serie Crime (Italia - sperimentale)
+#EXTINF:-1 tvg-chno="124" tvg-name="Pluto TV Serie Crime (Italia - sperimentale)" tvg-logo="https://images.pluto.tv/channels/608aa777b907770007e5d05d/colorLogoPNG.png" tvg-id="608aa777b907770007e5d05d" group-title="FILM E SERIE",Pluto TV Serie Crime (Italia - sperimentale)
 https://jmp2.uk/plu-608aa777b907770007e5d05d.m3u8
 
-#EXTINF:-1 tvg-chno="125" tvg-name="Pluto TV Film Commedia (Italia - sperimentale)" tvg-logo="https://images.pluto.tv/channels/608aa512d67fd900072323db/colorLogoPNG.png" group-title="FILM E SERIE" tvg-id="608aa512d67fd900072323db",Pluto TV Film Commedia (Italia - sperimentale)
+#EXTINF:-1 tvg-chno="125" tvg-name="Pluto TV Film Commedia (Italia - sperimentale)" tvg-logo="https://images.pluto.tv/channels/608aa512d67fd900072323db/colorLogoPNG.png" tvg-id="608aa512d67fd900072323db" group-title="FILM E SERIE",Pluto TV Film Commedia (Italia - sperimentale)
 https://jmp2.uk/plu-608aa512d67fd900072323db.m3u8
 
 #EXTINF:-1 tvg-chno="126" tvg-id="Euronews.IT" tvg-name="Euronews IT" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/401-euronewsit.png" group-title="NEWS E INFORMAZIONE", Euronews IT
@@ -399,127 +399,148 @@ https://jmp2.uk/plu-608aa512d67fd900072323db.m3u8
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
 https://cdn-euronews.akamaized.net/live/eds/euronews-it/25085/euronews-it.m3u8
 
-#EXTINF:-1 tvg-chno="127" tvg-name="DW English" tvg-logo="https://i.imgur.com/A1xzjOI.png" group-title="NEWS E INFORMAZIONE" tvg-id="rocktv.ch127",DW English
+#EXTINF:-1 tvg-chno="127" tvg-name="DW English" tvg-logo="https://i.imgur.com/A1xzjOI.png" tvg-id="rocktv.ch127" group-title="NEWS E INFORMAZIONE",DW English
 https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/master.m3u8
 
-#EXTINF:-1 tvg-chno="128" tvg-name="France 24 English" tvg-logo="https://i.imgur.com/61MSiq9.png" group-title="NEWS E INFORMAZIONE" tvg-id="rocktv.ch128",France 24 English
+#EXTINF:-1 tvg-chno="128" tvg-name="France 24 English" tvg-logo="https://i.imgur.com/61MSiq9.png" tvg-id="rocktv.ch128" group-title="NEWS E INFORMAZIONE",France 24 English
 https://live.france24.com/hls/live/2037218/F24_EN_HI_HLS/master_2300.m3u8
 
-#EXTINF:-1 tvg-chno="129" tvg-name="Al Jazeera International" tvg-logo="https://i.imgur.com/BB93NQP.png" group-title="NEWS E INFORMAZIONE" tvg-id="rocktv.ch129",Al Jazeera International
+#EXTINF:-1 tvg-chno="129" tvg-name="Al Jazeera International" tvg-logo="https://i.imgur.com/BB93NQP.png" tvg-id="rocktv.ch129" group-title="NEWS E INFORMAZIONE",Al Jazeera International
 https://live-hls-apps-aje-fa.getaj.net/AJE/index.m3u8
 
-#EXTINF:-1 tvg-chno="130" tvg-name="CNN International" tvg-logo="https://www.google.com/s2/favicons?domain=cnn.com&sz=256" group-title="NEWS E INFORMAZIONE" tvg-id="rocktv.ch130",CNN International
+#EXTINF:-1 tvg-chno="130" tvg-name="CNN International" tvg-logo="https://www.google.com/s2/favicons?domain=cnn.com&sz=256" tvg-id="rocktv.ch130" group-title="NEWS E INFORMAZIONE",CNN International
 https://d3bp6dwmpbdajl.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-ury0meh5m4nzm/index.m3u8
 
-#EXTINF:-1 tvg-chno="131" tvg-name="Bloomberg" tvg-logo="https://i.imgur.com/VnCcH73.png" group-title="NEWS E INFORMAZIONE" tvg-id="rocktv.ch131",Bloomberg
+#EXTINF:-1 tvg-chno="131" tvg-name="Bloomberg" tvg-logo="https://i.imgur.com/VnCcH73.png" tvg-id="rocktv.ch131" group-title="NEWS E INFORMAZIONE",Bloomberg
 https://bloomberg.com/media-manifest/streams/us.m3u8
 
-#EXTINF:-1 tvg-chno="132" tvg-name="Class CNBC" tvg-logo="https://i.imgur.com/oAiSU8O.png" group-title="NEWS E INFORMAZIONE" tvg-id="rocktv.ch132",Class CNBC
+#EXTINF:-1 tvg-chno="132" tvg-name="Class CNBC" tvg-logo="https://i.imgur.com/oAiSU8O.png" tvg-id="rocktv.ch132" group-title="NEWS E INFORMAZIONE",Class CNBC
 https://amg14891-amg14891c5-amgplt0020.playout.now3.amagi.tv/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="133" tvg-name="BBC Top Gear Italy" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/403-bbctopgear.png" group-title="DOCUMENTARI E SCIENZA" tvg-id="rocktv.ch133", BBC Top Gear Italy
+#EXTINF:-1 tvg-chno="133" tvg-name="BBC Top Gear Italy" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/403-bbctopgear.png" tvg-id="rocktv.ch133" group-title="DOCUMENTARI E SCIENZA", BBC Top Gear Italy
 #EXTSIZE: Medium
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
 https://tinyurl.com/xN1ckuzTopGear
 
-#EXTINF:-1 tvg-chno="134" tvg-name="Documentary+" tvg-logo="https://www.google.com/s2/favicons?domain=documentaryplus.com&sz=256" group-title="DOCUMENTARI E SCIENZA" tvg-id="rocktv.ch134",Documentary+
+#EXTINF:-1 tvg-chno="134" tvg-name="Documentary+" tvg-logo="https://www.google.com/s2/favicons?domain=documentaryplus.com&sz=256" tvg-id="rocktv.ch134" group-title="DOCUMENTARI E SCIENZA",Documentary+
 https://ef79b15c8c7c46c7a9de9d33001dbd07.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-859-DOCUMENTARYPLUS-DOCUMENTARYPLUS/mt/documentaryplus/859/hls/master/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="135" tvg-name="NHK World-Japan (English)" tvg-logo="https://i.imgur.com/Mhw1Ihk.png" group-title="DOCUMENTARI E SCIENZA" tvg-id="rocktv.ch135",NHK World-Japan (English)
+#EXTINF:-1 tvg-chno="135" tvg-name="NHK World-Japan (English)" tvg-logo="https://i.imgur.com/Mhw1Ihk.png" tvg-id="rocktv.ch135" group-title="DOCUMENTARI E SCIENZA",NHK World-Japan (English)
 https://masterpl.hls.nhkworld.jp/hls/w/live/smarttv.m3u8
 
-#EXTINF:-1 tvg-chno="136" tvg-name="WildEarth (sperimentale)" tvg-logo="https://pbs.twimg.com/profile_images/2031232776247103488/1b3m83Hp.jpg" group-title="DOCUMENTARI E SCIENZA" tvg-id="rocktv.ch136",WildEarth (sperimentale)
+#EXTINF:-1 tvg-chno="136" tvg-name="WildEarth (sperimentale)" tvg-logo="https://pbs.twimg.com/profile_images/2031232776247103488/1b3m83Hp.jpg" tvg-id="rocktv.ch136" group-title="DOCUMENTARI E SCIENZA",WildEarth (sperimentale)
 https://dqga3jatxofgx.cloudfront.net/WildEarth.m3u8
 
-#EXTINF:-1 tvg-chno="137" tvg-name="Pluto TV Documentari (Italia - sperimentale)" tvg-logo="https://images.pluto.tv/channels/608aa8a5709d6b0007b132fe/colorLogoPNG.png" group-title="DOCUMENTARI E SCIENZA" tvg-id="608aa8a5709d6b0007b132fe",Pluto TV Documentari (Italia - sperimentale)
+#EXTINF:-1 tvg-chno="137" tvg-name="Africam - Elephant Park (sperimentale)" tvg-logo="https://www.google.com/s2/favicons?domain=africam.com&sz=256" tvg-id="rocktv.ch137" group-title="DOCUMENTARI E SCIENZA",Africam - Elephant Park (sperimentale)
+https://outbound-production.explore.org/stream-production-110/.m3u8
+
+#EXTINF:-1 tvg-chno="138" tvg-name="Africam - Tau Waterhole (sperimentale)" tvg-logo="https://www.google.com/s2/favicons?domain=africam.com&sz=256" tvg-id="rocktv.ch138" group-title="DOCUMENTARI E SCIENZA",Africam - Tau Waterhole (sperimentale)
+https://outbound-production.explore.org/stream-production-317/.m3u8
+
+#EXTINF:-1 tvg-chno="139" tvg-name="Africam - Rosies Pan (sperimentale)" tvg-logo="https://www.google.com/s2/favicons?domain=africam.com&sz=256" tvg-id="rocktv.ch139" group-title="DOCUMENTARI E SCIENZA",Africam - Rosies Pan (sperimentale)
+https://outbound-production.explore.org/stream-production-108/.m3u8
+
+#EXTINF:-1 tvg-chno="140" tvg-name="Africam - Safari Cam 4 (sperimentale)" tvg-logo="https://www.google.com/s2/favicons?domain=africam.com&sz=256" tvg-id="rocktv.ch140" group-title="DOCUMENTARI E SCIENZA",Africam - Safari Cam 4 (sperimentale)
+https://outbound-production.explore.org/stream-production-49/.m3u8
+
+#EXTINF:-1 tvg-chno="141" tvg-name="Pluto TV Documentari (Italia - sperimentale)" tvg-logo="https://images.pluto.tv/channels/608aa8a5709d6b0007b132fe/colorLogoPNG.png" tvg-id="608aa8a5709d6b0007b132fe" group-title="DOCUMENTARI E SCIENZA",Pluto TV Documentari (Italia - sperimentale)
 https://jmp2.uk/plu-608aa8a5709d6b0007b132fe.m3u8
 
-#EXTINF:-1 tvg-chno="138" tvg-name="Pluto TV Natura (Italia - sperimentale)" tvg-logo="https://images.pluto.tv/channels/60802b37709d6b0007b0c549/colorLogoPNG.png" group-title="DOCUMENTARI E SCIENZA" tvg-id="60802b37709d6b0007b0c549",Pluto TV Natura (Italia - sperimentale)
+#EXTINF:-1 tvg-chno="142" tvg-name="Pluto TV Natura (Italia - sperimentale)" tvg-logo="https://images.pluto.tv/channels/60802b37709d6b0007b0c549/colorLogoPNG.png" tvg-id="60802b37709d6b0007b0c549" group-title="DOCUMENTARI E SCIENZA",Pluto TV Natura (Italia - sperimentale)
 https://jmp2.uk/plu-60802b37709d6b0007b0c549.m3u8
 
-#EXTINF:-1 tvg-chno="139" tvg-name="Pluto TV Storia (Italia - sperimentale)" tvg-logo="https://images.pluto.tv/channels/65253fdf3fd33c00080214a3/colorLogoPNG.png" group-title="DOCUMENTARI E SCIENZA" tvg-id="65253fdf3fd33c00080214a3",Pluto TV Storia (Italia - sperimentale)
+#EXTINF:-1 tvg-chno="143" tvg-name="Pluto TV Storia (Italia - sperimentale)" tvg-logo="https://images.pluto.tv/channels/65253fdf3fd33c00080214a3/colorLogoPNG.png" tvg-id="65253fdf3fd33c00080214a3" group-title="DOCUMENTARI E SCIENZA",Pluto TV Storia (Italia - sperimentale)
 https://jmp2.uk/plu-65253fdf3fd33c00080214a3.m3u8
 
-#EXTINF:-1 tvg-chno="140" tvg-name="Space Live (sperimentale)" tvg-logo="https://images.pluto.tv/channels/69b1489b5828e7c242d83064/colorLogoPNG.png" group-title="DOCUMENTARI E SCIENZA" tvg-id="69b1489b5828e7c242d83064",Space Live (sperimentale)
+#EXTINF:-1 tvg-chno="144" tvg-name="Space Live (sperimentale)" tvg-logo="https://images.pluto.tv/channels/69b1489b5828e7c242d83064/colorLogoPNG.png" tvg-id="69b1489b5828e7c242d83064" group-title="DOCUMENTARI E SCIENZA",Space Live (sperimentale)
 https://jmp2.uk/plu-69b1489b5828e7c242d83064.m3u8
 
-#EXTINF:-1 tvg-chno="141" tvg-name="Pluto TV Paranormal (Italia - sperimentale)" tvg-logo="https://images.pluto.tv/channels/66c70033b1a34600087bb09a/colorLogoPNG.png" group-title="DOCUMENTARI E SCIENZA" tvg-id="66c70033b1a34600087bb09a",Pluto TV Paranormal (Italia - sperimentale)
+#EXTINF:-1 tvg-chno="145" tvg-name="Sen SpaceTV-1 - viste ISS (sperimentale)" tvg-logo="https://www.google.com/s2/favicons?domain=sen.com&sz=256" tvg-id="rocktv.ch145" group-title="DOCUMENTARI E SCIENZA",Sen SpaceTV-1 - viste ISS (sperimentale)
+https://linear-1224.frequency.stream/dist/lg-uk/1224/hls/master/playlist.m3u8
+
+#EXTINF:-1 tvg-chno="146" tvg-name="NASA ISS - Terra in diretta (relay sperimentale)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/NASA_logo.svg/512px-NASA_logo.svg.png" tvg-id="rocktv.ch146" group-title="DOCUMENTARI E SCIENZA",NASA ISS - Terra in diretta (relay sperimentale)
+https://hls.youtb.workers.dev/video/0P41gTF-Nl4.m3u8
+
+#EXTINF:-1 tvg-chno="147" tvg-name="Space Live by Sen - stream alternativo (sperimentale)" tvg-logo="https://www.google.com/s2/favicons?domain=sen.com&sz=256" tvg-id="rocktv.ch147" group-title="DOCUMENTARI E SCIENZA",Space Live by Sen - stream alternativo (sperimentale)
+https://d111bsx9oooqoh.cloudfront.net/playlist.m3u8
+
+#EXTINF:-1 tvg-chno="148" tvg-name="Pluto TV Paranormal (Italia - sperimentale)" tvg-logo="https://images.pluto.tv/channels/66c70033b1a34600087bb09a/colorLogoPNG.png" tvg-id="66c70033b1a34600087bb09a" group-title="DOCUMENTARI E SCIENZA",Pluto TV Paranormal (Italia - sperimentale)
 https://jmp2.uk/plu-66c70033b1a34600087bb09a.m3u8
 
-#EXTINF:-1 tvg-chno="142" tvg-name="Pluto TV True Crime (Italia - sperimentale)" tvg-logo="https://images.pluto.tv/channels/66d9ab4bf0f17500084e9b7e/colorLogoPNG.png" group-title="DOCUMENTARI E SCIENZA" tvg-id="66d9ab4bf0f17500084e9b7e",Pluto TV True Crime (Italia - sperimentale)
+#EXTINF:-1 tvg-chno="149" tvg-name="Pluto TV True Crime (Italia - sperimentale)" tvg-logo="https://images.pluto.tv/channels/66d9ab4bf0f17500084e9b7e/colorLogoPNG.png" tvg-id="66d9ab4bf0f17500084e9b7e" group-title="DOCUMENTARI E SCIENZA",Pluto TV True Crime (Italia - sperimentale)
 https://jmp2.uk/plu-66d9ab4bf0f17500084e9b7e.m3u8
 
-#EXTINF:-1 tvg-chno="143" tvg-name="MAN-GA" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/236-manga.png" group-title="ANIME" tvg-id="rocktv.ch143", MAN-GA
+#EXTINF:-1 tvg-chno="150" tvg-name="MAN-GA" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/236-manga.png" tvg-id="rocktv.ch143" group-title="ANIME", MAN-GA
 #EXTSIZE: Medium
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
 https://streamcdnr9-c65b9e710bde44819015af98e72cd7ab.msvdn.net/live/S93572876/aILSQPYFY3pF/manifest.mpd
 
-#EXTINF:-1 tvg-chno="144" tvg-name="Pluto TV Anime (sperimentale)" tvg-logo="https://images.pluto.tv/channels/5812b7d3249444e05d09cc49/colorLogoPNG.png" group-title="ANIME" tvg-id="5812b7d3249444e05d09cc49",Pluto TV Anime (sperimentale)
+#EXTINF:-1 tvg-chno="151" tvg-name="Pluto TV Anime (sperimentale)" tvg-logo="https://images.pluto.tv/channels/5812b7d3249444e05d09cc49/colorLogoPNG.png" tvg-id="5812b7d3249444e05d09cc49" group-title="ANIME",Pluto TV Anime (sperimentale)
 https://jmp2.uk/plu-5812b7d3249444e05d09cc49.m3u8
 
-#EXTINF:-1 tvg-chno="145" tvg-name="Pluto TV Anime Italia (sperimentale)" tvg-logo="https://images.pluto.tv/channels/65b90daed77d450008a43345/colorLogoPNG.png" group-title="ANIME" tvg-id="65b90daed77d450008a43345",Pluto TV Anime Italia (sperimentale)
+#EXTINF:-1 tvg-chno="152" tvg-name="Pluto TV Anime Italia (sperimentale)" tvg-logo="https://images.pluto.tv/channels/65b90daed77d450008a43345/colorLogoPNG.png" tvg-id="65b90daed77d450008a43345" group-title="ANIME",Pluto TV Anime Italia (sperimentale)
 https://jmp2.uk/plu-65b90daed77d450008a43345.m3u8
 
-#EXTINF:-1 tvg-chno="146" tvg-name="PFL MMA (sperimentale)" tvg-logo="https://provider-static.plex.tv/epg/cms/production/96dd0531-b500-4bd4-93ca-763cbf46defe/1500x1000_PFL_SHIELD_DARK_BG_-_Allie_Dinsmore.png" group-title="WRESTLING E MMA" tvg-id="6334a574605f140007e233c4",PFL MMA (sperimentale)
+#EXTINF:-1 tvg-chno="153" tvg-name="PFL MMA (sperimentale)" tvg-logo="https://provider-static.plex.tv/epg/cms/production/96dd0531-b500-4bd4-93ca-763cbf46defe/1500x1000_PFL_SHIELD_DARK_BG_-_Allie_Dinsmore.png" tvg-id="6334a574605f140007e233c4" group-title="WRESTLING E MMA",PFL MMA (sperimentale)
 https://jmp2.uk/plu-6334a574605f140007e233c4.m3u8
 
-#EXTINF:-1 tvg-chno="147" tvg-name="TNA Wrestling (sperimentale)" tvg-logo="https://provider-static.plex.tv/epg/cms/production/5d4f68c3-82af-45e7-b2c4-39aff69f3ce0/TNAWrestling_Plex_LogoforDarkBG_1500x1000_-_Alex_TushinghamRDX.png" group-title="WRESTLING E MMA" tvg-id="59b722526996084038c01e1b",TNA Wrestling (sperimentale)
+#EXTINF:-1 tvg-chno="154" tvg-name="TNA Wrestling (sperimentale)" tvg-logo="https://provider-static.plex.tv/epg/cms/production/5d4f68c3-82af-45e7-b2c4-39aff69f3ce0/TNAWrestling_Plex_LogoforDarkBG_1500x1000_-_Alex_TushinghamRDX.png" tvg-id="59b722526996084038c01e1b" group-title="WRESTLING E MMA",TNA Wrestling (sperimentale)
 https://jmp2.uk/plu-59b722526996084038c01e1b.m3u8
 
-#EXTINF:-1 tvg-chno="148" tvg-id="ACI.Sport.TV.HD.it" tvg-name="ACI Sport TV HD" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/402-acisporttvhd.png" group-title="MOTORSPORT", ACI Sport TV HD
+#EXTINF:-1 tvg-chno="155" tvg-id="ACI.Sport.TV.HD.it" tvg-name="ACI Sport TV HD" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/402-acisporttvhd.png" group-title="MOTORSPORT", ACI Sport TV HD
 #EXTSIZE: Medium
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
 https://webstream.multistream.it/memfs/e2cb3629-c1a2-495b-b43a-9eb386f04ed8_output_0.m3u8
 
-#EXTINF:-1 tvg-chno="149" tvg-name="Rally.TV FAST+" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/412-rallytv.png" group-title="MOTORSPORT" tvg-id="rocktv.ch149", Rally.TV FAST+
+#EXTINF:-1 tvg-chno="156" tvg-name="Rally.TV FAST+" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/412-rallytv.png" tvg-id="rocktv.ch149" group-title="MOTORSPORT", Rally.TV FAST+
 #EXTSIZE: Medium
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
 https://dv1e2nq0r4g7p.cloudfront.net/v1/manifest/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-n8rallqdrsy49/cd1d84f8-1ec7-4b5b-9573-1179500ce4fa/0.m3u8
 
-#EXTINF:-1 tvg-chno="150" tvg-name="Red Bull TV" tvg-logo="https://www.google.com/s2/favicons?domain=redbull.com&sz=256" group-title="MOTORSPORT" tvg-id="rocktv.ch150",Red Bull TV
+#EXTINF:-1 tvg-chno="157" tvg-name="Red Bull TV" tvg-logo="https://www.google.com/s2/favicons?domain=redbull.com&sz=256" tvg-id="rocktv.ch150" group-title="MOTORSPORT",Red Bull TV
 https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_3360.m3u8
 
-#EXTINF:-1 tvg-chno="151" tvg-name="Motorvision+ (English)" tvg-logo="https://www.google.com/s2/favicons?domain=motorvision.tv&sz=256" group-title="MOTORSPORT" tvg-id="rocktv.ch151",Motorvision+ (English)
+#EXTINF:-1 tvg-chno="158" tvg-name="Motorvision+ (English)" tvg-logo="https://www.google.com/s2/favicons?domain=motorvision.tv&sz=256" tvg-id="rocktv.ch151" group-title="MOTORSPORT",Motorvision+ (English)
 https://r.eu.cdn-redge.media/livehls/oeu/mt/live/motorvision_en/live.livx/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="152" tvg-name="Rock TV (Romania)" tvg-logo="https://i.imgur.com/Y9miDQo.png" group-title="ROCK TV" tvg-id="rocktv.ch152",Rock TV (Romania)
+#EXTINF:-1 tvg-chno="159" tvg-name="Rock TV (Romania)" tvg-logo="https://i.imgur.com/Y9miDQo.png" tvg-id="rocktv.ch152" group-title="ROCK TV",Rock TV (Romania)
 https://tv.broadcasting.ro/rocktv/85c83a80-4f71-4f2d-a8d6-43f676896bcb.m3u8
 
-#EXTINF:-1 tvg-chno="153" tvg-name="XITE Rock x Metal" tvg-logo="https://images.pluto.tv/channels/623a1b5188ecdc0007c9ef5a/colorLogoPNG.png" group-title="ROCK TV" tvg-id="rocktv.ch153",XITE Rock x Metal
+#EXTINF:-1 tvg-chno="160" tvg-name="XITE Rock x Metal" tvg-logo="https://images.pluto.tv/channels/623a1b5188ecdc0007c9ef5a/colorLogoPNG.png" tvg-id="rocktv.ch153" group-title="ROCK TV",XITE Rock x Metal
 https://d198ro05q94rc4.cloudfront.net/XITE_Rock_On.m3u8
 
-#EXTINF:-1 tvg-chno="154" tvg-name="XITE Rock On - stream alternativo (sperimentale)" tvg-logo="https://images.pluto.tv/channels/623a1b5188ecdc0007c9ef5a/colorLogoPNG.png" group-title="ROCK TV" tvg-id="623a1b5188ecdc0007c9ef5a",XITE Rock On - stream alternativo (sperimentale)
+#EXTINF:-1 tvg-chno="161" tvg-name="XITE Rock On - stream alternativo (sperimentale)" tvg-logo="https://images.pluto.tv/channels/623a1b5188ecdc0007c9ef5a/colorLogoPNG.png" tvg-id="623a1b5188ecdc0007c9ef5a" group-title="ROCK TV",XITE Rock On - stream alternativo (sperimentale)
 https://jmp2.uk/plu-623a1b5188ecdc0007c9ef5a.m3u8
 
-#EXTINF:-1 tvg-chno="155" tvg-name="Vevo Rock (sperimentale)" tvg-logo="https://images.pluto.tv/channels/61d4b38226b8a50007fe03a6/colorLogoPNG.png" group-title="ROCK TV" tvg-id="61d4b38226b8a50007fe03a6",Vevo Rock (sperimentale)
+#EXTINF:-1 tvg-chno="162" tvg-name="Vevo Rock (sperimentale)" tvg-logo="https://images.pluto.tv/channels/61d4b38226b8a50007fe03a6/colorLogoPNG.png" tvg-id="61d4b38226b8a50007fe03a6" group-title="ROCK TV",Vevo Rock (sperimentale)
 https://jmp2.uk/plu-61d4b38226b8a50007fe03a6.m3u8
 
-#EXTINF:-1 tvg-chno="156" tvg-name="Vevo 2K (sperimentale)" tvg-logo="https://images.pluto.tv/channels/5fd7bca3e0a4ee0007a38e8c/colorLogoPNG.png" group-title="ROCK TV" tvg-id="5fd7bca3e0a4ee0007a38e8c",Vevo 2K (sperimentale)
+#EXTINF:-1 tvg-chno="163" tvg-name="Vevo 2K (sperimentale)" tvg-logo="https://images.pluto.tv/channels/5fd7bca3e0a4ee0007a38e8c/colorLogoPNG.png" tvg-id="5fd7bca3e0a4ee0007a38e8c" group-title="ROCK TV",Vevo 2K (sperimentale)
 https://jmp2.uk/plu-5fd7bca3e0a4ee0007a38e8c.m3u8
 
-#EXTINF:-1 tvg-chno="157" tvg-name="Metaleitor TV - alternativa Metal TV Core (sperimentale)" tvg-logo="https://new.opencaster.com/uploads/logos/logo_14_1752798826.png" group-title="ROCK TV" tvg-id="rocktv.ch157",Metaleitor TV - alternativa Metal TV Core (sperimentale)
+#EXTINF:-1 tvg-chno="164" tvg-name="Metaleitor TV - alternativa Metal TV Core (sperimentale)" tvg-logo="https://new.opencaster.com/uploads/logos/logo_14_1752798826.png" tvg-id="rocktv.ch157" group-title="ROCK TV",Metaleitor TV - alternativa Metal TV Core (sperimentale)
 https://vs20.live.opencaster.com/metaleitortv_423d3342/index.m3u8
 
-#EXTINF:-1 tvg-chno="158" tvg-name="Metal.Rocks (sperimentale)" tvg-logo="https://www.google.com/s2/favicons?domain=metal.rocks&sz=256" group-title="ROCK TV" tvg-id="rocktv.ch158",Metal.Rocks (sperimentale)
+#EXTINF:-1 tvg-chno="165" tvg-name="Metal.Rocks (sperimentale)" tvg-logo="https://www.google.com/s2/favicons?domain=metal.rocks&sz=256" tvg-id="rocktv.ch158" group-title="ROCK TV",Metal.Rocks (sperimentale)
 https://amg00771-amg00771c5-rakuten-gb-9713.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg00771-kochfilmsfast-metalrocks-rakutengb/playlist.m3u8
 
-#EXTINF:-1 tvg-chno="159" tvg-name="That's Rock (Italia - sperimentale)" tvg-logo="https://images.pluto.tv/channels/69ef5682980899a9edf1a884/colorLogoPNG.png" group-title="ROCK TV" tvg-id="69ef5682980899a9edf1a884",That's Rock (Italia - sperimentale)
+#EXTINF:-1 tvg-chno="166" tvg-name="That's Rock (Italia - sperimentale)" tvg-logo="https://images.pluto.tv/channels/69ef5682980899a9edf1a884/colorLogoPNG.png" tvg-id="69ef5682980899a9edf1a884" group-title="ROCK TV",That's Rock (Italia - sperimentale)
 https://jmp2.uk/plu-69ef5682980899a9edf1a884.m3u8
 
-#EXTINF:-1 tvg-chno="160" tvg-name="181.FM - Rock 181" tvg-logo="https://www.google.com/s2/favicons?domain=181.fm&sz=256" group-title="RADIO ROCK" tvg-id="rocktv.ch160",181.FM - Rock 181
+#EXTINF:-1 tvg-chno="167" tvg-name="181.FM - Rock 181" tvg-logo="https://www.google.com/s2/favicons?domain=181.fm&sz=256" tvg-id="rocktv.ch160" group-title="RADIO ROCK",181.FM - Rock 181
 https://listen.181fm.com/181-rock_128k.mp3
 
-#EXTINF:-1 tvg-chno="161" tvg-name="ROCK ANTENNE - Modern Rock" tvg-logo="https://www.rockantenne.de/media/cache/3/version/14/ra-v1.jpg/03af5f7d2e5346c0.jpg" group-title="RADIO ROCK" tvg-id="rocktv.ch161",ROCK ANTENNE - Modern Rock
+#EXTINF:-1 tvg-chno="168" tvg-name="ROCK ANTENNE - Modern Rock" tvg-logo="https://www.rockantenne.de/media/cache/3/version/14/ra-v1.jpg/03af5f7d2e5346c0.jpg" tvg-id="rocktv.ch161" group-title="RADIO ROCK",ROCK ANTENNE - Modern Rock
 https://stream.rockantenne.de/modern-rock/stream/mp3
 
-#EXTINF:-1 tvg-chno="162" tvg-name="ROCK ANTENNE - Modern Metal" tvg-logo="https://www.rockantenne.de/media/cache/3/version/14/ra-v1.jpg/03af5f7d2e5346c0.jpg" group-title="RADIO ROCK" tvg-id="rocktv.ch162",ROCK ANTENNE - Modern Metal
+#EXTINF:-1 tvg-chno="169" tvg-name="ROCK ANTENNE - Modern Metal" tvg-logo="https://www.rockantenne.de/media/cache/3/version/14/ra-v1.jpg/03af5f7d2e5346c0.jpg" tvg-id="rocktv.ch162" group-title="RADIO ROCK",ROCK ANTENNE - Modern Metal
 https://stream.rockantenne.de/modern-metal/stream/mp3
 
-#EXTINF:-1 tvg-chno="163" tvg-name="ROCK ANTENNE - Hard Rock" tvg-logo="https://www.rockantenne.de/media/cache/3/version/14/ra-v1.jpg/03af5f7d2e5346c0.jpg" group-title="RADIO ROCK" tvg-id="rocktv.ch163",ROCK ANTENNE - Hard Rock
+#EXTINF:-1 tvg-chno="170" tvg-name="ROCK ANTENNE - Hard Rock" tvg-logo="https://www.rockantenne.de/media/cache/3/version/14/ra-v1.jpg/03af5f7d2e5346c0.jpg" tvg-id="rocktv.ch163" group-title="RADIO ROCK",ROCK ANTENNE - Hard Rock
 https://stream.rockantenne.de/rock-antenne-hard-rock/stream/mp3
 
-#EXTINF:-1 tvg-chno="164" tvg-name="ROCK ANTENNE - Alternative" tvg-logo="https://www.rockantenne.de/media/cache/3/version/14/ra-v1.jpg/03af5f7d2e5346c0.jpg" group-title="RADIO ROCK" tvg-id="rocktv.ch164",ROCK ANTENNE - Alternative
+#EXTINF:-1 tvg-chno="171" tvg-name="ROCK ANTENNE - Alternative" tvg-logo="https://www.rockantenne.de/media/cache/3/version/14/ra-v1.jpg/03af5f7d2e5346c0.jpg" tvg-id="rocktv.ch164" group-title="RADIO ROCK",ROCK ANTENNE - Alternative
 https://stream.rockantenne.de/alternative/stream/mp3
 
-#EXTINF:-1 tvg-chno="165" tvg-name="TheBlast.FM - Christian Rock (verificare)" tvg-logo="https://www.google.com/s2/favicons?domain=theblast.fm&sz=256" group-title="RADIO ROCK" tvg-id="rocktv.ch165",TheBlast.FM - Christian Rock (verificare)
+#EXTINF:-1 tvg-chno="172" tvg-name="TheBlast.FM - Christian Rock (verificare)" tvg-logo="https://www.google.com/s2/favicons?domain=theblast.fm&sz=256" tvg-id="rocktv.ch165" group-title="RADIO ROCK",TheBlast.FM - Christian Rock (verificare)
 https://mediacp.theblast.fm/stream/theblast
