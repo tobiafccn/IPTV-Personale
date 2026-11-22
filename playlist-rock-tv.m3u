@@ -1,4 +1,4 @@
-#EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_IT1.xml.gz"
+#EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_IT1.xml.gz,https://i.mjh.nz/PlutoTV/it.xml.gz,https://i.mjh.nz/PlutoTV/us.xml.gz"
 
 #EXTINF:-1 tvg-chno="1" tvg-id="Rai.1.HD..101.it" tvg-name="Rai 1" tvg-logo="https://raw.githubusercontent.com/xN1ckuz/OpenIPTVItaly/refs/heads/main/Logos/1-rai1.png" group-title="DIGITALE TERRESTRE", Rai 1
 #EXTSIZE: Medium
