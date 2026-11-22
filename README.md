@@ -8,7 +8,7 @@ https://raw.githubusercontent.com/tobiafccn/RockTV-Personale/main/playlist-rock-
 
 ## Ordine ispirato al digitale terrestre
 
-La playlist rispetta l'ordine dei canali approvato il 20/11/2026. I canali della sezione iniziale sono numerati secondo l'LCN della fonte OpenIPTVItaly (da 1 a 70, con i numeri mancanti lasciati vuoti); gli altri canali sono numerati senza interruzioni da 101 a 172.
+La playlist rispetta l'ordine dei canali approvato il 20/11/2026. I canali della sezione iniziale sono numerati secondo l'LCN della fonte OpenIPTVItaly (da 1 a 70, con i numeri mancanti lasciati vuoti); gli altri canali sono numerati senza interruzioni da 101 a 180.
 
 | Gruppo | Canali | Numerazione |
 |---|---:|---|
@@ -16,14 +16,14 @@ La playlist rispetta l'ordine dei canali approvato il 20/11/2026. I canali della
 | TV ITALIANA EXTRA | 17 | 101–117 |
 | FILM E SERIE | 8 | 118–125 |
 | NEWS E INFORMAZIONE | 7 | 126–132 |
-| DOCUMENTARI E SCIENZA | 17 | 133–149 |
-| ANIME | 3 | 150–152 |
-| WRESTLING E MMA | 2 | 153–154 |
-| MOTORSPORT | 4 | 155–158 |
-| ROCK TV | 8 | 159–166 |
-| RADIO ROCK | 6 | 167–172 |
+| DOCUMENTARI E SCIENZA | 25 | 133–157 |
+| ANIME | 3 | 158–160 |
+| WRESTLING E MMA | 2 | 161–162 |
+| MOTORSPORT | 4 | 163–166 |
+| ROCK TV | 8 | 167–174 |
+| RADIO ROCK | 6 | 175–180 |
 
-**Totale: 129 canali.** I numeri 71–100 sono lasciati liberi per distinguere i canali dell'antenna da quelli extra.
+**Totale: 137 canali.** I numeri 71–100 sono lasciati liberi per distinguere i canali dell'antenna da quelli extra.
 
 Le posizioni di Rai 1, Rai 2, Rai 3, Rete 4, Canale 5, Italia 1, LA7, TV8, NOVE e degli altri canali italiani principali non sono state modificate. Le reti già eliminate rimangono escluse.
 
@@ -127,3 +127,18 @@ Aggiunte 3 sorgenti HLS sperimentali per l'osservazione della Terra dalla ISS e 
 - **Space Live by Sen - stream alternativo (sperimentale)**: https://d111bsx9oooqoh.cloudfront.net/playlist.m3u8
 
 Le due sorgenti **Sen / Space Live** possono trasmettere gli stessi contenuti; la vista verso il basso (*nadir*) non è garantita in ogni momento. Il canale NASA usa un **relay HLS di terzi per un video YouTube NASA** e può smettere di funzionare. I quattro flussi Africam/Explore.org provengono da playlist pubbliche e devono essere verificati su TiViMate; una webcam live può non mostrare sempre animali. Tutti e sette i flussi sono **sperimentali e non collaudati sulla Fire TV**. La playlist continua a conservare tutti i 122 stream precedenti, 54 esclusioni, i loghi e i numeri LCN originali; il generatore automatico manterrà le aggiunte.
+
+## Webcam marine e animali di Explore.org — 22 novembre 2026
+
+Aggiunti **8 nuovi flussi HLS sperimentali**: sei osservazioni marine (barriera corallina, squali, kelp forest, pinguini, orche e lamantini) e due birdcam (aquile e colibrì).
+
+- **Explore - Barriera corallina (sperimentale)** — https://outbound-production.explore.org/stream-production-10/.m3u8
+- **Explore - Squali in acquario (sperimentale)** — https://outbound-production.explore.org/stream-production-12/.m3u8
+- **Explore - Foresta di alghe (sperimentale)** — https://outbound-production.explore.org/stream-production-70/.m3u8
+- **Explore - Pinguini sulla spiaggia (sperimentale)** — https://outbound-production.explore.org/stream-production-14/.m3u8
+- **Explore - Orche OrcaLab (sperimentale)** — https://outbound-production.explore.org/stream-production-95/.m3u8
+- **Explore - Lamantini sott'acqua (sperimentale)** — https://outbound-production.explore.org/stream-production-162/.m3u8
+- **Explore - Aquile di Decorah (sperimentale)** — https://outbound-production.explore.org/stream-production-216/.m3u8
+- **Explore - Colibri al mangiatoia (sperimentale)** — https://outbound-production.explore.org/stream-production-189/.m3u8
+
+Ogni nuovo canale usa il logo del marchio Explore.org e possiede un identificativo tecnico. **Non è stata verificata la riproduzione sulla Fire TV**: i link provengono da playlist webcam pubbliche e possono essere offline o cambiati. Essendo webcam 24 ore su 24, non possiedono una normale scaletta oraria EPG; «Nessuna informazione» può essere normale. Restano invariati tutti i precedenti 129 indirizzi di streaming, i 54 canali esclusi e i loghi esistenti. Gli ID EPG tecnici sono stati rinumerati per evitare collisioni dopo gli inserimenti.
