@@ -8,7 +8,7 @@ https://raw.githubusercontent.com/tobiafccn/RockTV-Personale/main/playlist-rock-
 
 ## Ordine ispirato al digitale terrestre
 
-La playlist rispetta l'ordine dei canali approvato il 20/11/2026. I canali della sezione iniziale sono numerati secondo l'LCN della fonte OpenIPTVItaly (da 1 a 70, con i numeri mancanti lasciati vuoti); gli altri canali sono numerati senza interruzioni da 101 a 176.
+La playlist rispetta l'ordine dei canali approvato il 20/11/2026. I canali della sezione iniziale sono numerati secondo l'LCN della fonte OpenIPTVItaly (da 1 a 70, con i numeri mancanti lasciati vuoti); gli altri canali sono numerati senza interruzioni da 101 a 178.
 
 | Gruppo | Canali | Numerazione |
 |---|---:|---|
@@ -17,14 +17,14 @@ La playlist rispetta l'ordine dei canali approvato il 20/11/2026. I canali della
 | FILM E SERIE | 8 | 118–125 |
 | NEWS E INFORMAZIONE | 7 | 126–132 |
 | DOCUMENTARI E SCIENZA | 17 | 133–149 |
-| WEBCAM ANIMALI | 4 | 150–153 |
-| ANIME | 3 | 154–156 |
-| WRESTLING E MMA | 2 | 157–158 |
-| MOTORSPORT | 4 | 159–162 |
-| ROCK TV | 8 | 163–170 |
-| RADIO ROCK | 6 | 171–176 |
+| WEBCAM ANIMALI | 6 | 150–155 |
+| ANIME | 3 | 156–158 |
+| WRESTLING E MMA | 2 | 159–160 |
+| MOTORSPORT | 4 | 161–164 |
+| ROCK TV | 8 | 165–172 |
+| RADIO ROCK | 6 | 173–178 |
 
-**Totale: 133 canali.** I numeri 71–100 sono lasciati liberi per distinguere i canali dell'antenna da quelli extra.
+**Totale: 135 canali.** I numeri 71–100 sono lasciati liberi per distinguere i canali dell'antenna da quelli extra.
 
 Le posizioni di Rai 1, Rai 2, Rai 3, Rete 4, Canale 5, Italia 1, LA7, TV8, NOVE e degli altri canali italiani principali non sono state modificate. Le reti già eliminate rimangono escluse.
 
@@ -195,3 +195,12 @@ Sono stati aggiunti **7 canali**, di cui tre FAST di Samsung TV Plus Italia e qu
 - **Webcam - Elefanti marini California (sperimentale)** (WEBCAM ANIMALI): https://video.parks.ca.gov/Hearst/Piedras.stream/playlist.m3u8
 
 BBC Earth e Love the Planet offrono documentari sulla natura e sugli ambienti terrestri/marini. Ocean Vibes è un canale ambient/relax con immagini del mare, **non** un programma naturalistico. Le webcam del San Diego Zoo mostrano animali **in cattività**, non riprese dei Poli o della fauna nel suo habitat naturale; la Polar Cam e la Penguin Cam trasmettono durante il giorno locale. La webcam degli elefanti marini riguarda una colonia **selvatica** a Piedras Blancas. Tutte queste webcam provengono da operatori differenti da Explore.org, ma le URL HLS pubbliche possono cessare di funzionare e non sono state collaudate su TiViMate. Le webcam 24/7 non hanno un palinsesto orario reale: la guida può restare «Nessuna informazione». I 126 stream precedenti e le 68 esclusioni rimangono intatti. I tre ID EPG Samsung sono registrati nel generatore, ma l'abbinamento EPG effettivo dipende dalla guida importata dal player.
+
+## Nuove webcam di fauna libera — 22 novembre 2026
+
+Aggiunti **due flussi HLS sperimentali** alla categoria **WEBCAM ANIMALI**. Questa aggiunta dà priorità a fauna *libera* rispetto a esemplari ospitati in zoo:
+
+- **Webcam - Leoni marini selvatici Oregon (sperimentale)** — https://s74.ipcamlive.com/streams/4ahhtgcizabw1oewq/stream.m3u8
+- **Webcam - Uccelli selvatici WildlifeKate UK (sperimentale)** — https://stream.wildlifestreaming.io:8443/WildlifeKate/13.stream_aac/playlist.m3u8
+
+La webcam **Newport Sea Lion Docks** osserva leoni marini selvatici nella baia di Yaquina, Oregon, che usano pontili galleggianti; perciò non è un habitat completamente privo di strutture umane. La webcam **WildlifeKate UK** riprende uccelli selvatici attirati da mangiatoie all'aperto nel Regno Unito. I due stream sono stati reperiti in playlist pubbliche ma **non collaudati su Fire TV o TiViMate**; l'accesso potrebbe dipendere da disponibilità e restrizioni dell'operatore. Nessun programma EPG con orari è garantito per queste webcam 24/7. Le quattro webcam dello zoo già approvate, WildEarth, NatureTime, Wild Planet e tutte le altre 133 voci preesistenti restano immutate. Le 68 esclusioni non cambiano. Per safari africani e animali polari liberi risultano dirette disponibili sui siti degli operatori, ma non sono stati trovati ulteriori HLS permanenti sufficientemente affidabili per inserirli ora.
