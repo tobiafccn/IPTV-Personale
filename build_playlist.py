@@ -13,6 +13,8 @@ CATEGORY_ORDER = ("DIGITALE TERRESTRE", "TV ITALIANA EXTRA", "FILM E SERIE", "NE
 # automaticamente nuove emittenti o ripristinare canali eliminati.
 APPROVED_SOURCE_NAMES = frozenset(("Rai 1", "Rai 2", "Rai 3", "Rete 4 HD", "Canale 5 HD", "Italia 1 HD", "LA7 HD", "TV8 HD", "NOVE HD", "TG Norba 24", "TV2000", "Real Time HD", "QVC HD", "Food Network HD", "RTL 102.5", "Boing HD", "K2", "Rai Gulp", "Rai Yoyo", "Frisbee", "Boing Plus", "Cartoonito HD", "Super!", "Rai News 24", "Sky TG24", "TGCOM 24 HD", "Italia 53", "HGTV - Home&Garden", "Italiana", "Rai Sport", "Sportitalia HD", "Canale 63", "Alma TV", "Radio 105 TV", "R101 TV", "Deejay TV HD", "RadioItaliaTV", "Rai 4K", "FIFA+", "Radio Kiss Kiss TV", "Rai Radio 2 Visual", "Radio 24 - IlSole24OreTV", "Gambero Rosso", "RadioFreccia", "Virgin Radio", "RDS Social TV", "Radio Zeta", "Euronews IT", "Hell's Kitchen Italy", "RaiPlay Sport 1", "Radio Carina TV", "Trace Urban", "Trace Latina", "Radio Capital TV", "M2O TV", "20Mediaset HD", "Rai 4", "Iris HD", "Rai Movie", "Rai Premium", "Cielo HD", "27Twentyseven HD", "LA7 Cinema", "La5 HD", "Cine34 HD", "Giallo", "Top Crime HD", "Italia 2 HD", "Mediaset Extra HD", "Rai 5", "FOCUS HD", "Discovery", "DMAX", "Rai Storia HD", "Discovery Turbo", "BBC Top Gear Italy", "MAN-GA", "ACI Sport TV HD", "Rally.TV FAST+",))
 SPECIAL_GROUPS = {
+    "Webcam - Leoni marini selvatici Oregon (sperimentale)": "WEBCAM ANIMALI",
+    "Webcam - Uccelli selvatici WildlifeKate UK (sperimentale)": "WEBCAM ANIMALI",
     "BBC Earth Italia (sperimentale)": "DOCUMENTARI E SCIENZA",
     "Love the Planet Italia (sperimentale)": "DOCUMENTARI E SCIENZA",
     "Ocean Vibes Italia (sperimentale)": "DOCUMENTARI E SCIENZA",
@@ -79,7 +81,7 @@ ORDER_WITHIN_GROUP = {
     "FILM E SERIE": ("FilmRise Sci-Fi (sperimentale)", "Pluto TV Sci-Fi (Italia - sperimentale)", "Pluto TV Serie Sci-Fi (Italia - sperimentale)", "Pluto TV Film Azione (Italia - sperimentale)", "Pluto TV Film Thriller (Italia - sperimentale)", "Pluto TV Horror (Italia - sperimentale)", "Pluto TV Serie Crime (Italia - sperimentale)", "Pluto TV Film Commedia (Italia - sperimentale)",),
     "NEWS E INFORMAZIONE": ("Euronews IT", "DW English", "France 24 English", "Al Jazeera International", "CNN International", "Bloomberg", "Class CNBC",),
     "DOCUMENTARI E SCIENZA": ("BBC Top Gear Italy", "Documentary+", "NHK World-Japan (English)", "WildEarth (sperimentale)", "NatureTime Italia (sperimentale)", "Wild Planet (English - sperimentale)", "BBC Earth Italia (sperimentale)", "Love the Planet Italia (sperimentale)", "Ocean Vibes Italia (sperimentale)", "Pluto TV Documentari (Italia - sperimentale)", "Pluto TV Natura (Italia - sperimentale)", "Pluto TV Storia (Italia - sperimentale)", "Space Live (sperimentale)", "Sen SpaceTV-1 - viste ISS (sperimentale)", "Space Live by Sen - stream alternativo (sperimentale)", "Pluto TV Paranormal (Italia - sperimentale)", "Pluto TV True Crime (Italia - sperimentale)",),
-    "WEBCAM ANIMALI": ("Webcam - Orsi polari San Diego Zoo (sperimentale)", "Webcam - Pinguini San Diego Zoo (sperimentale)", "Webcam - Panda gigante San Diego Zoo (sperimentale)", "Webcam - Elefanti marini California (sperimentale)",),
+    "WEBCAM ANIMALI": ("Webcam - Orsi polari San Diego Zoo (sperimentale)", "Webcam - Pinguini San Diego Zoo (sperimentale)", "Webcam - Panda gigante San Diego Zoo (sperimentale)", "Webcam - Elefanti marini California (sperimentale)", "Webcam - Leoni marini selvatici Oregon (sperimentale)", "Webcam - Uccelli selvatici WildlifeKate UK (sperimentale)",),
     "ANIME": ("MAN-GA", "Pluto TV Anime (sperimentale)", "Pluto TV Anime Italia (sperimentale)",),
     "WRESTLING E MMA": ("PFL MMA (sperimentale)", "TNA Wrestling (sperimentale)",),
     "MOTORSPORT": ("ACI Sport TV HD", "Rally.TV FAST+", "Red Bull TV", "Motorvision+ (English)",),
@@ -135,6 +137,8 @@ EXTRA_CHANNELS = (("DOCUMENTARI E SCIENZA", 970, "Documentary+", "https://ef79b1
     ("WEBCAM ANIMALI", 1502, "Webcam - Pinguini San Diego Zoo (sperimentale)", "https://zssd-penguin.hls.camzonecdn.com/CamzoneStreams/zssd-penguin/Playlist.m3u8"),
     ("WEBCAM ANIMALI", 1503, "Webcam - Panda gigante San Diego Zoo (sperimentale)", "https://zssd-panda2024.hls.camzonecdn.com/CamzoneStreams/zssd-panda2024/Playlist.m3u8"),
     ("WEBCAM ANIMALI", 1504, "Webcam - Elefanti marini California (sperimentale)", "https://video.parks.ca.gov/Hearst/Piedras.stream/playlist.m3u8"),
+    ("WEBCAM ANIMALI", 1601, "Webcam - Leoni marini selvatici Oregon (sperimentale)", "https://s74.ipcamlive.com/streams/4ahhtgcizabw1oewq/stream.m3u8"),
+    ("WEBCAM ANIMALI", 1602, "Webcam - Uccelli selvatici WildlifeKate UK (sperimentale)", "https://stream.wildlifestreaming.io:8443/WildlifeKate/13.stream_aac/playlist.m3u8"),
 )
 
 EPG_CHANNEL_OVERRIDES = {
@@ -147,6 +151,8 @@ EPG_CHANNEL_OVERRIDES = {
 
 # Immagini ufficiali o dei relativi marchi per i canali integrati.
 LOGO_OVERRIDES = {
+    "Webcam - Leoni marini selvatici Oregon (sperimentale)": "https://www.google.com/s2/favicons?domain=newportsealions.com&sz=256",
+    "Webcam - Uccelli selvatici WildlifeKate UK (sperimentale)": "https://www.google.com/s2/favicons?domain=wildlifekate.co.uk&sz=256",
     "BBC Earth Italia (sperimentale)": "https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IT3200002L5_20261110T044219SQUARE.png",
     "Love the Planet Italia (sperimentale)": "https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/ITBC4700003GR_20250811T173008SQUARE.png",
     "Ocean Vibes Italia (sperimentale)": "https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IT18000076Y_20260528T053611SQUARE.png",
