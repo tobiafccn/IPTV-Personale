@@ -8,7 +8,7 @@ https://raw.githubusercontent.com/tobiafccn/RockTV-Personale/main/playlist-rock-
 
 ## Ordine ispirato al digitale terrestre
 
-La playlist rispetta l'ordine dei canali approvato il 20/11/2026. I canali della sezione iniziale sono numerati secondo l'LCN della fonte OpenIPTVItaly (da 1 a 70, con i numeri mancanti lasciati vuoti); gli altri canali sono numerati senza interruzioni da 101 a 169.
+La playlist rispetta l'ordine dei canali approvato il 20/11/2026. I canali della sezione iniziale sono numerati secondo l'LCN della fonte OpenIPTVItaly (da 1 a 70, con i numeri mancanti lasciati vuoti); gli altri canali sono numerati senza interruzioni da 101 a 176.
 
 | Gruppo | Canali | Numerazione |
 |---|---:|---|
@@ -16,14 +16,15 @@ La playlist rispetta l'ordine dei canali approvato il 20/11/2026. I canali della
 | TV ITALIANA EXTRA | 17 | 101–117 |
 | FILM E SERIE | 8 | 118–125 |
 | NEWS E INFORMAZIONE | 7 | 126–132 |
-| DOCUMENTARI E SCIENZA | 14 | 133–146 |
-| ANIME | 3 | 147–149 |
-| WRESTLING E MMA | 2 | 150–151 |
-| MOTORSPORT | 4 | 152–155 |
-| ROCK TV | 8 | 156–163 |
-| RADIO ROCK | 6 | 164–169 |
+| DOCUMENTARI E SCIENZA | 17 | 133–149 |
+| WEBCAM ANIMALI | 4 | 150–153 |
+| ANIME | 3 | 154–156 |
+| WRESTLING E MMA | 2 | 157–158 |
+| MOTORSPORT | 4 | 159–162 |
+| ROCK TV | 8 | 163–170 |
+| RADIO ROCK | 6 | 171–176 |
 
-**Totale: 126 canali.** I numeri 71–100 sono lasciati liberi per distinguere i canali dell'antenna da quelli extra.
+**Totale: 133 canali.** I numeri 71–100 sono lasciati liberi per distinguere i canali dell'antenna da quelli extra.
 
 Le posizioni di Rai 1, Rai 2, Rai 3, Rete 4, Canale 5, Italia 1, LA7, TV8, NOVE e degli altri canali italiani principali non sono state modificate. Le reti già eliminate rimangono escluse.
 
@@ -180,3 +181,17 @@ Aggiunti tre canali naturalistici FAST con i loghi Samsung TV Plus, identificati
 ## Esito prova canali documentari — 22 novembre 2026
 
 Prova Fire TV: **NatureTime Italia** (vecchia posizione 94) e **Wild Planet** (vecchia posizione 96) funzionano. **Earth Touch TV** (vecchia posizione 95) non funziona ed è stato rimosso da M3U, generatore e aggiunto alle esclusioni permanenti. Numero aggiornato dei canali: **126**; esclusioni permanenti: **68**. I due canali funzionanti sono stati conservati con lo stesso streaming, logo e identificativo EPG originale. Gli altri stream non sono cambiati. Dopo la rimozione, Wild Planet passa alla posizione 95 in TiViMate.
+
+## Documentari globali e webcam animali — 22 novembre 2026
+
+Sono stati aggiunti **7 canali**, di cui tre FAST di Samsung TV Plus Italia e quattro webcam live esterne. Le webcam sono in un gruppo dedicato **WEBCAM ANIMALI** per facilitarne la prova su TiViMate Free. Tutte le aggiunte sono sperimentali perché la riproduzione HLS non è stata verificata sulla Fire TV.
+
+- **BBC Earth Italia (sperimentale)** (DOCUMENTARI E SCIENZA): https://amg00793-amg00793c23-samsung-it-4780.playouts.now.amagi.tv/playlist/amg00793-bbcstudios-bbcearthitaly-samsungit/playlist.m3u8
+- **Love the Planet Italia (sperimentale)** (DOCUMENTARI E SCIENZA): https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01821-lovetvchannels-lovetheplanetitsamsung-samsungit/playlist.m3u8
+- **Ocean Vibes Italia (sperimentale)** (DOCUMENTARI E SCIENZA): https://jmp2.uk/stvp-IT18000076Y
+- **Webcam - Orsi polari San Diego Zoo (sperimentale)** (WEBCAM ANIMALI): https://polarplunge.hls.camzonecdn.com/CamzoneStreams/polarplunge/Playlist.m3u8
+- **Webcam - Pinguini San Diego Zoo (sperimentale)** (WEBCAM ANIMALI): https://zssd-penguin.hls.camzonecdn.com/CamzoneStreams/zssd-penguin/Playlist.m3u8
+- **Webcam - Panda gigante San Diego Zoo (sperimentale)** (WEBCAM ANIMALI): https://zssd-panda2024.hls.camzonecdn.com/CamzoneStreams/zssd-panda2024/Playlist.m3u8
+- **Webcam - Elefanti marini California (sperimentale)** (WEBCAM ANIMALI): https://video.parks.ca.gov/Hearst/Piedras.stream/playlist.m3u8
+
+BBC Earth e Love the Planet offrono documentari sulla natura e sugli ambienti terrestri/marini. Ocean Vibes è un canale ambient/relax con immagini del mare, **non** un programma naturalistico. Le webcam del San Diego Zoo mostrano animali **in cattività**, non riprese dei Poli o della fauna nel suo habitat naturale; la Polar Cam e la Penguin Cam trasmettono durante il giorno locale. La webcam degli elefanti marini riguarda una colonia **selvatica** a Piedras Blancas. Tutte queste webcam provengono da operatori differenti da Explore.org, ma le URL HLS pubbliche possono cessare di funzionare e non sono state collaudate su TiViMate. Le webcam 24/7 non hanno un palinsesto orario reale: la guida può restare «Nessuna informazione». I 126 stream precedenti e le 68 esclusioni rimangono intatti. I tre ID EPG Samsung sono registrati nel generatore, ma l'abbinamento EPG effettivo dipende dalla guida importata dal player.
