@@ -13,6 +13,9 @@ CATEGORY_ORDER = ("DIGITALE TERRESTRE", "TV ITALIANA EXTRA", "FILM E SERIE", "NE
 # automaticamente nuove emittenti o ripristinare canali eliminati.
 APPROVED_SOURCE_NAMES = frozenset(("Rai 1", "Rai 2", "Rai 3", "Rete 4 HD", "Canale 5 HD", "Italia 1 HD", "LA7 HD", "TV8 HD", "NOVE HD", "TG Norba 24", "TV2000", "Real Time HD", "QVC HD", "Food Network HD", "RTL 102.5", "Boing HD", "K2", "Rai Gulp", "Rai Yoyo", "Frisbee", "Boing Plus", "Cartoonito HD", "Super!", "Rai News 24", "Sky TG24", "TGCOM 24 HD", "Italia 53", "HGTV - Home&Garden", "Italiana", "Rai Sport", "Sportitalia HD", "Canale 63", "Alma TV", "Radio 105 TV", "R101 TV", "Deejay TV HD", "RadioItaliaTV", "Rai 4K", "FIFA+", "Radio Kiss Kiss TV", "Rai Radio 2 Visual", "Radio 24 - IlSole24OreTV", "Gambero Rosso", "RadioFreccia", "Virgin Radio", "RDS Social TV", "Radio Zeta", "Euronews IT", "Hell's Kitchen Italy", "RaiPlay Sport 1", "Radio Carina TV", "Trace Urban", "Trace Latina", "Radio Capital TV", "M2O TV", "20Mediaset HD", "Rai 4", "Iris HD", "Rai Movie", "Rai Premium", "Cielo HD", "27Twentyseven HD", "LA7 Cinema", "La5 HD", "Cine34 HD", "Giallo", "Top Crime HD", "Italia 2 HD", "Mediaset Extra HD", "Rai 5", "FOCUS HD", "Discovery", "DMAX", "Rai Storia HD", "Discovery Turbo", "BBC Top Gear Italy", "MAN-GA", "ACI Sport TV HD", "Rally.TV FAST+",))
 SPECIAL_GROUPS = {
+    "NatureTime Italia (sperimentale)": "DOCUMENTARI E SCIENZA",
+    "Earth Touch TV (English - sperimentale)": "DOCUMENTARI E SCIENZA",
+    "Wild Planet (English - sperimentale)": "DOCUMENTARI E SCIENZA",
     "Sen SpaceTV-1 - viste ISS (sperimentale)": "DOCUMENTARI E SCIENZA",
     "Space Live by Sen - stream alternativo (sperimentale)": "DOCUMENTARI E SCIENZA",
     "Pluto TV Serie Crime (Italia - sperimentale)": "FILM E SERIE",
@@ -69,7 +72,7 @@ ORDER_WITHIN_GROUP = {
     "TV ITALIANA EXTRA": (),
     "FILM E SERIE": ("FilmRise Sci-Fi (sperimentale)", "Pluto TV Sci-Fi (Italia - sperimentale)", "Pluto TV Serie Sci-Fi (Italia - sperimentale)", "Pluto TV Film Azione (Italia - sperimentale)", "Pluto TV Film Thriller (Italia - sperimentale)", "Pluto TV Horror (Italia - sperimentale)", "Pluto TV Serie Crime (Italia - sperimentale)", "Pluto TV Film Commedia (Italia - sperimentale)",),
     "NEWS E INFORMAZIONE": ("Euronews IT", "DW English", "France 24 English", "Al Jazeera International", "CNN International", "Bloomberg", "Class CNBC",),
-    "DOCUMENTARI E SCIENZA": ("BBC Top Gear Italy", "Documentary+", "NHK World-Japan (English)", "WildEarth (sperimentale)", "Pluto TV Documentari (Italia - sperimentale)", "Pluto TV Natura (Italia - sperimentale)", "Pluto TV Storia (Italia - sperimentale)", "Space Live (sperimentale)", "Sen SpaceTV-1 - viste ISS (sperimentale)", "Space Live by Sen - stream alternativo (sperimentale)", "Pluto TV Paranormal (Italia - sperimentale)", "Pluto TV True Crime (Italia - sperimentale)",),
+    "DOCUMENTARI E SCIENZA": ("BBC Top Gear Italy", "Documentary+", "NHK World-Japan (English)", "WildEarth (sperimentale)", "NatureTime Italia (sperimentale)", "Earth Touch TV (English - sperimentale)", "Wild Planet (English - sperimentale)", "Pluto TV Documentari (Italia - sperimentale)", "Pluto TV Natura (Italia - sperimentale)", "Pluto TV Storia (Italia - sperimentale)", "Space Live (sperimentale)", "Sen SpaceTV-1 - viste ISS (sperimentale)", "Space Live by Sen - stream alternativo (sperimentale)", "Pluto TV Paranormal (Italia - sperimentale)", "Pluto TV True Crime (Italia - sperimentale)",),
     "ANIME": ("MAN-GA", "Pluto TV Anime (sperimentale)", "Pluto TV Anime Italia (sperimentale)",),
     "WRESTLING E MMA": ("PFL MMA (sperimentale)", "TNA Wrestling (sperimentale)",),
     "MOTORSPORT": ("ACI Sport TV HD", "Rally.TV FAST+", "Red Bull TV", "Motorvision+ (English)",),
@@ -116,10 +119,22 @@ EXTRA_CHANNELS = (("DOCUMENTARI E SCIENZA", 970, "Documentary+", "https://ef79b1
     ("DOCUMENTARI E SCIENZA", 1103, "Pluto TV True Crime (Italia - sperimentale)", "https://jmp2.uk/plu-66d9ab4bf0f17500084e9b7e.m3u8"),
     ("DOCUMENTARI E SCIENZA", 1124, "Sen SpaceTV-1 - viste ISS (sperimentale)", "https://linear-1224.frequency.stream/dist/lg-uk/1224/hls/master/playlist.m3u8"),
     ("DOCUMENTARI E SCIENZA", 1126, "Space Live by Sen - stream alternativo (sperimentale)", "https://d111bsx9oooqoh.cloudfront.net/playlist.m3u8"),
+    ("DOCUMENTARI E SCIENZA", 1301, "NatureTime Italia (sperimentale)", "https://amg01515-amg01515c47-samsung-it-9436.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg01515-blueskyeentertainment-naturetimeemeaita-samsungit/playlist.m3u8"),
+    ("DOCUMENTARI E SCIENZA", 1302, "Earth Touch TV (English - sperimentale)", "https://amg01823-earthtouch-amg01823c1-samsung-gb-862.playouts.now.amagi.tv/playlist/amg01823-earthtouch-earthtouch-samsunggb/playlist.m3u8"),
+    ("DOCUMENTARI E SCIENZA", 1303, "Wild Planet (English - sperimentale)", "https://d1h8whhtg5u7om.cloudfront.net/WildPlanet_GB.m3u8"),
 )
+
+EPG_CHANNEL_OVERRIDES = {
+    "NatureTime Italia (sperimentale)": "IT2100001EZ",
+    "Earth Touch TV (English - sperimentale)": "GBBD3200001E2",
+    "Wild Planet (English - sperimentale)": "GBBB5000002PL",
+}
 
 # Immagini ufficiali o dei relativi marchi per i canali integrati.
 LOGO_OVERRIDES = {
+    "NatureTime Italia (sperimentale)": "https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IT2100001EZ_20251111T012436SQUARE.png",
+    "Earth Touch TV (English - sperimentale)": "https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GBBD3200001E2_20250107T030638SQUARE.png",
+    "Wild Planet (English - sperimentale)": "https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/GBBB5000002PL_20261026T042440SQUARE.png",
     "Sen SpaceTV-1 - viste ISS (sperimentale)": "https://www.google.com/s2/favicons?domain=sen.com&sz=256",
     "Space Live by Sen - stream alternativo (sperimentale)": "https://www.google.com/s2/favicons?domain=sen.com&sz=256",
     "181.FM - Rock 181": "https://www.google.com/s2/favicons?domain=181.fm&sz=256",
@@ -202,6 +217,10 @@ def with_group_number(block, group, number):
     if logo_url:
         first = re.sub(r'\s+tvg-logo="[^"]*"', "", first)
         first += f' tvg-logo="{logo_url}"'
+    manual_epg_id = EPG_CHANNEL_OVERRIDES.get(name.strip())
+    if manual_epg_id:
+        first = re.sub(r'\\s+tvg-id="[^"]*"', "", first)
+        first += f' tvg-id="{manual_epg_id}"'
     # Usa l'identificativo reale Pluto (per la relativa EPG), altrimenti
     # un identificativo stabile per posizione, usato nella guida aggregata.
     if not re.search(r'tvg-id="[^"]+"', first):
