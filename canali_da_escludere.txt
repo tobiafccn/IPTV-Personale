@@ -79,3 +79,7 @@ Explore - Orche OrcaLab (sperimentale)
 Explore - Lamantini sott'acqua (sperimentale)
 Explore - Aquile di Decorah (sperimentale)
 Explore - Colibri al mangiatoia (sperimentale)
+
+# Altri 2 flussi con errore riproduzione su TiViMate (22-11-2026)
+Explore - Barriera corallina (sperimentale)
+NASA ISS - Terra in diretta (relay sperimentale)
