@@ -113,7 +113,7 @@ def main():
                 added += 1
         print(f"{title}: {len(source_targets)} canali, {added} programmi")
 
-    with_programmes = [e for e in entries if programmes[e["id"]]]
+    with_programmes = [e for e in entries if programmes.get(e["id"])]
     programme_count = sum(len(v) for v in programmes.values())
     if len(with_programmes) < 20 or programme_count < 200:
         raise RuntimeError(
@@ -123,7 +123,7 @@ def main():
     output = ET.Element("tv", {"generator-info-name": "RockTV-Personale EPG unificata"})
     for channel in entries:
         identifier = channel["id"]
-        if identifier not in programmes:
+        if not programmes.get(identifier):
             continue
         output.append(matched[identifier])
     for channel in entries:
