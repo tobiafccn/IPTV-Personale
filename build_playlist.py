@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Genera RockTV-Personale: LCN italiano, gruppi extra e esclusioni persistenti."""
+"""Genera IPTV-Personale: LCN italiano, gruppi extra e esclusioni persistenti."""
 from pathlib import Path
 from urllib.request import Request, urlopen
 from collections import defaultdict
@@ -210,7 +210,7 @@ LOGO_OVERRIDES = {
 }
 
 def download(url):
-    request = Request(url, headers={"User-Agent": "RockTV-Personale/1.0"})
+    request = Request(url, headers={"User-Agent": "IPTV-Personale/1.0"})
     with urlopen(request, timeout=45) as response:
         return response.read().decode("utf-8-sig").replace("\r\n", "\n")
 
