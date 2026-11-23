@@ -8,6 +8,7 @@ from collections import defaultdict
 from copy import deepcopy
 from hashlib import sha1
 from pathlib import Path
+from os import environ
 from urllib.request import Request, urlopen
 import gzip
 import re
@@ -17,10 +18,9 @@ import xml.etree.ElementTree as ET
 ROOT = Path(__file__).resolve().parent
 PLAYLIST = ROOT / "playlist-rock-tv.m3u"
 GUIDE = ROOT / "epg-rock-tv.xml.gz"
-GUIDE_URL = (
-    "https://raw.githubusercontent.com/tobiafccn/RockTV-Personale/"
-    "main/epg-rock-tv.xml.gz"
-)
+# GITHUB_REPOSITORY segue automaticamente il nuovo nome dopo una rinomina.
+REPO_SLUG = environ.get("GITHUB_REPOSITORY") or "tobiafccn/RockTV-Personale"
+GUIDE_URL = f"https://raw.githubusercontent.com/{REPO_SLUG}/main/epg-rock-tv.xml.gz"
 SOURCES = (
     ("Italia (EPGShare)", "https://epgshare01.online/epgshare01/epg_ripper_IT1.xml.gz", True),
     ("Pluto Italia", "https://raw.githubusercontent.com/matthuisman/i.mjh.nz/master/PlutoTV/it.xml.gz", True),
