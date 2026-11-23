@@ -1,9 +1,9 @@
-# RockTV-Personale — playlist TV personalizzata
+# IPTV-Personale — playlist TV personalizzata
 
-**URL M3U invariato per TiViMate**
+**URL M3U aggiornato per TiViMate**
 
 ```text
-https://raw.githubusercontent.com/tobiafccn/RockTV-Personale/main/playlist-rock-tv.m3u
+https://raw.githubusercontent.com/tobiafccn/IPTV-Personale/main/playlist-rock-tv.m3u
 ```
 
 ## Ordine ispirato al digitale terrestre
@@ -111,7 +111,7 @@ Fonti: immagini dei canali Pluto TV, directory pubbliche di loghi e siti dei bro
 
 ## Guida programmi EPG unificata
 
-Per risolvere la dicitura **«Nessuna informazione»** sui canali FAST, è stato preparato \`build_epg.py\` per creare una guida XMLTV compressa \`epg-rock-tv.xml.gz\` dai dati EPGShare Italia e Pluto TV Italia, con Pluto TV USA come fonte aggiuntiva facoltativa. La guida conserva gli ID esistenti delle reti nazionali, usa gli ID originali dei canali Pluto e cerca abbinamenti esatti per alcune reti aggiuntive. Quando la generazione termina correttamente, l'intestazione della M3U punta automaticamente a un'unica guida: \`https://raw.githubusercontent.com/tobiafccn/RockTV-Personale/main/epg-rock-tv.xml.gz\`.
+Per risolvere la dicitura **«Nessuna informazione»** sui canali FAST, è stato preparato \`build_epg.py\` per creare una guida XMLTV compressa \`epg-rock-tv.xml.gz\` dai dati EPGShare Italia e Pluto TV Italia, con Pluto TV USA come fonte aggiuntiva facoltativa. La guida conserva gli ID esistenti delle reti nazionali, usa gli ID originali dei canali Pluto e cerca abbinamenti esatti per alcune reti aggiuntive. Quando la generazione termina correttamente, l'intestazione della M3U punta automaticamente a un'unica guida: \`https://raw.githubusercontent.com/tobiafccn/IPTV-Personale/main/epg-rock-tv.xml.gz\`.
 
 **Limiti:** per emittenti che non forniscono una programmazione pubblica compatibile potrà ancora comparire «Nessuna informazione». Il processo non crea titoli di trasmissioni immaginari. Se una fonte obbligatoria manca o il risultato è anomalo, la pubblicazione viene bloccata per non sovrascrivere la guida precedente. Non sono stati modificati gli stream, i loghi o la numerazione. La prima generazione GitHub Actions deve essere completata e verificata prima di considerare la guida operativa.
 
