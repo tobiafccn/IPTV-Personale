@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Unisce guide XMLTV pubbliche per i soli canali di RockTV-Personale.
+"""Unisce guide XMLTV pubbliche per i soli canali di IPTV-Personale.
 
 La playlist mantiene i propri tvg-id e riceve una guida unica, utilizzabile
 anche dai player che accettano una sola fonte EPG.
@@ -19,7 +19,7 @@ ROOT = Path(__file__).resolve().parent
 PLAYLIST = ROOT / "playlist-rock-tv.m3u"
 GUIDE = ROOT / "epg-rock-tv.xml.gz"
 # GITHUB_REPOSITORY segue automaticamente il nuovo nome dopo una rinomina.
-REPO_SLUG = environ.get("GITHUB_REPOSITORY") or "tobiafccn/RockTV-Personale"
+REPO_SLUG = environ.get("GITHUB_REPOSITORY") or "tobiafccn/IPTV-Personale"
 GUIDE_URL = f"https://raw.githubusercontent.com/{REPO_SLUG}/main/epg-rock-tv.xml.gz"
 SOURCES = (
     ("Italia (EPGShare)", "https://epgshare01.online/epgshare01/epg_ripper_IT1.xml.gz", True),
@@ -49,7 +49,7 @@ def read_channels():
     return text, entries
 
 def download_xml(url):
-    request = Request(url, headers={"User-Agent": "RockTV-Personale-EPG/1.0"})
+    request = Request(url, headers={"User-Agent": "IPTV-Personale-EPG/1.0"})
     with urlopen(request, timeout=75) as response:
         data = response.read()
     if data.startswith(b"\x1f\x8b"):
@@ -120,7 +120,7 @@ def main():
             f"Guida incompleta: {len(with_programmes)} canali, {programme_count} programmi; "
             "la guida precedente rimane invariata"
         )
-    output = ET.Element("tv", {"generator-info-name": "RockTV-Personale EPG unificata"})
+    output = ET.Element("tv", {"generator-info-name": "IPTV-Personale EPG unificata"})
     for channel in entries:
         identifier = channel["id"]
         if not programmes.get(identifier):
